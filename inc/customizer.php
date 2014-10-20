@@ -27,12 +27,13 @@ function twentyfifteen_customize_register( $wp_customize ) {
 		'sanitize_callback' => 'twentyfifteen_sanitize_color_scheme',
 	) );
 
-	$wp_customize->add_control( new Twentyfifteen_Customize_Color_Scheme_Control( $wp_customize, 'color_scheme', array(
+	$wp_customize->add_control( 'color_scheme', array(
 		'label'    => esc_html__( 'Color Scheme', 'twentyfifteen' ),
 		'section'  => 'colors',
+		'type'     => 'select',
 		'choices'  => twentyfifteen_get_color_scheme_choices(),
 		'priority' => 1,
-	) ) );
+	) );
 
 	// Add custom sidebar text color setting and control.
 	$wp_customize->add_setting( 'sidebar_textcolor', array(
@@ -57,46 +58,6 @@ function twentyfifteen_customize_register( $wp_customize ) {
 	) ) );
 }
 add_action( 'customize_register', 'twentyfifteen_customize_register', 11 );
-
-/**
- * Custom control for Color Schemes
- *
- * @since Twenty Fifteen 1.0
- */
-function twentyfifteen_customize_color_scheme_control() {
-	class Twentyfifteen_Customize_Color_Scheme_Control extends WP_Customize_Control {
-		public $type = 'colorScheme';
-
-		function enqueue() {
-	 		wp_enqueue_script( 'color-scheme-control', get_template_directory_uri() . '/js/color-scheme-control.js', array( 'customize-controls' ), '', true  );
-	 		wp_localize_script( 'color-scheme-control', 'colorScheme', twentyfifteen_get_color_schemes() );
-	 	}
-
-		public function render_content() {
-			if ( empty( $this->choices ) )
-				return;
-
-			?>
-			<label>
-				<?php if ( ! empty( $this->label ) ) : ?>
-					<span class="customize-control-title"><?php echo esc_html( $this->label ); ?></span>
-				<?php endif;
-				if ( ! empty( $this->description ) ) : ?>
-					<span class="description customize-control-description"><?php echo $this->description; ?></span>
-				<?php endif; ?>
-
-				<select <?php $this->link(); ?>>
-					<?php
-					foreach ( $this->choices as $value => $label )
-						echo '<option value="' . esc_attr( $value ) . '"' . selected( $this->value(), $value, false ) . '>' . $label . '</option>';
-					?>
-				</select>
-			</label>
-			<?php
-		}
-	}
-}
-add_action( 'customize_register', 'twentyfifteen_customize_color_scheme_control', 10 );
 
 /**
  * Register color schemes for Twenty Fifteen.
@@ -314,6 +275,9 @@ function twentyfifteen_color_scheme_css() {
 		.pagination .next,
 		.pagination .prev:before,
 		.pagination .next:before,
+		.widget_calendar tbody a,
+		.widget_calendar tbody a:hover,
+		.widget_calendar tbody a:focus,
 		.entry-content .page-links a,
 		.entry-content .page-links a:hover,
 		.entry-content .page-links a:focus,
@@ -328,6 +292,7 @@ function twentyfifteen_color_scheme_css() {
 		input[type="submit"],
 		.pagination .prev,
 		.pagination .next,
+		.widget_calendar tbody a,
 		.page-links a,
 		.sticky-post {
 			background-color: %4$s;
@@ -338,10 +303,12 @@ function twentyfifteen_color_scheme_css() {
 		blockquote cite,
 		blockquote small,
 		a,
+		.dropdown-toggle:after,
 		.image-navigation a:hover,
 		.image-navigation a:focus,
 		.comment-navigation a:hover,
 		.comment-navigation a:focus,
+		.widget-title,
 		.entry-footer a:hover,
 		.entry-footer a:focus,
 		.comment-metadata a:hover,
@@ -379,6 +346,8 @@ function twentyfifteen_color_scheme_css() {
 		.pagination .prev:focus,
 		.pagination .next:hover,
 		.pagination .next:focus,
+		.widget_calendar tbody a:hover,
+		.widget_calendar tbody a:focus,
 		.page-links a:hover,
 		.page-links a:focus {
 			background-color: %4$s; /* Fallback for IE7 and IE8 */
@@ -387,14 +356,9 @@ function twentyfifteen_color_scheme_css() {
 
 		/* Secondary Text Color */
 		blockquote,
-		input[type="text"],
-		input[type="email"],
-		input[type="url"],
-		input[type="password"],
-		input[type="search"],
-		textarea,
 		a:hover,
 		a:focus,
+		.main-navigation .menu-item-description,
 		.post-navigation .meta-nav,
 		.post-navigation a:hover .post-title,
 		.post-navigation a:focus .post-title,
@@ -402,6 +366,17 @@ function twentyfifteen_color_scheme_css() {
 		.image-navigation a,
 		.comment-navigation,
 		.comment-navigation a,
+		.widget,
+		.entry-content a:hover,
+		.entry-content a:focus,
+		.entry-summary a:hover,
+		.entry-summary a:focus,
+		.page-content a:hover,
+		.page-content a:focus,
+		.comment-content a:hover,
+		.comment-content a:focus,
+		.author-description a:hover,
+		.author-description a:focus,
 		.author-heading,
 		.entry-footer,
 		.entry-footer a,
@@ -445,7 +420,9 @@ function twentyfifteen_color_scheme_css() {
 		}
 
 		/* Border Color */
-		hr {
+		hr,
+		.dropdown-toggle:hover,
+		.dropdown-toggle:focus {
 			background-color: %4$s; /* Fallback for IE7 and IE8 */
 			background-color: %6$s;
 		}
@@ -458,10 +435,16 @@ function twentyfifteen_color_scheme_css() {
 		td,
 		input,
 		textarea,
+		.main-navigation ul,
+		.main-navigation li,
 		.post-navigation,
 		.post-navigation .nav-previous:not(.has-post-thumbnail) + .nav-next:not(.has-post-thumbnail),
 		.pagination,
 		.comment-navigation,
+		.widget li,
+		.widget_categories .children,
+		.widget_nav_menu .sub-menu,
+		.widget_pages .children,
 		.site-header,
 		.site-footer,
 		.hentry + .hentry,
@@ -575,8 +558,8 @@ function twentyfifteen_color_scheme_css() {
 			/* Sidebar Text Color */
 			.secondary a:hover,
 			.secondary a:focus,
-			.widget,
 			.main-navigation .menu-item-description,
+			.widget,
 			.widget blockquote,
 			.widget .wp-caption-text,
 			.widget .gallery-caption {
@@ -649,6 +632,18 @@ function twentyfifteen_color_scheme_css() {
 	) );
 }
 add_action( 'wp_enqueue_scripts', 'twentyfifteen_color_scheme_css' );
+
+/**
+ * Binds JS listener to make Customizer color_scheme control.
+ * Passes color scheme data as colorScheme global
+ *
+ * @since Twenty Fifteen 1.0
+ */
+function twentyfifteen_customize_control_js() {
+	wp_enqueue_script( 'color-scheme-control', get_template_directory_uri() . '/js/color-scheme-control.js', array( 'customize-controls' ), '', true  );
+	wp_localize_script( 'color-scheme-control', 'colorScheme', twentyfifteen_get_color_schemes() );
+}
+add_action( 'customize_controls_enqueue_scripts', 'twentyfifteen_customize_control_js' );
 
 /**
  * Binds JS handlers to make Customizer preview reload changes asynchronously.
