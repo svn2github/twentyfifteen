@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Fifteen 0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/twentyfifteen\n"
-"POT-Creation-Date: 2014-10-25 03:52:38+00:00\n"
+"POT-Creation-Date: 2014-10-31 03:56:36+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -106,15 +106,15 @@ msgid "Comments are closed."
 msgstr ""
 
 #. translators: %s: Name of current post
-#: content-link.php:25 content.php:30
+#: content-link.php:31 content.php:30
 msgid "Continue reading %s"
 msgstr ""
 
-#: content-link.php:30 content-page.php:22 content.php:35 image.php:52
+#: content-link.php:36 content-page.php:22 content.php:35 image.php:52
 msgid "Pages:"
 msgstr ""
 
-#: content-link.php:47 content-page.php:30 content-search.php:27
+#: content-link.php:53 content-page.php:30 content-search.php:27
 #: content-search.php:30 content.php:51 image.php:62
 msgid "Edit"
 msgstr ""
@@ -150,59 +150,55 @@ msgstr ""
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: functions.php:70
+#: functions.php:85
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:71
+#: functions.php:86
 msgid "Social Links Menu"
 msgstr ""
 
-#: functions.php:117
+#: functions.php:132
 msgid "Widget Area"
 msgstr ""
 
-#: functions.php:119
+#: functions.php:134
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: functions.php:144
+#: functions.php:159
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:152
+#: functions.php:167
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:160
+#: functions.php:175
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:168
+#: functions.php:183
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr ""
 
-#: functions.php:222
+#: functions.php:237
 msgid "expand child menu"
 msgstr ""
 
-#: functions.php:223
+#: functions.php:238
 msgid "collapse child menu"
 msgstr ""
 
-#: functions.php:253
-msgid "Page %s"
-msgstr ""
-
-#: header.php:27
+#: header.php:26
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:34
+#: header.php:43
 msgid "Menu and widgets"
 msgstr ""
 
@@ -212,6 +208,12 @@ msgstr ""
 
 #: image.php:20
 msgid "Next Image"
+msgstr ""
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid ""
+"Twenty Fifteen requires at least WordPress version 4.1. You are running "
+"version %s. Please upgrade and try again."
 msgstr ""
 
 #: inc/customizer.php:31
