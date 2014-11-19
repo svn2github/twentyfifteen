@@ -29,7 +29,6 @@ function twentyfifteen_customize_register( $wp_customize ) {
 
 	$wp_customize->add_setting( 'color_scheme_css', array(
 		'default'           => '',
-		'sanitize_callback' => 'esc_html',
 		'transport'         => 'postMessage',
 	) );
 
