@@ -1,6 +1,6 @@
 <?php
 /**
- * The template used for displaying page content in page.php
+ * The template used for displaying page content.
  *
  * @package WordPress
  * @subpackage Twenty_Fifteen
@@ -23,6 +23,8 @@
 				'after'       => '</div>',
 				'link_before' => '<span>',
 				'link_after'  => '</span>',
+				'pagelink'    => '<span class="screen-reader-text">' . esc_html__( 'Page', 'twentyfifteen' ) . ' </span>%',
+				'separator'   => '<span class="screen-reader-text">, </span>',
 			) );
 		?>
 	</div><!-- .entry-content -->

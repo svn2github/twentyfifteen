@@ -9,84 +9,6 @@
  * @since Twenty Fifteen 1.0
  */
 
-if ( ! function_exists( 'twentyfifteen_paging_nav' ) ) :
-/**
- * Display navigation to next/previous set of posts when applicable.
- *
- * @since Twenty Fifteen 1.0
- * @uses paginate_links()
- *
- * @global WP_Query $wp_query WordPress Query object.
- */
-function twentyfifteen_paging_nav() {
-	// Don't print empty markup if there's only one page.
-	if ( $GLOBALS['wp_query']->max_num_pages < 2 ) {
-		return;
-	}
-
-	// Set up paginated links.
-	$links = paginate_links( array(
-		'prev_text'          => esc_html__( 'Previous', 'twentyfifteen' ),
-		'next_text'          => esc_html__( 'Next', 'twentyfifteen' ),
-		'before_page_number' => '<span class="meta-nav">' . esc_html__( 'Page', 'twentyfifteen' ) . '</span>',
-	) );
-
-	if ( $links ) :
-	?>
-	<nav class="navigation pagination" role="navigation">
-		<h2 class="screen-reader-text"><?php esc_html_e( 'Posts navigation', 'twentyfifteen' ); ?></h2>
-		<div class="nav-links">
-			<?php echo $links; ?>
-		</div><!-- .nav-links -->
-	</nav><!-- .pagination -->
-	<?php
-	endif;
-}
-endif;
-
-if ( ! function_exists( 'twentyfifteen_post_nav' ) ) :
-/**
- * Display navigation to next/previous post when applicable.
- *
- * @since Twenty Fifteen 1.0
- */
-function twentyfifteen_post_nav() {
-	// Don't print empty markup if there's nowhere to navigate.
-	$previous = ( is_attachment() ) ? get_post( get_post()->post_parent ) : get_adjacent_post( false, '', true );
-	$next     = get_adjacent_post( false, '', false );
-
-	if ( ( ! $next && ! $previous ) || ( is_attachment() && 'attachment' == $previous->post_type ) ) {
-		return;
-	}
-
-	$prev_class = $next_class = '';
-
-	if ( $previous && has_post_thumbnail( $previous->ID ) ) {
-		$prev_class = ' has-post-thumbnail';
-	}
-
-	if ( $next && has_post_thumbnail( $next->ID ) ) {
-		$next_class = ' has-post-thumbnail';
-	}
-
-	?>
-	<nav class="navigation post-navigation" role="navigation">
-		<h2 class="screen-reader-text"><?php esc_html_e( 'Post navigation', 'twentyfifteen' ); ?></h2>
-		<div class="nav-links">
-			<?php
-			if ( is_attachment() ) :
-				previous_post_link( '<div class="nav-previous' . $prev_class . '">%link</div>', _x( '<span class="meta-nav">Published In</span><span class="post-title">%title</span>', 'Parent post link', 'twentyfifteen' ) );
-			else :
-				previous_post_link( '<div class="nav-previous' . $prev_class . '">%link</div>', _x( '<span class="meta-nav">Previous</span><span class="post-title">%title</span>', 'Previous post link', 'twentyfifteen' ) );
-				next_post_link( '<div class="nav-next' . $next_class . '">%link</div>', _x( '<span class="meta-nav">Next</span><span class="post-title">%title</span>', 'Next post link', 'twentyfifteen' ) );
-			endif;
-			?>
-		</div><!-- .nav-links -->
-	</nav><!-- .post-navigation -->
-	<?php
-}
-endif;
-
 if ( ! function_exists( 'twentyfifteen_comment_nav' ) ) :
 /**
  * Display navigation to next/previous comments when applicable.
@@ -150,8 +72,8 @@ function twentyfifteen_entry_meta() {
 			esc_html( get_the_modified_date() )
 		);
 
-		printf( '<span class="posted-on">%1$s<a href="%2$s" rel="bookmark">%3$s</a></span>',
-			sprintf( _x( '<span class="screen-reader-text">Posted on</span>', 'Used before publish date.', 'twentyfifteen' ) ),
+		printf( '<span class="posted-on"><span class="screen-reader-text">%1$s</span><a href="%2$s" rel="bookmark">%3$s</a></span>',
+			esc_html_x( 'Posted on', 'Used before publish date.', 'twentyfifteen' ),
 			esc_url( get_permalink() ),
 			$time_string
 		);
@@ -159,8 +81,8 @@ function twentyfifteen_entry_meta() {
 
 	if ( 'post' == get_post_type() ) {
 		if ( is_singular() || is_multi_author() ) {
-			printf( '<span class="byline"><span class="author vcard">%1$s<a class="url fn n" href="%2$s">%3$s</a></span></span>',
-				sprintf( _x( '<span class="screen-reader-text">Author</span>', 'Used before post author name.', 'twentyfifteen' ) ),
+			printf( '<span class="byline"><span class="author vcard"><span class="screen-reader-text">%1$s</span><a class="url fn n" href="%2$s">%3$s</a></span></span>',
+				esc_html_x( 'Author', 'Used before post author name.', 'twentyfifteen' ),
 				esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 				esc_html( get_the_author() )
 			);
@@ -168,16 +90,16 @@ function twentyfifteen_entry_meta() {
 
 		$categories_list = get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'twentyfifteen' ) );
 		if ( $categories_list && twentyfifteen_categorized_blog() ) {
-			printf( '<span class="cat-links">%1$s%2$s</span>',
-				sprintf( _x( '<span class="screen-reader-text">Categories</span>', 'Used before category names.', 'twentyfifteen' ) ),
+			printf( '<span class="cat-links"><span class="screen-reader-text">%1$s</span>%2$s</span>',
+				esc_html_x( 'Categories', 'Used before category names.', 'twentyfifteen' ),
 				$categories_list
 			);
 		}
 
 		$tags_list = get_the_tag_list( '', _x( ', ', 'Used between list items, there is a space after the comma.', 'twentyfifteen' ) );
 		if ( $tags_list ) {
-			printf( '<span class="tags-links">%1$s%2$s</span>',
-				sprintf( _x( '<span class="screen-reader-text">Tags</span>', 'Used before tag names.', 'twentyfifteen' ) ),
+			printf( '<span class="tags-links"><span class="screen-reader-text">%1$s</span>%2$s</span>',
+				esc_html_x( 'Tags', 'Used before tag names.', 'twentyfifteen' ),
 				$tags_list
 			);
 		}
@@ -187,8 +109,8 @@ function twentyfifteen_entry_meta() {
 		// Retrieve attachment metadata.
 		$metadata = wp_get_attachment_metadata();
 
-		printf( '<span class="full-size-link">%1$s<a href="%2$s">%3$s &times; %4$s</a></span>',
-			sprintf( _x( '<span class="screen-reader-text">Full size</span>', 'Used before full size attachment link.', 'twentyfifteen' ) ),
+		printf( '<span class="full-size-link"><span class="screen-reader-text">%1$s</span><a href="%2$s">%3$s &times; %4$s</a></span>',
+			esc_html_x( 'Full size', 'Used before full size attachment link.', 'twentyfifteen' ),
 			esc_url( wp_get_attachment_url() ),
 			$metadata['width'],
 			$metadata['height']
@@ -271,8 +193,10 @@ function twentyfifteen_post_thumbnail() {
 
 	<?php else : ?>
 
-	<a class="post-thumbnail" href="<?php the_permalink(); ?>">
-		<?php the_post_thumbnail(); ?>
+	<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true">
+		<?php
+			the_post_thumbnail( 'post-thumbnail', array( 'alt' => get_the_title() ) );
+		?>
 	</a>
 
 	<?php endif; // End is_singular()
@@ -295,4 +219,22 @@ function twentyfifteen_get_link_url() {
 
 	return $has_url ? $has_url : apply_filters( 'the_permalink', get_permalink() );
 }
+endif;
+
+if ( ! function_exists( 'twentyfifteen_excerpt_more' ) && ! is_admin() ) :
+/**
+ * Replaces "[...]" (appended to automatically generated excerpts) with ... and a Continue reading link.
+ *
+ * @since Twenty Fifteen 1.0
+ *
+ */
+function twentyfifteen_excerpt_more( $more ) {
+	$link = sprintf( '<a href="%1$s" class="more-link">%2$s</a>',
+		esc_url( get_permalink( get_the_ID() ) ),
+		/* translators: %s: Name of current post */
+		sprintf( esc_html__( 'Continue reading %s', 'twentyfifteen' ), '<span class="screen-reader-text">' . get_the_title( get_the_ID() ) . '</span>' )
+		);
+	return ' &hellip; ' . $link;
+}
+add_filter( 'excerpt_more', 'twentyfifteen_excerpt_more' );
 endif;
