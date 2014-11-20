@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Fifteen 0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/twentyfifteen\n"
-"POT-Creation-Date: 2014-10-31 03:56:36+00:00\n"
+"POT-Creation-Date: 2014-11-20 03:55:32+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,70 +20,17 @@ msgstr ""
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
 
-#: archive.php:37
-msgid "Author: %s"
+#: archive.php:49 index.php:45 search.php:37
+msgid "Previous page"
 msgstr ""
 
-#: archive.php:40
-msgid "Day: %s"
+#: archive.php:50 index.php:46 search.php:38
+msgid "Next page"
 msgstr ""
 
-#: archive.php:43
-msgid "Month: %s"
-msgstr ""
-
-#: archive.php:43
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr ""
-
-#: archive.php:46
-msgid "Year: %s"
-msgstr ""
-
-#: archive.php:46
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr ""
-
-#: archive.php:49
-msgid "Asides"
-msgstr ""
-
-#: archive.php:52
-msgid "Galleries"
-msgstr ""
-
-#: archive.php:55
-msgid "Images"
-msgstr ""
-
-#: archive.php:58
-msgid "Videos"
-msgstr ""
-
-#: archive.php:61
-msgid "Quotes"
-msgstr ""
-
-#: archive.php:64
-msgid "Links"
-msgstr ""
-
-#: archive.php:67
-msgid "Statuses"
-msgstr ""
-
-#: archive.php:70
-msgid "Audios"
-msgstr ""
-
-#: archive.php:73
-msgid "Chats"
-msgstr ""
-
-#: archive.php:76
-msgid "Archives"
+#: archive.php:51 content-link.php:40 content-page.php:26 content.php:39
+#: image.php:56 index.php:47 search.php:39
+msgid "Page"
 msgstr ""
 
 #: author-bio.php:12
@@ -106,7 +53,7 @@ msgid "Comments are closed."
 msgstr ""
 
 #. translators: %s: Name of current post
-#: content-link.php:31 content.php:30
+#: content-link.php:31 content.php:30 inc/template-tags.php:235
 msgid "Continue reading %s"
 msgstr ""
 
@@ -114,8 +61,8 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: content-link.php:53 content-page.php:30 content-search.php:27
-#: content-search.php:30 content.php:51 image.php:62
+#: content-link.php:55 content-page.php:32 content-search.php:27
+#: content-search.php:30 content.php:53 image.php:64
 msgid "Edit"
 msgstr ""
 
@@ -194,11 +141,11 @@ msgstr ""
 msgid "collapse child menu"
 msgstr ""
 
-#: header.php:26
+#: header.php:27
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:43
+#: header.php:44
 msgid "Menu and widgets"
 msgstr ""
 
@@ -210,153 +157,146 @@ msgstr ""
 msgid "Next Image"
 msgstr ""
 
+#: image.php:77
+msgctxt "Parent post link"
+msgid ""
+"<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
+"%title</span>"
+msgstr ""
+
 #: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
 msgid ""
 "Twenty Fifteen requires at least WordPress version 4.1. You are running "
 "version %s. Please upgrade and try again."
 msgstr ""
 
-#: inc/customizer.php:31
-msgid "Color Scheme"
+#: inc/customizer.php:36
+msgid "Base Color Scheme"
 msgstr ""
 
-#: inc/customizer.php:45
-msgid "Sidebar Text Color"
+#: inc/customizer.php:51
+msgid "Header and Sidebar Text Color"
 msgstr ""
 
-#: inc/customizer.php:56
-msgid "Header & Sidebar Background Color"
+#: inc/customizer.php:52 inc/customizer.php:68
+msgid ""
+"Only applied to the sidebar on wider screens. On small screens the sidebar "
+"will become the header."
 msgstr ""
 
-#: inc/customizer.php:81
+#: inc/customizer.php:67
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid ""
+"Only applied to the sidebar on wide screens. On small screens it will be "
+"applied to the header."
+msgstr ""
+
+#: inc/customizer.php:96
 msgid "Default"
 msgstr ""
 
-#: inc/customizer.php:92
+#: inc/customizer.php:107
 msgid "Dark"
 msgstr ""
 
-#: inc/customizer.php:103
+#: inc/customizer.php:118
 msgid "Yellow"
 msgstr ""
 
-#: inc/customizer.php:114
+#: inc/customizer.php:129
 msgid "Pink"
 msgstr ""
 
-#: inc/customizer.php:125
+#: inc/customizer.php:140
 msgid "Purple"
 msgstr ""
 
-#: inc/customizer.php:136
+#: inc/customizer.php:151
 msgid "Blue"
 msgstr ""
 
-#: inc/template-tags.php:29
-msgid "Previous"
-msgstr ""
-
-#: inc/template-tags.php:30
-msgid "Next"
-msgstr ""
-
-#: inc/template-tags.php:31
-msgid "Page"
-msgstr ""
-
-#: inc/template-tags.php:37
-msgid "Posts navigation"
-msgstr ""
-
-#: inc/template-tags.php:74
-msgid "Post navigation"
-msgstr ""
-
-#: inc/template-tags.php:78
-msgctxt "Parent post link"
-msgid ""
-"<span class=\"meta-nav\">Published In</span><span class=\"post-title\">"
-"%title</span>"
-msgstr ""
-
-#: inc/template-tags.php:80
-msgctxt "Previous post link"
-msgid ""
-"<span class=\"meta-nav\">Previous</span><span class=\"post-title\">%title</"
-"span>"
-msgstr ""
-
-#: inc/template-tags.php:81
-msgctxt "Next post link"
-msgid ""
-"<span class=\"meta-nav\">Next</span><span class=\"post-title\">%title</span>"
-msgstr ""
-
-#: inc/template-tags.php:101
+#: inc/template-tags.php:23
 msgid "Comment navigation"
 msgstr ""
 
-#: inc/template-tags.php:104
+#: inc/template-tags.php:26
 msgid "Older Comments"
 msgstr ""
 
-#: inc/template-tags.php:108
+#: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr ""
 
-#: inc/template-tags.php:127
+#: inc/template-tags.php:49
 msgid "Featured"
 msgstr ""
 
-#: inc/template-tags.php:133
+#: inc/template-tags.php:55
 msgctxt "Used before post format."
 msgid "Format"
 msgstr ""
 
-#: inc/template-tags.php:154
+#: inc/template-tags.php:76
 msgctxt "Used before publish date."
-msgid "<span class=\"screen-reader-text\">Posted on</span>"
+msgid "Posted on"
 msgstr ""
 
-#: inc/template-tags.php:163
+#: inc/template-tags.php:85
 msgctxt "Used before post author name."
-msgid "<span class=\"screen-reader-text\">Author</span>"
+msgid "Author"
 msgstr ""
 
-#: inc/template-tags.php:169 inc/template-tags.php:177
+#: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ""
 
-#: inc/template-tags.php:172
+#: inc/template-tags.php:94
 msgctxt "Used before category names."
-msgid "<span class=\"screen-reader-text\">Categories</span>"
+msgid "Categories"
 msgstr ""
 
-#: inc/template-tags.php:180
+#: inc/template-tags.php:102
 msgctxt "Used before tag names."
-msgid "<span class=\"screen-reader-text\">Tags</span>"
+msgid "Tags"
 msgstr ""
 
-#: inc/template-tags.php:191
+#: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
-msgid "<span class=\"screen-reader-text\">Full size</span>"
+msgid "Full size"
 msgstr ""
 
-#: inc/template-tags.php:200
+#: inc/template-tags.php:122
 msgid "Leave a comment"
 msgstr ""
 
-#: inc/template-tags.php:200
+#: inc/template-tags.php:122
 msgid "1 Comment"
 msgstr ""
 
-#: inc/template-tags.php:200
+#: inc/template-tags.php:122
 msgid "% Comments"
 msgstr ""
 
 #: search.php:18
 msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:28
+msgctxt "Next post link"
+msgid ""
+"<span class=\"meta-nav\">Next <span class=\"screen-reader-text\">post:</"
+"span></span><span class=\"post-title\">%title</span>"
+msgstr ""
+
+#: single.php:29
+msgctxt "Previous post link"
+msgid ""
+"<span class=\"meta-nav\">Previous <span class=\"screen-reader-text\">post:</"
+"span></span><span class=\"post-title\">%title</span>"
 msgstr ""
 
 #. Theme Name of the plugin/theme
