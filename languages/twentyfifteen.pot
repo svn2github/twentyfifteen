@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Fifteen 0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/twentyfifteen\n"
-"POT-Creation-Date: 2014-11-20 03:55:32+00:00\n"
+"POT-Creation-Date: 2014-11-21 03:53:58+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,16 +20,16 @@ msgstr ""
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
 
-#: archive.php:49 index.php:45 search.php:37
+#: archive.php:50 index.php:46 search.php:38
 msgid "Previous page"
 msgstr ""
 
-#: archive.php:50 index.php:46 search.php:38
+#: archive.php:51 index.php:47 search.php:39
 msgid "Next page"
 msgstr ""
 
-#: archive.php:51 content-link.php:40 content-page.php:26 content.php:39
-#: image.php:56 index.php:47 search.php:39
+#: archive.php:52 content-link.php:40 content-page.php:29 content.php:42
+#: image.php:63 index.php:48 search.php:40
 msgid "Page"
 msgstr ""
 
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Published by"
 msgstr ""
 
-#: author-bio.php:31
+#: author-bio.php:34
 msgid "View all posts by %s"
 msgstr ""
 
@@ -53,16 +53,16 @@ msgid "Comments are closed."
 msgstr ""
 
 #. translators: %s: Name of current post
-#: content-link.php:31 content.php:30 inc/template-tags.php:235
+#: content-link.php:31 content.php:33 inc/template-tags.php:235
 msgid "Continue reading %s"
 msgstr ""
 
-#: content-link.php:36 content-page.php:22 content.php:35 image.php:52
+#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
 msgid "Pages:"
 msgstr ""
 
-#: content-link.php:55 content-page.php:32 content-search.php:27
-#: content-search.php:30 content.php:53 image.php:64
+#: content-link.php:56 content-page.php:35 content-search.php:28
+#: content-search.php:33 content.php:57 image.php:71
 msgid "Edit"
 msgstr ""
 
@@ -70,18 +70,18 @@ msgstr ""
 msgid "Nothing Found"
 msgstr ""
 
-#: content-none.php:21
+#: content-none.php:22
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: content-none.php:25
+#: content-none.php:26
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
 
-#: content-none.php:30
+#: content-none.php:31
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
@@ -90,7 +90,7 @@ msgstr ""
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 0.1)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25
-msgid "http://wordpress.org/"
+msgid "https://wordpress.org/"
 msgstr ""
 
 #: footer.php:25
@@ -105,39 +105,39 @@ msgstr ""
 msgid "Social Links Menu"
 msgstr ""
 
-#: functions.php:132
+#: functions.php:133
 msgid "Widget Area"
 msgstr ""
 
-#: functions.php:134
+#: functions.php:135
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: functions.php:159
+#: functions.php:160
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:167
+#: functions.php:168
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:175
+#: functions.php:176
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:183
+#: functions.php:184
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr ""
 
-#: functions.php:237
+#: functions.php:238
 msgid "expand child menu"
 msgstr ""
 
-#: functions.php:238
+#: functions.php:239
 msgid "collapse child menu"
 msgstr ""
 
@@ -149,15 +149,15 @@ msgstr ""
 msgid "Menu and widgets"
 msgstr ""
 
-#: image.php:20
+#: image.php:24
 msgid "Previous Image"
 msgstr ""
 
-#: image.php:20
+#: image.php:24
 msgid "Next Image"
 msgstr ""
 
-#: image.php:77
+#: image.php:84
 msgctxt "Parent post link"
 msgid ""
 "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">"
@@ -285,14 +285,14 @@ msgstr ""
 msgid "Search Results for: %s"
 msgstr ""
 
-#: single.php:28
+#: single.php:33
 msgctxt "Next post link"
 msgid ""
 "<span class=\"meta-nav\">Next <span class=\"screen-reader-text\">post:</"
 "span></span><span class=\"post-title\">%title</span>"
 msgstr ""
 
-#: single.php:29
+#: single.php:34
 msgctxt "Previous post link"
 msgid ""
 "<span class=\"meta-nav\">Previous <span class=\"screen-reader-text\">post:</"
@@ -304,7 +304,7 @@ msgid "Twenty Fifteen"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://wordpress.org/themes/twentyfifteen"
+msgid "https://wordpress.org/themes/twentyfifteen"
 msgstr ""
 
 #. Description of the plugin/theme
