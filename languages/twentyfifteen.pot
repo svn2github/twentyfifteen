@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Fifteen 0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/twentyfifteen\n"
-"POT-Creation-Date: 2014-11-21 03:53:58+00:00\n"
+"POT-Creation-Date: 2014-11-26 03:56:00+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,15 +20,15 @@ msgstr ""
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
 
-#: archive.php:50 index.php:46 search.php:38
+#: archive.php:49 index.php:46 search.php:38
 msgid "Previous page"
 msgstr ""
 
-#: archive.php:51 index.php:47 search.php:39
+#: archive.php:50 index.php:47 search.php:39
 msgid "Next page"
 msgstr ""
 
-#: archive.php:52 content-link.php:40 content-page.php:29 content.php:42
+#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
 #: image.php:63 index.php:48 search.php:40
 msgid "Page"
 msgstr ""
@@ -53,7 +53,7 @@ msgid "Comments are closed."
 msgstr ""
 
 #. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:235
+#: content-link.php:31 content.php:33 inc/template-tags.php:237
 msgid "Continue reading %s"
 msgstr ""
 
@@ -194,27 +194,27 @@ msgid ""
 "applied to the header."
 msgstr ""
 
-#: inc/customizer.php:96
+#: inc/customizer.php:97
 msgid "Default"
 msgstr ""
 
-#: inc/customizer.php:107
+#: inc/customizer.php:108
 msgid "Dark"
 msgstr ""
 
-#: inc/customizer.php:118
+#: inc/customizer.php:119
 msgid "Yellow"
 msgstr ""
 
-#: inc/customizer.php:129
+#: inc/customizer.php:130
 msgid "Pink"
 msgstr ""
 
-#: inc/customizer.php:140
+#: inc/customizer.php:141
 msgid "Purple"
 msgstr ""
 
-#: inc/customizer.php:151
+#: inc/customizer.php:152
 msgid "Blue"
 msgstr ""
 
