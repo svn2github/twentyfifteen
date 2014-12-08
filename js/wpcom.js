@@ -3,11 +3,11 @@
 	    $window = $( window );
 
 	/**
-	 * Add a body class for less than 955 viewport.
+	 * Add a body class for less than 955 viewport, IE8, and below.
 	 * This is only for Custom Colors that doesn't handle media queries.
 	 */
 	function bodyClass() {
-		if ( $window.width() <= 954 ) {
+		if ( ( document.all && ! document.addEventListener ) || ( $window.width() <= 954 ) ) {
 			$body.addClass( 'small-screen' );
 		} else {
 			$body.removeClass( 'small-screen' );
