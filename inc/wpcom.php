@@ -95,7 +95,18 @@ add_action( 'wp_enqueue_scripts', 'twentyfifteen_dequeue_fonts' );
  * Enqueue our WP.com styles for front-end.
  * Loads after style.css so we can add overrides.
  */
-function twentyfifteen_wpcom_styles() {
+function twentyfifteen_wpcom_scripts() {
 	wp_enqueue_style( 'twentyfifteen-wpcom-style', get_template_directory_uri() . '/css/style-wpcom.css', array( 'twentyfifteen-style' ), '20141202' );
+
+	wp_enqueue_script( 'twentyfifteen-wpcom-js', get_template_directory_uri() . '/js/wpcom.js', array( 'jquery' ), '20141208', true );
 }
-add_action( 'wp_enqueue_scripts', 'twentyfifteen_wpcom_styles' );
+add_action( 'wp_enqueue_scripts', 'twentyfifteen_wpcom_scripts' );
+
+/**
+ * Remove color scheme related stuff in favor of Custom Color in WP.com.
+ */
+remove_action( 'wp_enqueue_scripts', 'twentyfifteen_color_scheme_css' );
+remove_action( 'customize_controls_enqueue_scripts', 'twentyfifteen_customize_control_js' );
+remove_action( 'customize_controls_print_footer_scripts', 'twentyfifteen_color_scheme_css_template' );
+remove_action( 'wp_enqueue_scripts', 'twentyfifteen_header_background_color_css', 11 );
+remove_action( 'wp_enqueue_scripts', 'twentyfifteen_sidebar_text_color_css', 11 );
