@@ -19,6 +19,10 @@
 	margin-bottom: 1.6em;
 }
 
+.hentry .wpcom-reblog-snapshot p.reblog-from {
+	margin-bottom: 1.6em;
+}
+
 
 /**
  * Genericons
@@ -575,7 +579,8 @@ img[id*="botd"] {
 		padding-bottom: 1.6471em;
 	}
 
-	.hentry .wpcom-reblog-snapshot p.reblogger-headline {
+	.hentry .wpcom-reblog-snapshot p.reblogger-headline,
+	.hentry .wpcom-reblog-snapshot p.reblog-from {
 		margin-bottom: 1.6471em;
 	}
 
@@ -647,7 +652,8 @@ img[id*="botd"] {
 		padding-bottom: 1.6842em;
 	}
 
-	.hentry .wpcom-reblog-snapshot p.reblogger-headline {
+	.hentry .wpcom-reblog-snapshot p.reblogger-headline,
+	.hentry .wpcom-reblog-snapshot p.reblog-from {
 		margin-bottom: 1.6842em;
 	}
 
@@ -697,7 +703,8 @@ img[id*="botd"] {
 		padding-bottom: 1.6em;
 	}
 
-	.hentry .wpcom-reblog-snapshot p.reblogger-headline {
+	.hentry .wpcom-reblog-snapshot p.reblogger-headline,
+	.hentry .wpcom-reblog-snapshot p.reblog-from {
 		margin-bottom: 1.6em;
 	}
 
@@ -751,7 +758,8 @@ img[id*="botd"] {
 		padding-bottom: 1.6471em;
 	}
 
-	.hentry .wpcom-reblog-snapshot p.reblogger-headline {
+	.hentry .wpcom-reblog-snapshot p.reblogger-headline,
+	.hentry .wpcom-reblog-snapshot p.reblog-from {
 		margin-bottom: 1.6471em;
 	}
 
@@ -809,7 +817,8 @@ img[id*="botd"] {
 		padding-bottom: 1.6842em;
 	}
 
-	.hentry .wpcom-reblog-snapshot p.reblogger-headline {
+	.hentry .wpcom-reblog-snapshot p.reblogger-headline,
+	.hentry .wpcom-reblog-snapshot p.reblog-from {
 		margin-bottom: 1.6842em;
 	}
 
