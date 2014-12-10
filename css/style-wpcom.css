@@ -359,6 +359,14 @@ div.jp-relatedposts .jp-relatedposts-headline em:after {
 	padding: 0 !important;
 }
 
+.widget_gravatar a {
+	border-bottom: 1px solid #333;
+}
+
+.widget_gravatar a:hover {
+	border-bottom: 0;
+}
+
 .grav-widget-left {
 	margin-right: 1em;
 }
