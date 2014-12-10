@@ -432,6 +432,27 @@ div.jp-relatedposts .jp-relatedposts-headline em:after {
 	margin-bottom: -3px;
 }
 
+/* Recent Comments (WP.com) */
+.widget_recent_comments table,
+.widget_recent_comments td {
+	border: 0;
+}
+
+.widget_recent_comments .recentcommentsavatar {
+	margin-bottom: -0.8em;
+}
+
+.widget_recent_comments td.recentcommentsavatartop,
+.widget_recent_comments td.recentcommentsavatarend {
+	padding: 0 0 0.8em 0;
+}
+
+.widget_recent_comments td.recentcommentstexttop,
+.widget_recent_comments td.recentcommentstextend {
+	padding: 0 0 0.8em 0.8em;
+	vertical-align: middle;
+}
+
 /* Recent Image Widget */
 .widget_recent_images .recent_images img {
 	margin: 0 1px 5px 0;
@@ -598,6 +619,20 @@ img[id*="botd"] {
 
 	.widget_blog_subscription #subscribe-field {
 		padding: 0.5625em !important;
+	}
+
+	.widget_recent_comments .recentcommentsavatar {
+		margin-bottom: -0.75em;
+	}
+
+	.widget_recent_comments td.recentcommentsavatartop,
+	.widget_recent_comments td.recentcommentsavatarend {
+		padding: 0 0 0.75em 0;
+	}
+
+	.widget_recent_comments td.recentcommentstexttop,
+	.widget_recent_comments td.recentcommentstextend {
+		padding: 0 0 0.75em 0.75em;
 	}
 
 	.time-machine-post-title,
@@ -852,5 +887,22 @@ img[id*="botd"] {
 
 	.wpcnt {
 		margin-bottom: 1.6842em;
+	}
+}
+
+
+/**
+ * RTL
+ */
+
+.rtl .widget_recent_comments td.recentcommentstexttop,
+.rtl .widget_recent_comments td.recentcommentstextend {
+	padding: 0 0.8em 0.8em 0;
+}
+
+@media screen and (min-width: 46.25em) {
+	.rtl .widget_recent_comments td.recentcommentstexttop,
+	.rtl .widget_recent_comments td.recentcommentstextend {
+		padding: 0 0.75em 0.75em 0;
 	}
 }
