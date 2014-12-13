@@ -198,6 +198,13 @@
 	text-shadow: none !important;
 }
 
+.comment-content p.comment-likes span.comment-like-feedback {
+	font-family: "Noto Sans", sans-serif;
+	line-height: 19px;
+	opacity: 0.7;
+	padding-top: 0;
+}
+
 
 /**
  * Sharing (WP.com)
@@ -690,6 +697,11 @@ img[id*="botd"] {
 		margin-top: 1.6842em;
 	}
 
+	.comment-content p.comment-likes span.comment-like-feedback {
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
+
 	.hentry .wpcom-reblog-snapshot .reblogger-note {
 		margin-bottom: 1.6842em;
 		padding-bottom: 1.6842em;
@@ -739,6 +751,11 @@ img[id*="botd"] {
 @media screen and (min-width: 59.6875em) {
 	.comments-area #respond form {
 		margin-top: 1.6em;
+	}
+
+	.comment-content p.comment-likes span.comment-like-feedback {
+		font-size: 12px;
+		font-size: 1.2rem;
 	}
 
 	.hentry .wpcom-reblog-snapshot .reblogger-note {
@@ -847,6 +864,11 @@ img[id*="botd"] {
 @media screen and (min-width: 77.5em) {
 	.comments-area #respond form {
 		margin-top: 1.6842em;
+	}
+
+	.comment-content p.comment-likes span.comment-like-feedback {
+		font-size: 14px;
+		font-size: 1.4rem;
 	}
 
 	.pd-rating {
