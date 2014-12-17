@@ -686,6 +686,11 @@ a:focus {
 	border-top: 0;
 }
 
+.main-navigation .current_page_ancestor .sub-menu,
+.main-navigation .current-menu-ancestor .sub-menu {
+	display: block;
+}
+
 .main-navigation .page_item_has_children > a,
 .main-navigation .menu-item-has-children > a {
 	padding-right: 48px;
