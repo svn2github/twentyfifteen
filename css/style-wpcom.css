@@ -408,10 +408,26 @@ div.jp-relatedposts .jp-relatedposts-headline em:after {
 
 .widget-area .milestone-content {
 	margin-top: 0;
+	max-width: 100%;
 }
 
-.widget-area .milestone-content {
-	max-width: 100%;
+.widget-area .milestone-header,
+.widget-area .milestone-countdown,
+.widget-area .milestone-message {
+	background-color: transparent;
+	border: 1px solid #eaeaea;
+	border: 1px solid rgba(51, 51, 51, 0.1);
+	color: inherit;
+}
+
+.milestone-widget .event,
+.milestone-widget .difference {
+	color: #333;
+}
+
+.widget-area .milestone-countdown,
+.widget-area .milestone-message {
+	border-top: 0;
 }
 
 /* My Community Widget */
