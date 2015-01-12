@@ -965,3 +965,15 @@ img[id*="botd"] {
 		padding: 0 0.75em 0.75em 0;
 	}
 }
+
+
+/**
+ * Print
+ */
+
+@media print {
+	.comments-area #respond h3,
+	#bit.loggedout-follow-normal {
+		display: none;
+	}
+}
