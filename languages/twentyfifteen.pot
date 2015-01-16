@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Fifteen 1.0\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/twentyfifteen\n"
-"POT-Creation-Date: 2015-01-01 04:46:19+00:00\n"
+"POT-Creation-Date: 2015-01-16 03:59:37+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -145,19 +145,19 @@ msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr ""
 
-#: functions.php:231
+#: functions.php:243
 msgid "expand child menu"
 msgstr ""
 
-#: functions.php:232
+#: functions.php:244
 msgid "collapse child menu"
 msgstr ""
 
-#: header.php:27
+#: header.php:26
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:44
+#: header.php:43
 msgid "Menu and widgets"
 msgstr ""
 
