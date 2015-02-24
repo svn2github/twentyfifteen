@@ -162,35 +162,26 @@ msgstr "Meny och widgets"
 msgid "Skip to content"
 msgstr "Hoppa till innehåll"
 
-#. translators: If there are characters in your language that are not supported
-#. by Noto Serif, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:163
+#: functions.php:169
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "på"
 
-#. translators: If there are characters in your language that are not supported
-#. by Inconsolata, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:168
+#: functions.php:177
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "på"
 
-#. translators: To add an additional character subset specific to your
-#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
-#. 'vietnamese'. Do not translate into your own language.
-#: functions.php:173
+#: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:243
+#: functions.php:255
 msgid "expand child menu"
 msgstr "expandera undermeny"
 
-#: functions.php:244
+#: functions.php:256
 msgid "collapse child menu"
 msgstr "minimera undermeny"
 
@@ -202,10 +193,7 @@ msgstr "Widgetfält"
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Lägg till widgets som ska visas i din sidopanel här."
 
-#. translators: If there are characters in your language that are not supported
-#. by Noto Sans, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:158
+#: functions.php:161
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "på"

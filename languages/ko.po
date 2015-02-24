@@ -162,35 +162,26 @@ msgstr "메뉴와 위젯"
 msgid "Skip to content"
 msgstr "콘텐츠로 바로가기"
 
-#. translators: If there are characters in your language that are not supported
-#. by Noto Serif, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:163
+#: functions.php:169
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "켜기"
 
-#. translators: If there are characters in your language that are not supported
-#. by Inconsolata, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:168
+#: functions.php:177
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "켜기"
 
-#. translators: To add an additional character subset specific to your
-#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
-#. 'vietnamese'. Do not translate into your own language.
-#: functions.php:173
+#: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "서브셋 없음"
 
-#: functions.php:243
+#: functions.php:255
 msgid "expand child menu"
 msgstr "하위 메뉴 확장"
 
-#: functions.php:244
+#: functions.php:256
 msgid "collapse child menu"
 msgstr "하위 메뉴 축소"
 
@@ -202,10 +193,7 @@ msgstr "위젯 영역"
 msgid "Add widgets here to appear in your sidebar."
 msgstr "사이드바에 나타나도록 하려면 여기에 위젯을 추가하세요."
 
-#. translators: If there are characters in your language that are not supported
-#. by Noto Sans, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:158
+#: functions.php:161
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "켜기"
