@@ -15,6 +15,7 @@ msgid "Previous post:"
 msgstr "Prethodni članak:"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Naša tema 2014 je pregledna, blog-fokusirana sa fokusom na jednostavnost. Twenty Fifteen koristi jednostavno čitljive fontove koji se bez problema prikazuju na različitim veličinama ekrana i na različitim jezicima. Pri dizajnu smo se najviše fokusirali na mobilnost što znači da vaš sadržaj zauzima glavni dio prostora, bez obzira na to da li vaši posjetioci koriste pametni telefon, tablet, laptop ili desktop računar."
 
@@ -208,7 +209,7 @@ msgstr "Glavni meni"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:25
+#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 

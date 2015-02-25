@@ -15,6 +15,7 @@ msgid "Previous post:"
 msgstr "Cofnod blaenorol:"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Mae thema 2015 yn un glân a chlir ac wedi ei gynllunio'n bennaf ar gyfer blogiau. Mae teipograffeg Twenty Fifteen yn un syml a darllenadwy ar amrywiaeth eang o faint sgriniau ac yn addas ar gyfer ieithoedd lluosog. Rydym wedi ei chynllunio ar gyfer dyfeisiau symudol yn bennaf fel bod eich cynnwys yn amlycach, p'un bynnag yw eich ymwelwyr yn dod i'ch gwefan gan defnyddio llechen, gliniadur neu gyfrifiadur bwrdd gwaith."
 
@@ -208,7 +209,7 @@ msgstr "Dewislen Cynradd"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:25
+#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 

@@ -15,6 +15,7 @@ msgid "Previous post:"
 msgstr "Articolul anterior:"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Tema noastră de bază 2015 este curată, orientată către blog și proiectată pentru claritate. Grafia simplă și directă din Twenty Fifteen este lizibilă pe o mare varietate de ecrane de diferite mărimi și potrivită pentru mai multe limbi. Am proiectat-o folosind o abordare cu prioritate pentru mobilitate, ceea ce înseamnă că am acordat conținutului rolul central, indiferent dacă vizitatorii vor veni pe situl tău cu un smartphone, o tabletă, un laptop sau computer de birou."
 
@@ -208,7 +209,7 @@ msgstr "Meniu principal"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:25
+#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 

@@ -15,6 +15,7 @@ msgid "Previous post:"
 msgstr "Ankstesnis įrašas:"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "WordPress tema \"2015\" yra minimalistinės struktūros, orientuota į tinklaraščius, jos dizainas aiškus ir neperkrautas. Paprasta tipografija yra lengvai įskaitoma įvairiuose ekranų dydžiuose bei tinkama naudoti su daugeliu kalbų. Ši tema buvo kuriama taikant \"mobile-first\" požiūrį - tai reiškia, kad Jūsų turinys yra svarbiausias ir gerai matomas, nepaisant ar lankytojai skaitys jį išmaniuosiuose telefonuose, planšetiniuose, nešiojamuosiuose ar stacionariuose kompiuteriuose."
 
@@ -208,7 +209,7 @@ msgstr "Pagrindinis meniu"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:25
+#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 

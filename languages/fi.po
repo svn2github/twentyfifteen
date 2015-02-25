@@ -15,6 +15,7 @@ msgid "Previous post:"
 msgstr "Edellinen artikkeli:"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Vuoden 2015 oletusteemamme on siisti ja suunniteltu blogeille. Twenty Fifteenin yksinkertainen ja suoraviivainen typografia on luettavaa monilla eri näyttökoolla, ja soveltuu useille eri kielille. Suunnittelussa on huomioitu ensin mobiililaitteet (mobile-first), eli sisältösi on pääosassa riippumatta siitä, katsellaanko sivustoasi kännykällä, tabletilla, kannettavalla tai pöytäkoneella."
 
@@ -208,7 +209,7 @@ msgstr "Ensisijainen valikko"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:25
+#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 

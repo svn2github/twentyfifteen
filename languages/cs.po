@@ -15,6 +15,7 @@ msgid "Previous post:"
 msgstr "Předchozí příspěvek:"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Twenty Fifteen (2015) je nová výchozí šablona pro WordPress, kterou můžete použít zejména na osobní weby (a obecně blogování). Čistá a jasná grafika působí srozumitelně a přehledně, z typografického hlediska zase určitě oceníte dobře čitelný text a dostatečný kontrast. Jednoduchý a přímočarý vzhled také usnadňuje použití v rozmanitých jazykových verzích. Šablona se umí automaticky přizpůsobit zařízením s různou velikostí a byla tak navržena už od samého počátku, takže je hlavní obsah směřován na střed webu, a to bez ohledu na to, zda návštěvník přichází z mobilu, tabletu, notebooku nebo klasického počítače."
 
@@ -208,7 +209,7 @@ msgstr "Základní menu"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:25
+#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://cs.wordpress.org/"
 

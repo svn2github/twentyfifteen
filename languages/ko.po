@@ -15,6 +15,7 @@ msgid "Previous post:"
 msgstr "이전 글:"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "우리의 2015 기본 테마는 깨끗하고 블로그 중심이며 선명함을 목표로 디자인 됐습니다. Twenty Fifteen의 단순하고 직관적인 타이포그래피는 다양한 화면 크기에서 가독성이 높으며 다중 언어에 적합합니다. 모바일 우선 접근 방식을 사용해 디자인했으며 이것은 방문자가 스마트폰, 태블릿, 노트북, 또는 데스크탑 컴퓨터와 같은 다양한 기기로 접속해도 콘텐츠가 중앙에 위치한다는 것을 의미합니다."
 
@@ -208,7 +209,7 @@ msgstr "주 메뉴"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:25
+#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
