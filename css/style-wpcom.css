@@ -68,6 +68,10 @@
 	padding-top: 1.6em;
 }
 
+.comments-area .comment #respond {
+	padding-bottom: 1.6em;
+}
+
 .comments-area #respond h3 {
 	margin: 0;
 }
@@ -206,6 +210,11 @@
 	line-height: inherit !important;
 	padding: 13px 16px !important;
 	text-shadow: none !important;
+}
+
+#respond .comment-reply-title small a {
+	display: block;
+	width: 26px;
 }
 
 .comment-content p.comment-likes span.comment-like-feedback {
@@ -650,6 +659,10 @@ img[id*="botd"] {
 		padding-top: 1.6471em;
 	}
 
+	.comments-area .comment #respond {
+		padding-bottom: 1.6471em;
+	}
+
 	.comments-area #respond form {
 		margin-top: 1.6471em;
 	}
@@ -742,6 +755,10 @@ img[id*="botd"] {
 		padding-top: 1.6842em;
 	}
 
+	.comments-area .comment #respond {
+		padding-bottom: 1.6842;
+	}
+
 	.comments-area #respond form {
 		margin-top: 1.6842em;
 	}
@@ -801,6 +818,10 @@ img[id*="botd"] {
 	.comments-area .comment-list + #respond,
 	.comments-area .comment-navigation + #respond {
 		padding-top: 1.6em;
+	}
+
+	.comments-area .comment #respond {
+		padding-bottom: 1.6em;
 	}
 
 	.comments-area #respond form {
@@ -868,6 +889,10 @@ img[id*="botd"] {
 		padding-top: 1.6471em;
 	}
 
+	.comments-area .comment #respond {
+		padding-bottom: 1.6471em;
+	}
+
 	.comments-area #respond form {
 		margin-top: 1.6471em;
 	}
@@ -924,6 +949,10 @@ img[id*="botd"] {
 	.comments-area .comment-list + #respond,
 	.comments-area .comment-navigation + #respond {
 		padding-top: 1.6842em;
+	}
+
+	.comments-area .comment #respond {
+		padding-bottom: 1.6842em;
 	}
 
 	.comments-area #respond form {
