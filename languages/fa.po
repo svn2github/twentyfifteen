@@ -207,7 +207,7 @@ msgstr "فهرست شبکه‌های اجتماعی"
 msgid "Primary Menu"
 msgstr "فهرست اصلی"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.0)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.1)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
