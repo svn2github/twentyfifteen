@@ -10,6 +10,11 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: Twenty Fifteen\n"
 
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
 #: single.php:37
 msgid "Previous post:"
 msgstr "پخوانی لیکنه:"
@@ -35,22 +40,10 @@ msgstr "بل"
 msgid "Search Results for: %s"
 msgstr "لټون پايلې په اړه د: %s"
 
-#: inc/template-tags.php:122
-msgid "% Comments"
-msgstr "% تبصرې"
-
-#: inc/template-tags.php:122
-msgid "1 Comment"
-msgstr "1 تبصره"
-
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "ټوله اندازه"
-
-#: inc/template-tags.php:122
-msgid "Leave a comment"
-msgstr "تبصره پریږدئ"
 
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
@@ -243,7 +236,7 @@ msgid "Pages:"
 msgstr "پاڼې:"
 
 #. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:237
+#: content-link.php:31 content.php:33 inc/template-tags.php:238
 msgid "Continue reading %s"
 msgstr "لوستلو ته دوام ورکړئ %s"
 
