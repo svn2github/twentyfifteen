@@ -10,11 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: inc/template-tags.php:123
-msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
-
 #: single.php:37
 msgid "Previous post:"
 msgstr "Попередній запис:"
@@ -235,26 +230,9 @@ msgstr "Редагувати"
 msgid "Pages:"
 msgstr "Сторінки:"
 
-#. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:238
-msgid "Continue reading %s"
-msgstr ""
-
 #: comments.php:53
 msgid "Comments are closed."
 msgstr "Коментарі закрито"
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: author-bio.php:12
-msgid "Published by"
-msgstr ""
 
 #: author-bio.php:34
 msgid "View all posts by %s"
@@ -276,7 +254,3 @@ msgstr "Попередня сторінка"
 #: 404.php:21
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr "За даною адресою нічого не знайдено. Спробуйте скористатися пошуком."
-
-#: 404.php:17
-msgid "Oops! That page can&rsquo;t be found."
-msgstr ""

@@ -10,11 +10,6 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: inc/template-tags.php:123
-msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
-
 #: single.php:37
 msgid "Previous post:"
 msgstr "Iepriekšējais raksts:"
@@ -243,14 +238,6 @@ msgstr "Turpināt %s lasīšanu"
 #: comments.php:53
 msgid "Comments are closed."
 msgstr "Komentāri ir slēgti."
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
 
 #: author-bio.php:12
 msgid "Published by"
