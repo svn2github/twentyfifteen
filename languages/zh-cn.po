@@ -2,30 +2,30 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-02-09 08:23:05+0000\n"
+"PO-Revision-Date: 2015-07-30 11:37:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Twenty Fifteen\n"
-
-#: single.php:37
-msgid "Previous post:"
-msgstr "上篇文章："
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "我们的2015默认主题干净、面向博客、并以明晰为设计中心。Twenty Fifteen简单的排班在多种屏幕尺寸上都清晰易读，并能适应多种语言。我们在设计中使用了移动优先的方式，这意味着不管访问者使用智能手机、平板、膝上型电脑还是台式机，您的内容都将居于最中。"
 
-#: single.php:34
-msgid "Next post:"
-msgstr "下篇文章："
+#: single.php:37
+msgid "Previous post:"
+msgstr "上篇文章："
 
 #: single.php:36
 msgid "Previous"
 msgstr "上一"
+
+#: single.php:34
+msgid "Next post:"
+msgstr "下篇文章："
 
 #: single.php:33
 msgid "Next"
@@ -33,50 +33,50 @@ msgstr "下一"
 
 #: search.php:18
 msgid "Search Results for: %s"
-msgstr "%s的搜索结果"
+msgstr "针对以下内容的搜索结果：%s"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "原始尺寸"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "标签"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "分类"
 
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "格式"
-
-#: inc/template-tags.php:76
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "发布于"
-
-#: inc/template-tags.php:85
-msgctxt "Used before post author name."
-msgid "Author"
-msgstr "作者"
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "标签"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr "、"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "特色"
+#: inc/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "作者"
+
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "发布于"
+
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "格式"
 
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "较新评论"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "特色"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -110,6 +110,22 @@ msgstr "暗色"
 msgid "Default"
 msgstr "默认"
 
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "在较小的屏幕上将应用到顶部，在较宽的屏幕上将应用到侧边栏。"
+
+#: inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr "顶部和侧边栏背景颜色"
+
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "顶部和侧边栏文字颜色"
+
+#: inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr "基础配色方案"
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
@@ -119,25 +135,9 @@ msgstr "<span class=\"meta-nav\">发布于</span><span class=\"post-title\">%tit
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Fifteen要求WordPress 4.1版或以上，您在运行%s版。请升级并重试。"
 
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "基础配色方案"
-
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "顶部和侧边栏文字颜色"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "在较小的屏幕上将应用到顶部，在较宽的屏幕上将应用到侧边栏。"
-
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "顶部和侧边栏背景颜色"
-
 #: image.php:24
 msgid "Next Image"
-msgstr "下一图片"
+msgstr "下一张图片"
 
 #: image.php:24
 msgid "Previous Image"
@@ -149,17 +149,11 @@ msgstr "菜单和挂件"
 
 #: header.php:26
 msgid "Skip to content"
-msgstr "跳至内容"
+msgstr "跳转到内容"
 
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "on"
-
-#: functions.php:177
-msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr "on"
+#: functions.php:256
+msgid "collapse child menu"
+msgstr "折叠子菜单"
 
 #: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
@@ -170,13 +164,15 @@ msgstr "no-subset"
 msgid "expand child menu"
 msgstr "展开子菜单"
 
-#: functions.php:256
-msgid "collapse child menu"
-msgstr "折叠子菜单"
+#: functions.php:177
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
 
-#: functions.php:133
-msgid "Widget Area"
-msgstr "挂件区域"
+#: functions.php:169
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
 
 #: functions.php:135
 msgid "Add widgets here to appear in your sidebar."
@@ -187,6 +183,10 @@ msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:133
+msgid "Widget Area"
+msgstr "挂件区域"
+
 #: functions.php:86
 msgid "Social Links Menu"
 msgstr "社交网络链接菜单"
@@ -195,19 +195,19 @@ msgstr "社交网络链接菜单"
 msgid "Primary Menu"
 msgstr "主菜单"
 
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "由 %s 强力驱动"
+
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://cn.wordpress.org/"
 
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "自豪地采用%s"
-
 #: content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "我们可能无法找到您需要的内容。或许搜索功能可以帮到您。"
+msgstr "看来我们无法找到您想查找的内容。或许搜索可以帮助您。"
 
 #: content-none.php:26
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
@@ -219,7 +219,7 @@ msgstr "准备好发布第一篇文章了？<a href=\"%1$s\">从这里开始</a>
 
 #: content-none.php:15
 msgid "Nothing Found"
-msgstr "未找到"
+msgstr "没有找到任何内容"
 
 #: content-link.php:56 content-page.php:35 content-search.php:28
 #: content-search.php:33 content.php:57 image.php:71
@@ -245,13 +245,13 @@ msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "《%2$s》有%1$s个想法"
 
-#: author-bio.php:12
-msgid "Published by"
-msgstr "发布者"
-
 #: author-bio.php:34
 msgid "View all posts by %s"
 msgstr "查看%s的所有文章"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "发布者"
 
 #: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
 #: image.php:63 index.php:48 search.php:40

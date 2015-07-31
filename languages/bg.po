@@ -2,30 +2,30 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-02-09 08:36:59+0000\n"
+"PO-Revision-Date: 2015-07-30 11:37:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Twenty Fifteen\n"
-
-#: single.php:37
-msgid "Previous post:"
-msgstr "Предишна публикация:"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Темата по подразбиране за 2015-та е изчистена, блог-фокусирана и създадена с идеята за яснота. Типографията на Twenty Fifteen е проста, функционална и надеждна за всички размери екрани, както и подходяща за много езици. Темата е създадена с мисъл първо за мобилното потребление, което значи, че съдържанието ви винаги е представено добре, независимо дали се чете през телефон, таблет, лаптоп или настолен компютър."
 
-#: single.php:34
-msgid "Next post:"
-msgstr "Следваща публикация:"
+#: single.php:37
+msgid "Previous post:"
+msgstr "Предишна публикация:"
 
 #: single.php:36
 msgid "Previous"
 msgstr "Предишна"
+
+#: single.php:34
+msgid "Next post:"
+msgstr "Следваща публикация:"
 
 #: single.php:33
 msgid "Next"
@@ -40,43 +40,43 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Пълен размер"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Етикети"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Категории"
 
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "Формат"
-
-#: inc/template-tags.php:76
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "Публикувано на"
-
-#: inc/template-tags.php:85
-msgctxt "Used before post author name."
-msgid "Author"
-msgstr "Автор"
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Етикети"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Избрано"
+#: inc/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Автор"
+
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Публикувано на"
+
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Формат"
 
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "По-нови коментари"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Избрано"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -110,6 +110,22 @@ msgstr "Тъмно"
 msgid "Default"
 msgstr "По подразбиране"
 
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Приложено към заглавката на малки екрани и страничната колона на големи."
+
+#: inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr "Цвят на заглавката и фона на страничната колона"
+
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "Цвят на текста в заглавката и страничната колона"
+
+#: inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr "Основна цветова схема"
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
@@ -118,22 +134,6 @@ msgstr "<span class=\"meta-nav\">Публикувано в</span><span class=\"p
 #: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "За да използвате Twenty Fifteen версията ви на WordPress трябва да бъде поне 4.1. В момента използвате версия %s. Опитайте отново след като обновите."
-
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "Основна цветова схема"
-
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "Цвят на текста в заглавката и страничната колона"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Приложено към заглавката на малки екрани и страничната колона на големи."
-
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "Цвят на заглавката и фона на страничната колона"
 
 #: image.php:24
 msgid "Next Image"
@@ -151,15 +151,9 @@ msgstr "Меню и джаджи"
 msgid "Skip to content"
 msgstr "Към съдържанието"
 
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "включен"
-
-#: functions.php:177
-msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr "включен"
+#: functions.php:256
+msgid "collapse child menu"
+msgstr "свиване на дъщерното меню"
 
 #: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
@@ -170,13 +164,15 @@ msgstr "cyrillic"
 msgid "expand child menu"
 msgstr "разширяване на дъщерното меню"
 
-#: functions.php:256
-msgid "collapse child menu"
-msgstr "свиване на дъщерното меню"
+#: functions.php:177
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "включен"
 
-#: functions.php:133
-msgid "Widget Area"
-msgstr "Зона за джаджи"
+#: functions.php:169
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "включен"
 
 #: functions.php:135
 msgid "Add widgets here to appear in your sidebar."
@@ -187,6 +183,10 @@ msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "включен"
 
+#: functions.php:133
+msgid "Widget Area"
+msgstr "Зона за джаджи"
+
 #: functions.php:86
 msgid "Social Links Menu"
 msgstr "Меню с линкове към социални мрежи"
@@ -195,15 +195,15 @@ msgstr "Меню с линкове към социални мрежи"
 msgid "Primary Menu"
 msgstr "Главно меню"
 
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "Създаден с %s"
+
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
-
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "Създаден с %s"
 
 #: content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -246,13 +246,13 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Един коментар към &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s коментара към &ldquo;%2$s&rdquo;"
 
-#: author-bio.php:12
-msgid "Published by"
-msgstr "Публикувано от"
-
 #: author-bio.php:34
 msgid "View all posts by %s"
 msgstr "Всички публикации от %s"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "Публикувано от"
 
 #: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
 #: image.php:63 index.php:48 search.php:40

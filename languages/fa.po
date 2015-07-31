@@ -2,39 +2,39 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-22 07:20:40+0000\n"
+"PO-Revision-Date: 2015-07-30 11:37:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Twenty Fifteen\n"
-
-#. translators: %s: post title
-#: inc/template-tags.php:123
-msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr "دیدگاهی <span class=\"screen-reader-text\"> برای %s</span> بگذارید"
-
-#: single.php:37
-msgid "Previous post:"
-msgstr "نوشته قبلی:"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 
-#: single.php:34
-msgid "Next post:"
-msgstr "نوشته بعدی:"
+#: single.php:37
+msgid "Previous post:"
+msgstr "تصویر پیشین:"
 
 #: single.php:36
 msgid "Previous"
 msgstr "پیشین"
 
+#: single.php:34
+msgid "Next post:"
+msgstr "نوشتۀ پسین:"
+
 #: single.php:33
 msgid "Next"
 msgstr "پسین"
+
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "دیدگاهی <span class=\"screen-reader-text\"> برای %s</span> بگذارید"
 
 #: search.php:18
 msgid "Search Results for: %s"
@@ -45,43 +45,43 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "اندازه کامل"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "برچسب‌ها"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "دسته‌ها"
 
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "ساختار"
-
-#: inc/template-tags.php:76
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "ارسال شده در"
-
-#: inc/template-tags.php:85
-msgctxt "Used before post author name."
-msgid "Author"
-msgstr "نویسنده"
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "برچسب‌ها"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "برگزیده"
+#: inc/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "نویسنده"
+
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "ارسال شده در"
+
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "ساختار"
 
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "دیدگاه‌های تازه‌تر"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "برگزیده"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -115,6 +115,22 @@ msgstr "تیره"
 msgid "Default"
 msgstr "پیش‌فرض"
 
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "در نمایشگرهای کوچک روی سربرگ اعمال می‌شود و در نمایشگرهای بزرگ روی ستون‌کناری."
+
+#: inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr "رنگ پس‌زمینه‌ی سربرگ و ستون‌کناری"
+
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "رنگ متن سربرگ و ستون‌کناری"
+
+#: inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr "شمای رنگ پایه"
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
@@ -123,22 +139,6 @@ msgstr "<span class=\"meta-nav\">منتشره در</span><span class=\"post-titl
 #: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "پوسته‌ی دو هزار و پانزده حداقل به وردپرس ۴,۱ احتیاج دارد. شما از نگارش %s استفاده می‌کنید. لطفاً پس از به‌روزرسانی دوباره تلاش کنید."
-
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "شمای رنگ پایه"
-
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "رنگ متن سربرگ و ستون‌کناری"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "در نمایشگرهای کوچک روی سربرگ اعمال می‌شود و در نمایشگرهای بزرگ روی ستون‌کناری."
-
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "رنگ پس‌زمینه‌ی سربرگ و ستون‌کناری"
 
 #: image.php:24
 msgid "Next Image"
@@ -156,15 +156,9 @@ msgstr "فهرست و ابزارک‌ها"
 msgid "Skip to content"
 msgstr "رفتن به محتوا"
 
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "off"
-
-#: functions.php:177
-msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr "off"
+#: functions.php:256
+msgid "collapse child menu"
+msgstr "بستن زیرفهرست"
 
 #: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
@@ -175,13 +169,15 @@ msgstr " "
 msgid "expand child menu"
 msgstr "بازکردن زیرفهرست"
 
-#: functions.php:256
-msgid "collapse child menu"
-msgstr "بستن زیرفهرست"
+#: functions.php:177
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "off"
 
-#: functions.php:133
-msgid "Widget Area"
-msgstr "محدوده ابزارک"
+#: functions.php:169
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "off"
 
 #: functions.php:135
 msgid "Add widgets here to appear in your sidebar."
@@ -192,6 +188,10 @@ msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:133
+msgid "Widget Area"
+msgstr "محدوده ابزارک"
+
 #: functions.php:86
 msgid "Social Links Menu"
 msgstr "فهرست شبکه‌های اجتماعی"
@@ -200,15 +200,15 @@ msgstr "فهرست شبکه‌های اجتماعی"
 msgid "Primary Menu"
 msgstr "فهرست اصلی"
 
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "با افتخار نیرو گرفته از %s"
+
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
-
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "با افتخار نیرو گرفته از %s"
 
 #: content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -224,7 +224,7 @@ msgstr "میخواهید اولین نوشته‌ی خود را منتشر کن�
 
 #: content-none.php:15
 msgid "Nothing Found"
-msgstr "چیزی پیدا نشد"
+msgstr "چیزی یافت نشد"
 
 #: content-link.php:56 content-page.php:35 content-search.php:28
 #: content-search.php:33 content.php:57 image.php:71
@@ -250,13 +250,13 @@ msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "%1$s دیدگاه برای «%2$s»"
 
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "دیدن همهٔ نوشته‌ها بر پایهٔ %s"
+
 #: author-bio.php:12
 msgid "Published by"
 msgstr "منتشرشده توسط"
-
-#: author-bio.php:34
-msgid "View all posts by %s"
-msgstr "مشاهده تمام نوشته‌های %s"
 
 #: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
 #: image.php:63 index.php:48 search.php:40
@@ -273,7 +273,7 @@ msgstr "برگه قبلی"
 
 #: 404.php:21
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "به نظر می‌رسد چیزی اینجا نیست. مایل هستید جستجو کنید؟"
+msgstr "به نظر می‌رسد چیزی در این مکان پیدا نشده. ممکن است جستجو کمک کند؟"
 
 #: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."

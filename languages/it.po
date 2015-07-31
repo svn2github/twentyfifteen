@@ -2,34 +2,34 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-02-09 08:31:14+0000\n"
+"PO-Revision-Date: 2015-07-30 11:37:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Twenty Fifteen\n"
-
-#: single.php:37
-msgid "Previous post:"
-msgstr "Articolo precedente:"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Il nostro tema predefinito per il 2015 è pulito, incentrato sul blog, e progettato per essere chiaro. La tipografia di Twenty Fifteen, semplice e diretta, è leggibile su schermi di varie larghezze, e si adatta a lingue differenti. L'abbiamo progettato utilizzando un approccio mobile-first, facendo sì che il contenuto avesse la priorità, a prescindere da quale dispositivo arrivino i tuoi visitatori, smartphone, tablet, laptop o computer desktop."
 
-#: single.php:34
-msgid "Next post:"
-msgstr "Articolo successivo:"
+#: single.php:37
+msgid "Previous post:"
+msgstr "Articolo precedente:"
 
 #: single.php:36
 msgid "Previous"
 msgstr "Precedente"
 
+#: single.php:34
+msgid "Next post:"
+msgstr "Articolo successivo:"
+
 #: single.php:33
 msgid "Next"
-msgstr "Successivo"
+msgstr "Avanti"
 
 #: search.php:18
 msgid "Search Results for: %s"
@@ -40,43 +40,43 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Dimensione reale"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Tag"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Categorie"
 
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "Formato"
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Tag"
 
-#: inc/template-tags.php:76
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "Scritto il"
+#: inc/template-tags.php:91 inc/template-tags.php:99
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ","
 
 #: inc/template-tags.php:85
 msgctxt "Used before post author name."
 msgid "Author"
 msgstr "Autore"
 
-#: inc/template-tags.php:91 inc/template-tags.php:99
-msgctxt "Used between list items, there is a space after the comma."
-msgid ", "
-msgstr ", "
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Scritto il"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "In evidenza"
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Formato"
 
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Nuovi commenti"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "In evidenza"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -110,6 +110,22 @@ msgstr "Scuro"
 msgid "Default"
 msgstr "Default"
 
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Applicato all'header su schermi piccoli ed alla sidebar su schermi ampi."
+
+#: inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr "Colore di sfondo della testata e della barra laterale"
+
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "Colore del testo della testata e della barra laterale"
+
+#: inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr "Schema colore di base"
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
@@ -118,22 +134,6 @@ msgstr "<span class=\"meta-nav\">Pubblicato in</span><span class=\"post-title\">
 #: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Fifteen richiede almeno WordPress 4.1. Al momento la versione installata è la %s. Per favore, aggiorna WordPress e riprova."
-
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "Schema colore di base"
-
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "Colore del testo della testata e della barra laterale"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Applicato all'header su schermi piccoli ed alla sidebar su schermi ampi."
-
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "Colore di sfondo della testata e della barra laterale"
 
 #: image.php:24
 msgid "Next Image"
@@ -151,32 +151,28 @@ msgstr "Menu e widget"
 msgid "Skip to content"
 msgstr "Vai al contenuto"
 
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "on"
+#: functions.php:256
+msgid "collapse child menu"
+msgstr "chiudi i menù child"
+
+#: functions.php:185
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:255
+msgid "expand child menu"
+msgstr "apri i menù child"
 
 #: functions.php:177
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:185
-msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
-msgid "no-subset"
-msgstr "Nessun subset"
-
-#: functions.php:255
-msgid "expand child menu"
-msgstr "apri i menù child"
-
-#: functions.php:256
-msgid "collapse child menu"
-msgstr "chiudi i menù child"
-
-#: functions.php:133
-msgid "Widget Area"
-msgstr "Area widget"
+#: functions.php:169
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
 
 #: functions.php:135
 msgid "Add widgets here to appear in your sidebar."
@@ -187,6 +183,10 @@ msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:133
+msgid "Widget Area"
+msgstr "Area Widget"
+
 #: functions.php:86
 msgid "Social Links Menu"
 msgstr "Menù social link"
@@ -195,15 +195,15 @@ msgstr "Menù social link"
 msgid "Primary Menu"
 msgstr "Menu principale"
 
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "Orgogliosamente fornito da %s"
+
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
-
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "Orgogliosamente motorizzato da %s"
 
 #: content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -228,7 +228,7 @@ msgstr "Modifica"
 
 #: content-link.php:36 content-page.php:25 content.php:38 image.php:59
 msgid "Pages:"
-msgstr "Pagine:"
+msgstr "Pagine: "
 
 #. translators: %s: Name of current post
 #: content-link.php:31 content.php:33 inc/template-tags.php:238
@@ -246,13 +246,13 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Un pensiero riguardo &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s pensieri riguardo &ldquo;%2$s&rdquo;"
 
-#: author-bio.php:12
-msgid "Published by"
-msgstr "Pubblicato da"
-
 #: author-bio.php:34
 msgid "View all posts by %s"
 msgstr "Leggi tutti gli articoli di %s"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "Pubblicato da"
 
 #: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
 #: image.php:63 index.php:48 search.php:40

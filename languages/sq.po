@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-02-09 08:35:55+0000\n"
+"PO-Revision-Date: 2015-07-30 11:37:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Twenty Fifteen\n"
 
 #. Description of the plugin/theme
@@ -32,43 +32,43 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Madhësi e plotë"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Etiketa"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Kategori"
 
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "Format"
-
-#: inc/template-tags.php:76
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "Postuar më"
-
-#: inc/template-tags.php:85
-msgctxt "Used before post author name."
-msgid "Author"
-msgstr "Autor"
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Etiketa"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "E zgjedhur"
+#: inc/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Autor"
+
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Postuar më"
+
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Format"
 
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Komentet Më të Reja"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "E zgjedhur"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -102,6 +102,22 @@ msgstr "I errët"
 msgid "Default"
 msgstr "Parazgjedhje"
 
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "E zbatuar te kryet në ekrane të vegjël dhe anështylla në ekrane të gjerë."
+
+#: inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr "Ngjyrë Sfondi Kryesh dhe Anështyllash"
+
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "Ngjyrë Teksti Kryesh dhe Anështyllash"
+
+#: inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr "Skemë Ngjyrash Bazë"
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
@@ -111,29 +127,13 @@ msgstr "<span class=\"meta-nav\">Botuar te</span><span class=\"post-title\">%tit
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Twenty Fifteen lyp të paktën versionin 4.1 të WordPress-it. Po xhironi versionin %s. Ju lutemi, përmirësojeni dhe riprovoni."
 
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "Skemë Ngjyrash Bazë"
-
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "Ngjyrë Teksti Kryesh dhe Anështyllash"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "E zbatuar te kryet në ekrane të vegjël dhe anështylla në ekrane të gjerë."
-
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "Ngjyrë Sfondi Kryesh dhe Anështyllash"
-
 #: image.php:24
 msgid "Next Image"
-msgstr "Figura Pasuese"
+msgstr "Figura pasuese"
 
 #: image.php:24
 msgid "Previous Image"
-msgstr "Figura e Mëparshme"
+msgstr "Figura e mëparshme"
 
 #: header.php:43
 msgid "Menu and widgets"
@@ -141,17 +141,11 @@ msgstr "Menu dhe widget-e"
 
 #: header.php:26
 msgid "Skip to content"
-msgstr "Hidhu te lënda"
+msgstr "Kaloni te lënda"
 
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "on"
-
-#: functions.php:177
-msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr "on"
+#: functions.php:256
+msgid "collapse child menu"
+msgstr "tkurreni menunë pjellë"
 
 #: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
@@ -162,13 +156,15 @@ msgstr "pa nëngrup"
 msgid "expand child menu"
 msgstr "zgjeroni menunë pjellë"
 
-#: functions.php:256
-msgid "collapse child menu"
-msgstr "tkurreni menunë pjellë"
+#: functions.php:177
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
 
-#: functions.php:133
-msgid "Widget Area"
-msgstr "Fushë Widget-esh"
+#: functions.php:169
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
 
 #: functions.php:135
 msgid "Add widgets here to appear in your sidebar."
@@ -179,6 +175,10 @@ msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:133
+msgid "Widget Area"
+msgstr "Fushë Widget-esh"
+
 #: functions.php:86
 msgid "Social Links Menu"
 msgstr "Menu Lidhjesh Shoqërore"
@@ -187,15 +187,15 @@ msgstr "Menu Lidhjesh Shoqërore"
 msgid "Primary Menu"
 msgstr "Menuja Parësore"
 
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "Bazohet me krenari në %s"
+
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
-
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "Bazohet me krenari në %s"
 
 #: content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -216,7 +216,7 @@ msgstr "Nuk u Gjet Gjë"
 #: content-link.php:56 content-page.php:35 content-search.php:28
 #: content-search.php:33 content.php:57 image.php:71
 msgid "Edit"
-msgstr "Përpunoni"
+msgstr "Përpuno"
 
 #: content-link.php:36 content-page.php:25 content.php:38 image.php:59
 msgid "Pages:"
@@ -238,13 +238,13 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Një mendim mbi &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s mendime mbi &ldquo;%2$s&rdquo;"
 
-#: author-bio.php:12
-msgid "Published by"
-msgstr "Botuar nga"
-
 #: author-bio.php:34
 msgid "View all posts by %s"
 msgstr "Shihni tërë postimet nga %s"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "Botuar nga"
 
 #: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
 #: image.php:63 index.php:48 search.php:40

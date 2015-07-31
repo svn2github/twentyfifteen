@@ -2,81 +2,81 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-05-27 23:14:38+0000\n"
+"PO-Revision-Date: 2015-07-30 11:37:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Twenty Fifteen\n"
-
-#: single.php:37
-msgid "Previous post:"
-msgstr "Попередній запис:"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Наша стандартна яскрава тема 2015 року створена для чіткості та націлена на блоги. Її просте оформлення дозволяє легко читати вміст на ріноманітних розширеннях екранів, також вона сумісна з багатьма мовами. Ми створювали її орієнтуючись на мобільні пристрої, це означає що ваш вміст буде на першому місці незалежно від того, який пристрій використовується: смартфон, планшет, чи комп’ютер."
 
+#: single.php:37
+msgid "Previous post:"
+msgstr "Попередній запис:"
+
+#: single.php:36
+msgid "Previous"
+msgstr "Попереднє"
+
 #: single.php:34
 msgid "Next post:"
 msgstr "Наступний запис:"
 
-#: single.php:36
-msgid "Previous"
-msgstr "Назад"
-
 #: single.php:33
 msgid "Next"
-msgstr "Вперед"
+msgstr "Наступне"
 
 #: search.php:18
 msgid "Search Results for: %s"
-msgstr "Результати пошуку для фрази: %s"
+msgstr "Пошукові результати для: %s"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Повний розмір"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Позначки"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Категорії"
 
-#: inc/template-tags.php:55
-msgctxt "Used before post format."
-msgid "Format"
-msgstr "Формат"
-
-#: inc/template-tags.php:76
-msgctxt "Used before publish date."
-msgid "Posted on"
-msgstr "Оприлюднено"
-
-#: inc/template-tags.php:85
-msgctxt "Used before post author name."
-msgid "Author"
-msgstr "Автор"
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Позначки"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ","
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Вибране"
+#: inc/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Автор"
+
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Оприлюднено"
+
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Формат"
 
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Новіші коментарі"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Вибране"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -110,6 +110,22 @@ msgstr "Темний"
 msgid "Default"
 msgstr "За замовчуванням"
 
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Застосовується до заголовка на маленьких екранах і до бічної колонки на широких."
+
+#: inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr "Колір фону заголовка та бічної колонки"
+
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "Колір тексту заголовка та бічної колонки"
+
+#: inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr "Основна кольорова схема"
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
@@ -118,22 +134,6 @@ msgstr "<span class=\"meta-nav\">Оприлюднено в</span><span class=\"p
 #: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
 msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
 msgstr "Тема Twenty Fifteen вимагає WordPress 4.1 або вище. У вас версія %s. Будь ласка, оновіть WordPress і спробуйте ще раз."
-
-#: inc/customizer.php:31
-msgid "Base Color Scheme"
-msgstr "Основна кольорова схема"
-
-#: inc/customizer.php:46
-msgid "Header and Sidebar Text Color"
-msgstr "Колір тексту заголовка та бічної колонки"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Застосовується до заголовка на маленьких екранах і до бічної колонки на широких."
-
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "Колір фону заголовка та бічної колонки"
 
 #: image.php:24
 msgid "Next Image"
@@ -149,17 +149,11 @@ msgstr "Меню та віджети"
 
 #: header.php:26
 msgid "Skip to content"
-msgstr "Перейти до вмісту"
+msgstr "Переміститись до тексту"
 
-#: functions.php:169
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "on"
-
-#: functions.php:177
-msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr "off"
+#: functions.php:256
+msgid "collapse child menu"
+msgstr "згорнути підменю"
 
 #: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
@@ -170,13 +164,15 @@ msgstr "cyrillic"
 msgid "expand child menu"
 msgstr "розгорнути підменю"
 
-#: functions.php:256
-msgid "collapse child menu"
-msgstr "згорнути підменю"
+#: functions.php:177
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "off"
 
-#: functions.php:133
-msgid "Widget Area"
-msgstr "Область віджетів"
+#: functions.php:169
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
 
 #: functions.php:135
 msgid "Add widgets here to appear in your sidebar."
@@ -187,23 +183,27 @@ msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:133
+msgid "Widget Area"
+msgstr "Область віджетів"
+
 #: functions.php:86
 msgid "Social Links Menu"
 msgstr "Меню соціальних посилань"
 
 #: functions.php:85
 msgid "Primary Menu"
-msgstr "Головне меню"
+msgstr "Основне меню"
+
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "Сайт працює на %s"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
-
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "Сайт працює на %s"
 
 #: content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -215,7 +215,7 @@ msgstr "Вибачте, за вашим запитом нічого не зна�
 
 #: content-none.php:22
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Готові опублікувати ваш перший пост? <a href=\"%1$s\">Почніть тут</a>."
+msgstr "Готові опублікувати свій перший запис? <a href=\"%1$s\">Почніть звідси</a>."
 
 #: content-none.php:15
 msgid "Nothing Found"
@@ -232,11 +232,11 @@ msgstr "Сторінки:"
 
 #: comments.php:53
 msgid "Comments are closed."
-msgstr "Коментарі закрито"
+msgstr "Коментарі закриті."
 
 #: author-bio.php:34
 msgid "View all posts by %s"
-msgstr "Подивитися всі записи автора %s"
+msgstr "Переглянути всі записи автора %s"
 
 #: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
 #: image.php:63 index.php:48 search.php:40
