@@ -199,7 +199,7 @@ msgstr "[ප්‍රාථමික මෙනුව"
 msgid "Proudly powered by %s"
 msgstr "%s විසින් සාඩම්බරයෙන් බලගැන්වෙයි"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.2)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
