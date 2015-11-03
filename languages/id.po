@@ -86,27 +86,27 @@ msgstr "Komentar Sebelumnya"
 msgid "Comment navigation"
 msgstr "Navigasi komentar"
 
-#: inc/customizer.php:147
+#: inc/customizer.php:168
 msgid "Blue"
 msgstr "Biru"
 
-#: inc/customizer.php:136
+#: inc/customizer.php:157
 msgid "Purple"
 msgstr "Ungu"
 
-#: inc/customizer.php:125
+#: inc/customizer.php:146
 msgid "Pink"
 msgstr "Pink"
 
-#: inc/customizer.php:114
+#: inc/customizer.php:135
 msgid "Yellow"
 msgstr "Kuning"
 
-#: inc/customizer.php:103
+#: inc/customizer.php:124
 msgid "Dark"
 msgstr "Gelap"
 
-#: inc/customizer.php:92
+#: inc/customizer.php:113
 msgid "Default"
 msgstr "Bawaan"
 

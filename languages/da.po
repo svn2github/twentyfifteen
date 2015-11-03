@@ -86,27 +86,27 @@ msgstr "Ældre kommentarer"
 msgid "Comment navigation"
 msgstr "Kommentar navigation"
 
-#: inc/customizer.php:147
+#: inc/customizer.php:168
 msgid "Blue"
 msgstr "Blå"
 
-#: inc/customizer.php:136
+#: inc/customizer.php:157
 msgid "Purple"
 msgstr "Lilla"
 
-#: inc/customizer.php:125
+#: inc/customizer.php:146
 msgid "Pink"
 msgstr "Lyserød"
 
-#: inc/customizer.php:114
+#: inc/customizer.php:135
 msgid "Yellow"
 msgstr "Gul"
 
-#: inc/customizer.php:103
+#: inc/customizer.php:124
 msgid "Dark"
 msgstr "M&#248;rk"
 
-#: inc/customizer.php:92
+#: inc/customizer.php:113
 msgid "Default"
 msgstr "Standard"
 

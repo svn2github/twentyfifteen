@@ -86,27 +86,27 @@ msgstr "Vanhemmat kommentit"
 msgid "Comment navigation"
 msgstr "Kommenttien selaus"
 
-#: inc/customizer.php:147
+#: inc/customizer.php:168
 msgid "Blue"
 msgstr "Sininen"
 
-#: inc/customizer.php:136
+#: inc/customizer.php:157
 msgid "Purple"
 msgstr "Violetti"
 
-#: inc/customizer.php:125
+#: inc/customizer.php:146
 msgid "Pink"
 msgstr "Vaaleanpunainen"
 
-#: inc/customizer.php:114
+#: inc/customizer.php:135
 msgid "Yellow"
 msgstr "Keltainen"
 
-#: inc/customizer.php:103
+#: inc/customizer.php:124
 msgid "Dark"
 msgstr "Tumma"
 
-#: inc/customizer.php:92
+#: inc/customizer.php:113
 msgid "Default"
 msgstr "Oletus"
 

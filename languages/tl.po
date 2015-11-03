@@ -86,27 +86,27 @@ msgstr "Mas Lumang Mga Komento "
 msgid "Comment navigation"
 msgstr "Comment navigation"
 
-#: inc/customizer.php:147
+#: inc/customizer.php:168
 msgid "Blue"
 msgstr "Asul"
 
-#: inc/customizer.php:136
+#: inc/customizer.php:157
 msgid "Purple"
 msgstr "Lila"
 
-#: inc/customizer.php:125
+#: inc/customizer.php:146
 msgid "Pink"
 msgstr "Rosas "
 
-#: inc/customizer.php:114
+#: inc/customizer.php:135
 msgid "Yellow"
 msgstr "Dilaw "
 
-#: inc/customizer.php:103
+#: inc/customizer.php:124
 msgid "Dark"
 msgstr "Madilim "
 
-#: inc/customizer.php:92
+#: inc/customizer.php:113
 msgid "Default"
 msgstr "Default"
 

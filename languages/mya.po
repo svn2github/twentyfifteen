@@ -86,27 +86,27 @@ msgstr "မှတ်ချက်ဟောင်းများ"
 msgid "Comment navigation"
 msgstr "မှတ်ချက် လမ်းကြောင်းများ"
 
-#: inc/customizer.php:147
+#: inc/customizer.php:168
 msgid "Blue"
 msgstr "အပြာ"
 
-#: inc/customizer.php:136
+#: inc/customizer.php:157
 msgid "Purple"
 msgstr "မရမ်း"
 
-#: inc/customizer.php:125
+#: inc/customizer.php:146
 msgid "Pink"
 msgstr "ပန်း"
 
-#: inc/customizer.php:114
+#: inc/customizer.php:135
 msgid "Yellow"
 msgstr "အဝါရောင်"
 
-#: inc/customizer.php:103
+#: inc/customizer.php:124
 msgid "Dark"
 msgstr "အမဲ"
 
-#: inc/customizer.php:92
+#: inc/customizer.php:113
 msgid "Default"
 msgstr "မူလသတ်မှတ်ချက်"
 
