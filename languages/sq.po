@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-30 11:37:12+0000\n"
+"PO-Revision-Date: 2015-11-03 14:57:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,9 +15,17 @@ msgstr ""
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Tema jonë parazgjedhje për 2015 është e qëruar, me synim blogjet, dhe e hartuar për qartësi. Tipografia e thjeshtë, e drejtpërdrejtë e Twenty Fifteen-it është e lexueshme qartë në një gamë të gjerë madhësish ekrani, dhe e përshtatshme për shumë gjuhë. E hartuam duke patur celularin në mendje pikësëpari, për të thënë që lënda juaj zë vendin qendror, pavarësisht se vizitorët vijnë nga një telefon, tablet, laptop, apo desktop."
 
+#: single.php:37
+msgid "Previous post:"
+msgstr "Postimi i mëparshëm:"
+
 #: single.php:36
 msgid "Previous"
 msgstr "I mëparshmi"
+
+#: single.php:34
+msgid "Next post:"
+msgstr "Postimi pasues:"
 
 #: single.php:33
 msgid "Next"
