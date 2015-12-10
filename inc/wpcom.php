@@ -24,8 +24,23 @@ function twentyfifteen_wpcom_setup() {
 			'url'    => '333333',
 		);
 	}
+
+	// Add theme support for Site Logo.
+	add_image_size( 'twentyfifteen-logo', 1466, 272 );
+	add_theme_support( 'site-logo', array( 'size' => 'twentyfifteen-logo' ) );
 }
 add_action( 'after_setup_theme', 'twentyfifteen_wpcom_setup' );
+
+/**
+ * Return early if Site Logo is not available.
+ */
+function twentyfifteen_the_site_logo() {
+	if ( ! function_exists( 'jetpack_the_site_logo' ) ) {
+		return;
+	} else {
+		jetpack_the_site_logo();
+	}
+}
 
 /**
  * De-queue Google fonts if custom fonts are being used instead.

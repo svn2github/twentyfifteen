@@ -641,6 +641,24 @@ img[id*="botd"] {
 }
 
 
+/*
+ * Site Logo support only for WP.com
+ */
+
+.site-logo-link {
+	display: block;
+}
+
+.site-logo {
+	max-height: 84px;
+	width: auto;
+}
+
+.has-site-logo .site-title {
+	margin-top: 0.545454545em;
+}
+
+
 /**
  * Media Queries
  */
@@ -746,6 +764,14 @@ img[id*="botd"] {
 	.wpcnt {
 		margin-bottom: 1.6471em;
 	}
+
+	.site-logo {
+		max-height: 105px;
+	}
+
+	.has-site-logo .site-title {
+		margin-top: 0.482758621em;
+	}
 }
 
 /* Tablet Large 880px */
@@ -810,6 +836,14 @@ img[id*="botd"] {
 
 	.wpcnt {
 		margin-bottom: 1.6842em;
+	}
+
+	.site-logo {
+		max-height: 104px;
+	}
+
+	.has-site-logo .site-title {
+		margin-top: 0.5em;
 	}
 }
 
@@ -880,6 +914,14 @@ img[id*="botd"] {
 	.wpcnt {
 		margin-bottom: 1.6em;
 	}
+
+	.site-logo {
+		max-height: 96px;
+	}
+
+	.has-site-logo .site-title {
+		margin-top: 0.545454545em;
+	}
 }
 
 /* Desktop Medium 1100px */
@@ -941,6 +983,14 @@ img[id*="botd"] {
 
 	.wpcnt {
 		margin-bottom: 1.6471em;
+	}
+
+	.site-logo {
+		max-height: 126px;
+	}
+
+	.has-site-logo .site-title {
+		margin-top: 0.583333333em;
 	}
 }
 
@@ -1010,6 +1060,14 @@ img[id*="botd"] {
 
 	.wpcnt {
 		margin-bottom: 1.6842em;
+	}
+
+	.site-logo {
+		max-height: 136px;
+	}
+
+	.has-site-logo .site-title {
+		margin-top: 0.592592593em;
 	}
 }
 
