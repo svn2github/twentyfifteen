@@ -143,7 +143,7 @@ msgstr "ඊළඟ රූපය"
 msgid "Previous Image"
 msgstr "පූර්ව රූපය"
 
-#: header.php:43
+#: header.php:45
 msgid "Menu and widgets"
 msgstr "මෙනුව සහ විජට්ටු"
 
@@ -199,7 +199,7 @@ msgstr "[ප්‍රාථමික මෙනුව"
 msgid "Proudly powered by %s"
 msgstr "%s විසින් සාඩම්බරයෙන් බලගැන්වෙයි"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"

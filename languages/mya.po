@@ -143,7 +143,7 @@ msgstr "နောက်ရုပ်ပုံ"
 msgid "Previous Image"
 msgstr "အရင်ရုပ်ပုံ"
 
-#: header.php:43
+#: header.php:45
 msgid "Menu and widgets"
 msgstr "မီနူးနှင့် ဝစ်ဂျက်များ"
 
@@ -199,7 +199,7 @@ msgstr "အဓိက မီနူး"
 msgid "Proudly powered by %s"
 msgstr "%s မှ ကူညီပံ့ပိုးထားသည်။"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"

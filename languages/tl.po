@@ -143,7 +143,7 @@ msgstr "Susunod na Larawan"
 msgid "Previous Image"
 msgstr "Nakaraang Larawan"
 
-#: header.php:43
+#: header.php:45
 msgid "Menu and widgets"
 msgstr "Menyu at mga widget"
 
@@ -199,7 +199,7 @@ msgstr "Primary Menu"
 msgid "Proudly powered by %s"
 msgstr "Pinalakas ng %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"

@@ -148,7 +148,7 @@ msgstr "اگلی تصویر"
 msgid "Previous Image"
 msgstr "پِچھلی تصویر"
 
-#: header.php:43
+#: header.php:45
 msgid "Menu and widgets"
 msgstr "مینیو اور ویجٹس"
 
@@ -204,7 +204,7 @@ msgstr "بنیادی مینیو"
 msgid "Proudly powered by %s"
 msgstr "کی فخریہ پیشکش %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"

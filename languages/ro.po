@@ -143,7 +143,7 @@ msgstr "Imaginea următoare"
 msgid "Previous Image"
 msgstr "Imaginea precedentă"
 
-#: header.php:43
+#: header.php:45
 msgid "Menu and widgets"
 msgstr "Meniu și widget-uri"
 
@@ -199,7 +199,7 @@ msgstr "Meniu principal"
 msgid "Proudly powered by %s"
 msgstr "Propulsat cu mândrie de %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"

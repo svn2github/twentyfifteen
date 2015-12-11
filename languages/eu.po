@@ -143,7 +143,7 @@ msgstr "Hurrengo irudia"
 msgid "Previous Image"
 msgstr "Aurreko irudia"
 
-#: header.php:43
+#: header.php:45
 msgid "Menu and widgets"
 msgstr "Menua eta widgetak"
 
@@ -199,7 +199,7 @@ msgstr "menu nagusia"
 msgid "Proudly powered by %s"
 msgstr "%s(e)kin eginda"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"

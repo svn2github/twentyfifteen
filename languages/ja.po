@@ -143,7 +143,7 @@ msgstr "次の画像"
 msgid "Previous Image"
 msgstr "前の画像"
 
-#: header.php:43
+#: header.php:45
 msgid "Menu and widgets"
 msgstr "﻿メニューとウィジェット"
 
@@ -199,7 +199,7 @@ msgstr "メインメニュー"
 msgid "Proudly powered by %s"
 msgstr "Proudly powered by %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
