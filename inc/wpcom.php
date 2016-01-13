@@ -48,10 +48,13 @@ function twentyfifteen_the_site_logo() {
  * @return void
  */
 function twentyfifteen_dequeue_fonts() {
-	if ( class_exists( 'TypekitData' ) && class_exists( 'CustomDesign' ) && CustomDesign::is_upgrade_active() ) {
-		$custom_fonts = TypekitData::get( 'families' );
-		if ( $custom_fonts && $custom_fonts['headings']['id'] && $custom_fonts['body-text']['id'] )
-			wp_dequeue_style( 'twentyfifteen-fonts' );
+	if ( class_exists( 'Jetpack_Fonts' ) && class_exists( 'CustomDesign' ) && CustomDesign::is_upgrade_active() ) {
+		if ( class_exists( 'TypekitUtil' ) ) {
+			$custom_fonts = Jetpack_Fonts::get_instance()->get_fonts();
+			if ( ! empty( $custom_fonts ) && TypekitUtil::any_selected_fonts( $custom_fonts ) ) {
+				wp_dequeue_style( 'twentyfifteen-fonts' );
+			}
+		}
 	}
 }
 add_action( 'wp_enqueue_scripts', 'twentyfifteen_dequeue_fonts' );
