@@ -199,7 +199,7 @@ msgstr "لومړۍ غورنۍ"
 msgid "Proudly powered by %s"
 msgstr "په ویاړ سره ځواکمن شوی په مرسته د %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"

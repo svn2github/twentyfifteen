@@ -182,7 +182,7 @@ msgstr "முதன்மை பட்டி"
 msgid "Proudly powered by %s"
 msgstr "பெருமையுடன் %s மூலம் இயக்கப்படுகிறது"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"

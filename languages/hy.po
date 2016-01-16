@@ -204,7 +204,7 @@ msgstr "Հիմնական ընտրացանկ"
 msgid "Proudly powered by %s"
 msgstr "Հպարտությամբ օժանդակվում է %s -ով"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
