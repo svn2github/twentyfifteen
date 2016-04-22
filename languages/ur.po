@@ -1,0 +1,281 @@
+# Translation of Twenty Fifteen in Urdu
+# This file is distributed under the same license as the Twenty Fifteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-27 21:26:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Twenty Fifteen\n"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/twentyfifteen/style.css
+msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
+msgstr "ہماری ۲۰۱۵ ڈیفالٹ تھیم صاف، بلاگ پہ توجہ والی اور شفافیت کے لیے وضع کی گئ ہے۔ ٹوینٹی ففٹین کی سادہ اور سیدھی لکھائی وسیع سکرین سائزوں پہ پڑھی جاسکتی ہے، اور کئی زبانوں کے لیے موزوں ہے۔ ہم نے اسے پہلے موبائل کے نقطہ نظر سے ڈیزائن کیا، مطلب آپکا مواد اہمیت لیتا ہے چاہے آپکے پڑھنے والے سمارٹ فون، ٹیبلیٹ، لیپ ٹاپ، یا ڈیسک ٹاپ کمپیوٹر کے زرئیعے آئیں۔"
+
+#: single.php:37
+msgid "Previous post:"
+msgstr "پچھلی تحریر:"
+
+#: single.php:36
+msgid "Previous"
+msgstr "پچھلی"
+
+#: single.php:34
+msgid "Next post:"
+msgstr "اَگلی تحریر:"
+
+#: single.php:33
+msgid "Next"
+msgstr "اگلا"
+
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s پر </span> تبصرہ کیجیے"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "کے لئے تلاش کے نتائج %s"
+
+#: inc/template-tags.php:113
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "پورا سائز"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "زمرے"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "ٹیگ"
+
+#: inc/template-tags.php:91 inc/template-tags.php:99
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr "، "
+
+#: inc/template-tags.php:85
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "مصنف"
+
+#: inc/template-tags.php:76
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "شائع کیا گیا"
+
+#: inc/template-tags.php:55
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "ڈھانچہ"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "نئے تبصرے"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "نمایاں"
+
+#: inc/template-tags.php:26
+msgid "Older Comments"
+msgstr "پرانے تبصرے"
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr "تبصرہ نیویگیشن"
+
+#: inc/customizer.php:168
+msgid "Blue"
+msgstr "نیلا"
+
+#: inc/customizer.php:157
+msgid "Purple"
+msgstr "جامنی"
+
+#: inc/customizer.php:146
+msgid "Pink"
+msgstr "گلابی"
+
+#: inc/customizer.php:135
+msgid "Yellow"
+msgstr "زرد"
+
+#: inc/customizer.php:124
+msgid "Dark"
+msgstr "گہرا"
+
+#: inc/customizer.php:113
+msgid "Default"
+msgstr "طےشدہ"
+
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "اطلاق چھوٹی سکرینوں پر ہیڈر پہ ہوتا ہے اور چوڑی سکرینوں پر سائیڈ بار پہ۔"
+
+#: inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr "ہیڈر اور سائیڈ بار کے پس منظر کا رنگ"
+
+#: inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr "ہیڈر اور سائیڈ بار کی لکھائ کا رنگ"
+
+#: inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr "رنگوں کا بنیادی امتزاج"
+
+#: image.php:84
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">اِس میں شائع شدہ</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "ٹونٹی ففٹین کو کم اَز کم وَرڈ پریس وَرژن ۴۔۱ کی ضرورت ہے۔ آپ ورژن %s استعمال کر رہے ہیں۔ برائے مہربانی اِسے نیا کر کے دوبارہ کوشش کیجیے۔ "
+
+#: image.php:24
+msgid "Next Image"
+msgstr "اگلی تصویر"
+
+#: image.php:24
+msgid "Previous Image"
+msgstr "پِچھلی تصویر"
+
+#: header.php:45
+msgid "Menu and widgets"
+msgstr "مینیو اور ویجٹس"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "تحریر کی طرف جایئے"
+
+#: functions.php:256
+msgid "collapse child menu"
+msgstr "چائلڈ مینیو بند کیجیے"
+
+#: functions.php:185
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "کوئی سب سیٹ نہیں"
+
+#: functions.php:255
+msgid "expand child menu"
+msgstr "چائلڈ مینیو کھولئیے"
+
+#: functions.php:177
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "استعمال"
+
+#: functions.php:169
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "استعمال"
+
+#: functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr "سائیڈ بار میں لانے کے لیے یہاں ویجیٹس شامل کیجیے"
+
+#: functions.php:161
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "استعمال"
+
+#: functions.php:133
+msgid "Widget Area"
+msgstr "ویجیٹ کی جگہ"
+
+#: functions.php:86
+msgid "Social Links Menu"
+msgstr "سماجی رابطوں کا مینیو"
+
+#: functions.php:85
+msgid "Primary Menu"
+msgstr "بنیادی مینیو"
+
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "کی فخریہ پیشکش %s"
+
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "لگتا ہے ہم وہ نہیں ڈھونڈ پا رہے جو آپ چاہ رہے ہیں۔ شاید تلاش مدد کرسکے۔"
+
+#: content-none.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "معزرت، مگر آپکی تلاش کا کوئی لفظ نہ مل سکا۔ برائے مہربانی کچھ دوسرے الفاظ سے دوبارہ کوشش کیجیے۔"
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "پہلی تحریر شائع کرنے کے لیے تیار ہیں؟ <a href=\"%1$s\">یہاں سے شروع کیجیے</a>۔"
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "کچھ نھیں ملا"
+
+#: content-link.php:56 content-page.php:35 content-search.php:28
+#: content-search.php:33 content.php:57 image.php:71
+msgid "Edit"
+msgstr "تدوین"
+
+#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
+msgid "Pages:"
+msgstr "صفحات:"
+
+#. translators: %s: Name of current post
+#: content-link.php:31 content.php:33 inc/template-tags.php:238
+msgid "Continue reading %s"
+msgstr "جاری رکھئیے پڑھنا %s"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "تبصرے بند ہیں."
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "ایک خیال &ldquo;%2$s&rdquo; پہ"
+msgstr[1] "%1$s خیالات &ldquo;%2$s&rdquo; پہ"
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "کی تمام تحاریر دیکھیں %s"
+
+#: author-bio.php:12
+msgid "Published by"
+msgstr "شائع کردہ"
+
+#: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
+#: image.php:63 index.php:48 search.php:40
+msgid "Page"
+msgstr "صفحہ"
+
+#: archive.php:50 index.php:47 search.php:39
+msgid "Next page"
+msgstr "اگلا صفحہ"
+
+#: archive.php:49 index.php:46 search.php:38
+msgid "Previous page"
+msgstr "پچھلا صفحہ"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "لگتا ہے اِس جگہ کچھ نہیں مل سکا۔ شلاش کی کوشش کیجیے؟"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوہ! وہ صفحہ نہیں مل سکا"
