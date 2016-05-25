@@ -1,5 +1,5 @@
-# Translation of Twenty Fifteen in Armenian
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of WordPress.com - Themes - Twenty Fifteen in Armenian
+# This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-08-04 15:43:45+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: hy_AM\n"
+"Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
@@ -31,29 +32,29 @@ msgstr "Հաջորդ գրառում՝"
 msgid "Next"
 msgstr "Հաջորդ"
 
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "%s որոնման արդյունքները"
+
 #. translators: %s: post title
 #: inc/template-tags.php:123
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Թողնել մեկնաբանություն<span class=\"screen-reader-text\"> %s-ի համար</span>"
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "%s որոնման արդյունքները"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Ամբողջ չափով"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Կարգեր"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Պիտակներ"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Կարգեր"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -115,13 +116,13 @@ msgstr "Մուգ"
 msgid "Default"
 msgstr "Լռելիությամբ"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Կիրառվում է էջագլխի նկատմամբ փոքր էկրանների վրա, և կողագոտու նկատմամբ՝ մեծ էկրանների վրա։"
-
 #: inc/customizer.php:62
 msgid "Header and Sidebar Background Color"
 msgstr "Էջագլխի և կողագոտու խորքի գույնը"
+
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Կիրառվում է էջագլխի նկատմամբ փոքր էկրանների վրա, և կողագոտու նկատմամբ՝ մեծ էկրանների վրա։"
 
 #: inc/customizer.php:46
 msgid "Header and Sidebar Text Color"
@@ -131,14 +132,14 @@ msgstr "Էջագլխի և կողագոտու գրվածք գույնը"
 msgid "Base Color Scheme"
 msgstr "Հիմնական գունային գամմա"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Երկու հազար տասնհինգ տեսաձևը պահանջում է WordPress-ի առնվազն 4.1 տարբերակը։ Ձեր ընթացիկ տարբերակն է՝ %s։ Խնդրում ենք արդիացնել և կրկին փորձել։"
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Հրատարակված</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Երկու հազար տասնհինգ տեսաձևը պահանջում է WordPress-ի առնվազն 4.1 տարբերակը։ Ձեր ընթացիկ տարբերակն է՝ %s։ Խնդրում ենք արդիացնել և կրկին փորձել։"
 
 #: image.php:24
 msgid "Next Image"
@@ -179,14 +180,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "off"
 
-#: functions.php:135
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Ավելացրեք այստեղ ցուցանակներ՝ կողագուտում ցուցադրելու համար։"
-
 #: functions.php:161
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "off"
+
+#: functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Ավելացրեք այստեղ ցուցանակներ՝ կողագուտում ցուցադրելու համար։"
 
 #: functions.php:133
 msgid "Widget Area"

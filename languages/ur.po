@@ -1,5 +1,5 @@
-# Translation of Twenty Fifteen in Urdu
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of WordPress.com - Themes - Twenty Fifteen in Urdu
+# This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-08-27 21:26:52+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: ur_PK\n"
+"Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
@@ -131,14 +132,14 @@ msgstr "ہیڈر اور سائیڈ بار کی لکھائ کا رنگ"
 msgid "Base Color Scheme"
 msgstr "رنگوں کا بنیادی امتزاج"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "ٹونٹی ففٹین کو کم اَز کم وَرڈ پریس وَرژن ۴۔۱ کی ضرورت ہے۔ آپ ورژن %s استعمال کر رہے ہیں۔ برائے مہربانی اِسے نیا کر کے دوبارہ کوشش کیجیے۔ "
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">اِس میں شائع شدہ</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "ٹونٹی ففٹین کو کم اَز کم وَرڈ پریس وَرژن ۴۔۱ کی ضرورت ہے۔ آپ ورژن %s استعمال کر رہے ہیں۔ برائے مہربانی اِسے نیا کر کے دوبارہ کوشش کیجیے۔ "
 
 #: image.php:24
 msgid "Next Image"

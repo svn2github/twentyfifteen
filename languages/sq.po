@@ -1,5 +1,5 @@
-# Translation of Twenty Fifteen in Albanian
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of WordPress.com - Themes - Twenty Fifteen in Albanian
+# This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-12-10 13:49:36+0000\n"
@@ -7,8 +7,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Language: sq_AL\n"
+"Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
@@ -31,14 +32,14 @@ msgstr "Postimi pasues:"
 msgid "Next"
 msgstr "Pasuesja"
 
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Përfundime Kërkimi për: %s"
+
 #. translators: %s: post title
 #: inc/template-tags.php:123
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Lini një koment <span class=\"screen-reader-text\"> te %s</span>"
-
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "Përfundime Kërkimi për: %s"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
