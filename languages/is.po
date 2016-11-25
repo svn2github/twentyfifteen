@@ -1,14 +1,15 @@
-# Translation of Twenty Fifteen in Icelandic
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of WordPress.com - Themes - Twenty Fifteen in Icelandic
+# This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-30 11:37:11+0000\n"
+"PO-Revision-Date: 2016-11-24 18:19:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n % 100 != 1 && n % 100 != 21 && n % 100 != 31 && n % 100 != 41 && n % 100 != 51 && n % 100 != 61 && n % 100 != 71 && n % 100 != 81 && n % 100 != 91);\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: is\n"
+"Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
@@ -35,20 +36,25 @@ msgstr "Næst"
 msgid "Search Results for: %s"
 msgstr "Leitarniðurstöður fyrir: %s"
 
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Skrifa athugasemd<span class=\"screen-reader-text\"> við %s</span>"
+
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Upprunaleg stærð"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Flokkar"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Efnisorð"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Flokkar"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -70,13 +76,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Snið"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Nýrri athugasemdir"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Efst á baugi"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Nýrri athugasemdir"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -110,13 +116,13 @@ msgstr "Dökkur"
 msgid "Default"
 msgstr "Sjálfgildur"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Virkjað fyrir haus á minni skjám og á hliðarslá á víðari skjám."
-
 #: inc/customizer.php:62
 msgid "Header and Sidebar Background Color"
 msgstr "Bakgrunnslitur hauss og hliðarslár"
+
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Virkjað fyrir haus á minni skjám og á hliðarslá á víðari skjám."
 
 #: inc/customizer.php:46
 msgid "Header and Sidebar Text Color"
@@ -126,14 +132,14 @@ msgstr "Leturlitur í haus og hliðarslá"
 msgid "Base Color Scheme"
 msgstr "Grunn litaþema"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen þarf WordPress útgáfu 4.1 eða nýrra. Þú ert að keyra útgáfu %s. Vinsamlegast uppfærðu og reyndu aftur."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Birt í</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen þarf WordPress útgáfu 4.1 eða nýrra. Þú ert að keyra útgáfu %s. Vinsamlegast uppfærðu og reyndu aftur."
 
 #: image.php:24
 msgid "Next Image"
@@ -155,14 +161,14 @@ msgstr "Fara að efni"
 msgid "collapse child menu"
 msgstr "loka undirvalmynd"
 
+#: functions.php:255
+msgid "expand child menu"
+msgstr "opna undirvalmynd"
+
 #: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
-
-#: functions.php:255
-msgid "expand child menu"
-msgstr "opna undirvalmynd"
 
 #: functions.php:177
 msgctxt "Inconsolata font: on or off"
@@ -174,14 +180,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "virkt"
 
-#: functions.php:135
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Bættu við síðuhlutum hér til þess að birta þá í hliðarslánni þinni."
-
 #: functions.php:161
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "virkt"
+
+#: functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Bættu við síðuhlutum hér til þess að birta þá í hliðarslánni þinni."
 
 #: functions.php:133
 msgid "Widget Area"
