@@ -23,30 +23,6 @@
 	margin-bottom: 1.6em;
 }
 
-
-/**
- * Genericons
- */
-
-.time-machine-navigation a:before,
-.time-machine-navigation a:after {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	display: inline-block;
-	font-family: "Genericons";
-	font-size: 16px;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	line-height: 1;
-	speak: none;
-	text-align: center;
-	text-decoration: inherit;
-	text-transform: none;
-	vertical-align: top;
-}
-
-
 /**
  * Jetpack Cpmments (WP.com)
  */
@@ -504,38 +480,6 @@ div.jp-relatedposts .jp-relatedposts-headline em:after {
 	margin-bottom: -5px;
 }
 
-/* Time Machine Widget */
-.time-machine-date,
-.time-machine-navigation {
-	font-family: "Noto Sans", sans-serif;
-	font-size: 1.2rem;
-	font-size: 12px;
-	line-height: 1.5;
-}
-
-.time-machine-post-title,
-.time-machine-image {
-	margin-bottom: 1.6em;
-}
-
-.time-machine-navigation a {
-	cursor: pointer;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-.time-machine-navigation .time-machine-older:before {
-	content: "\f430";
-	margin-right: 0.2em;
-	position: relative;
-}
-
-.time-machine-navigation .time-machine-newer:after {
-	content: "\f429";
-	margin-left: 0.2em;
-	position: relative;
-}
-
 /* Top Rated Widget */
 .top_rated div > p {
 	font-family: "Noto Sans", sans-serif;
@@ -725,25 +669,6 @@ img[id*="botd"] {
 		padding: 0 0 0.75em 0.75em;
 	}
 
-	.time-machine-post-title,
-	.time-machine-image {
-		margin-bottom: 1.5em;
-	}
-
-	.time-machine-date,
-	.time-machine-navigation {
-		font-size: inherit;
-	}
-
-	.time-machine-navigation .time-machine-older:before,
-	.time-machine-navigation .time-machine-newer:after {
-		top: 2px;
-	}
-
-	.top_rated div > p {
-		margin-bottom: 0.9643em;
-	}
-
 	.widget_authors li,
 	.widget_jp_blogs_i_follow li,
 	.widget_blog-stats li,
@@ -806,11 +731,6 @@ img[id*="botd"] {
 
 	.widget_blog_subscription #subscribe-field {
 		padding: 0.75em !important;
-	}
-
-	.time-machine-navigation .time-machine-older:before,
-	.time-machine-navigation .time-machine-newer:after {
-		top: 3px;
 	}
 
 	.top_rated div > p {
@@ -885,11 +805,6 @@ img[id*="botd"] {
 		margin-bottom: 20%;
 	}
 
-	.time-machine-navigation .time-machine-older:before,
-	.time-machine-navigation .time-machine-newer:after {
-		top: 0;
-	}
-
 	.top_rated div > p {
 		margin-bottom: 0.4583em;
 	}
@@ -951,13 +866,6 @@ img[id*="botd"] {
 
 	.widget_blog_subscription #subscribe-field {
 		padding: 0.5em !important;
-	}
-
-	.time-machine-date,
-	.time-machine-navigation {
-		font-size: 1.2rem;
-		font-size: 12px;
-		line-height: 1.4583;
 	}
 
 	.top_rated div > p {
@@ -1028,13 +936,6 @@ img[id*="botd"] {
 	.hentry .wpcom-reblog-snapshot p.reblogger-headline,
 	.hentry .wpcom-reblog-snapshot p.reblog-from {
 		margin-bottom: 1.6842em;
-	}
-
-	.time-machine-date,
-	.time-machine-navigation {
-		font-size: 1.3rem;
-		font-size: 13px;
-		line-height: 1.5384;
 	}
 
 	.top_rated div > p {
