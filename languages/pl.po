@@ -2,14 +2,18 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-01-11 22:48:35+0000\n"
+"PO-Revision-Date: 2017-03-23 09:28:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: GlotPress/2.3.0-alpha\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: pl\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
+
+#: inc/wpcom-colors.php:9
+msgid "Background"
+msgstr "Tło"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
@@ -116,7 +120,7 @@ msgstr "Ciemny"
 msgid "Default"
 msgstr "Domyślny"
 
-#: inc/customizer.php:62
+#: inc/customizer.php:62 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Kolor tła nagłówka i panelu bocznego"
 
@@ -124,7 +128,7 @@ msgstr "Kolor tła nagłówka i panelu bocznego"
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Stosuje się do nagłówka na małych ekranach i panelu bocznego na szerokich ekranach."
 
-#: inc/customizer.php:46
+#: inc/customizer.php:46 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "Kolor tekstu w nagłówku i panelu bocznym"
 

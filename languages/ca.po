@@ -1,14 +1,19 @@
-# Translation of Twenty Fifteen in Catalan
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of WordPress.com - Themes - Twenty Fifteen in Catalan
+# This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-30 11:37:12+0000\n"
+"PO-Revision-Date: 2017-03-23 09:28:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ca\n"
+"Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
+
+#: inc/wpcom-colors.php:9
+msgid "Background"
+msgstr "Fons"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
@@ -40,15 +45,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Mida sencera"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Categories"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Etiquetes"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Categories"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -70,13 +75,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Format"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Comentaris recents"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Destacat"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Comentaris recents"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -110,15 +115,15 @@ msgstr "Fosc"
 msgid "Default"
 msgstr "Predeterminat"
 
+#: inc/customizer.php:62 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Color de fons de la capçalera i barra lateral"
+
 #: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "S'aplica a la capçalera de pantalles petites i a la barra lateral en pantalles amples."
 
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "Color de fons de la capçalera i barra lateral"
-
-#: inc/customizer.php:46
+#: inc/customizer.php:46 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "Color del text de la capçalera i barra lateral"
 
@@ -126,14 +131,14 @@ msgstr "Color del text de la capçalera i barra lateral"
 msgid "Base Color Scheme"
 msgstr "Esquema de color base"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "El tema Twenty Fifteen necessita, almenys, de la versió 4.1 del WordPress. Esteu executant la versió %s. Actualitzeu i torneu a provar."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Publicat en</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "El tema Twenty Fifteen necessita, almenys, de la versió 4.1 del WordPress. Esteu executant la versió %s. Actualitzeu i torneu a provar."
 
 #: image.php:24
 msgid "Next Image"
@@ -155,14 +160,14 @@ msgstr "Vés al contingut"
 msgid "collapse child menu"
 msgstr "contrau el menú fill"
 
+#: functions.php:255
+msgid "expand child menu"
+msgstr "amplia el menú fill"
+
 #: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
-
-#: functions.php:255
-msgid "expand child menu"
-msgstr "amplia el menú fill"
 
 #: functions.php:177
 msgctxt "Inconsolata font: on or off"
@@ -174,14 +179,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "activa"
 
-#: functions.php:135
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Afegix ginys aquí que apareixeran a la barra lateral."
-
 #: functions.php:161
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "activa"
+
+#: functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Afegix ginys aquí que apareixeran a la barra lateral."
 
 #: functions.php:133
 msgid "Widget Area"

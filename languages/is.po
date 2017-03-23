@@ -2,14 +2,18 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-11-24 18:19:04+0000\n"
+"PO-Revision-Date: 2017-03-23 09:28:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n % 100 != 1 && n % 100 != 21 && n % 100 != 31 && n % 100 != 41 && n % 100 != 51 && n % 100 != 61 && n % 100 != 71 && n % 100 != 81 && n % 100 != 91);\n"
-"X-Generator: GlotPress/2.3.0-alpha\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: is\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
+
+#: inc/wpcom-colors.php:9
+msgid "Background"
+msgstr "Bakgrunnur"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
@@ -116,7 +120,7 @@ msgstr "Dökkur"
 msgid "Default"
 msgstr "Sjálfgildur"
 
-#: inc/customizer.php:62
+#: inc/customizer.php:62 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Bakgrunnslitur hauss og hliðarslár"
 
@@ -124,7 +128,7 @@ msgstr "Bakgrunnslitur hauss og hliðarslár"
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Virkjað fyrir haus á minni skjám og á hliðarslá á víðari skjám."
 
-#: inc/customizer.php:46
+#: inc/customizer.php:46 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "Leturlitur í haus og hliðarslá"
 

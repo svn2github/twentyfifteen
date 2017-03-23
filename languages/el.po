@@ -1,14 +1,23 @@
-# Translation of Twenty Fifteen in Greek
-# This file is distributed under the same license as the Twenty Fifteen package.
+# Translation of WordPress.com - Themes - Twenty Fifteen in Greek
+# This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-07-30 11:37:12+0000\n"
+"PO-Revision-Date: 2017-03-23 09:28:49+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.0-alpha-1100\n"
-"Project-Id-Version: Twenty Fifteen\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: el_GR\n"
+"Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
+
+#: inc/wpcom-colors.php:110
+msgid "Header and Sidebar Link Color"
+msgstr "Χρώμα Συνδέσμων Κεφαλίδας και Πλευρικής Στήλης"
+
+#: inc/wpcom-colors.php:9
+msgid "Background"
+msgstr "Φόντο"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/twentyfifteen/style.css
@@ -40,15 +49,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Πλήρη μέγεθος"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Κατηγορίες"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Ετικέτες"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Κατηγορίες"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -70,13 +79,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Μορφή"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Νεώτερα σχόλια"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Προβεβλημένα"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Νεώτερα σχόλια"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -110,15 +119,15 @@ msgstr "Σκούρο"
 msgid "Default"
 msgstr "Προεπιλεγμένο"
 
+#: inc/customizer.php:62 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Χρώμα Παρασκηνίου Επικεφαλίδας και Πλευρικής Στήλης"
+
 #: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Εφαρμόζεται στην επικεφαλίδα στις μικρότερες οθόνες και στην πλάγια στήλη στις πιο πλατιές."
 
-#: inc/customizer.php:62
-msgid "Header and Sidebar Background Color"
-msgstr "Χρώμα Παρασκηνίου Επικεφαλίδας και Πλευρικής Στήλης"
-
-#: inc/customizer.php:46
+#: inc/customizer.php:46 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "Χρώμα Κειμένου Επικεφαλίδας και ΠΛάγιας Στήλης"
 
@@ -126,14 +135,14 @@ msgstr "Χρώμα Κειμένου Επικεφαλίδας και ΠΛάγια
 msgid "Base Color Scheme"
 msgstr "Βασικό Χρωματικό Θέμα"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Το Twenty Fifteen απαιτεί τουλάχιστον την έκδοση 4.1 του WordPress. Αυτή τη στιγμή χρησιμοποιείτε την έκδοση %s. Παρακαλούμε αναβαθμίστε και προσπαθήστε ξανά."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Δημοσιεύθηκε στο</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Το Twenty Fifteen απαιτεί τουλάχιστον την έκδοση 4.1 του WordPress. Αυτή τη στιγμή χρησιμοποιείτε την έκδοση %s. Παρακαλούμε αναβαθμίστε και προσπαθήστε ξανά."
 
 #: image.php:24
 msgid "Next Image"
@@ -155,14 +164,14 @@ msgstr "Μετάβαση σε περιεχόμενο"
 msgid "collapse child menu"
 msgstr "άνοιγμα υπό-μενού"
 
+#: functions.php:255
+msgid "expand child menu"
+msgstr "επέκταση του μενού απόγονος"
+
 #: functions.php:185
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "χωρίς-υποσύνολο"
-
-#: functions.php:255
-msgid "expand child menu"
-msgstr "επέκταση του μενού απόγονος"
 
 #: functions.php:177
 msgctxt "Inconsolata font: on or off"
@@ -174,14 +183,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "ενεργό"
 
-#: functions.php:135
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Προσθέστε μονάδες εδώ ώστε να εμφανιστούν στην πλευρική στήλη."
-
 #: functions.php:161
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "ενεργό"
+
+#: functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Προσθέστε μονάδες εδώ ώστε να εμφανιστούν στην πλευρική στήλη."
 
 #: functions.php:133
 msgid "Widget Area"
