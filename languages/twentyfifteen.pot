@@ -1,14 +1,14 @@
-# Copyright (C) 2016 the WordPress team
+# Copyright (C) 2017 the WordPress team
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Fifteen 1.4-wpcom\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/twentyfifteen\n"
-"POT-Creation-Date: 2016-01-16 03:55:49+00:00\n"
+"POT-Creation-Date: 2017-03-23 09:28:45+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Base Color Scheme"
 msgstr ""
 
-#: inc/customizer.php:46
+#: inc/customizer.php:46 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr ""
 
@@ -182,7 +182,7 @@ msgstr ""
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr ""
 
-#: inc/customizer.php:62
+#: inc/customizer.php:62 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr ""
 
@@ -264,6 +264,14 @@ msgstr ""
 #. translators: %s: post title
 #: inc/template-tags.php:123
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/wpcom-colors.php:9
+msgid "Background"
+msgstr ""
+
+#: inc/wpcom-colors.php:110
+msgid "Header and Sidebar Link Color"
 msgstr ""
 
 #: search.php:18
