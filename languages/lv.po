@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-23 09:28:49+0000\n"
+"PO-Revision-Date: 2017-03-26 14:45:18+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,6 +43,11 @@ msgstr "Nākamais"
 #: search.php:18
 msgid "Search Results for: %s"
 msgstr "Meklēšanas rezultāti: %s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Rakstiet komentāru<span class=\"screen-reader-text\"> on %s</span>"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
@@ -247,6 +252,14 @@ msgstr "Turpināt %s lasīšanu"
 #: comments.php:53
 msgid "Comments are closed."
 msgstr "Komentāri ir slēgti."
+
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Viena doma par &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s domas par &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s domu par &ldquo;%2$s&rdquo;"
 
 #: author-bio.php:34
 msgid "View all posts by %s"
