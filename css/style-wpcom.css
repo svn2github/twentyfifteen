@@ -570,7 +570,8 @@ div.jp-relatedposts .jp-relatedposts-headline em:after {
  * VideoPress quickfix
  */
 
-.video-player {
+.video-player,
+.widget_media_video iframe[src*='videopress.com'] {
 	height: auto !important;
 	margin: 0 !important;
 }
