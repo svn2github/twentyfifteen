@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-23 09:28:49+0000\n"
+"PO-Revision-Date: 2017-07-27 11:51:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -233,7 +233,7 @@ msgstr "Ничего не найдено"
 #: content-link.php:56 content-page.php:35 content-search.php:28
 #: content-search.php:33 content.php:57 image.php:71
 msgid "Edit"
-msgstr "Изменить"
+msgstr "Править"
 
 #: content-link.php:36 content-page.php:25 content.php:38 image.php:59
 msgid "Pages:"
