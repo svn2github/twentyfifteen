@@ -538,6 +538,14 @@ div.jp-relatedposts .jp-relatedposts-headline em:after {
 	padding-top: 0.7667em;
 }
 
+/* Tag cloud */
+.wp_widget_tag_cloud ul {
+	list-style-type: none;
+}
+
+.wp_widget_tag_cloud ul li {
+	display: inline-block;
+}
 
 /**
  * Syntax Highlighter
