@@ -95,43 +95,43 @@ msgstr "이전 댓글"
 msgid "Comment navigation"
 msgstr "댓글 탐색"
 
-#: inc/customizer.php:168
+#: inc/customizer.php:205
 msgid "Blue"
 msgstr "파란색"
 
-#: inc/customizer.php:157
+#: inc/customizer.php:194
 msgid "Purple"
 msgstr "보라"
 
-#: inc/customizer.php:146
+#: inc/customizer.php:183
 msgid "Pink"
 msgstr "분홍"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:172
 msgid "Yellow"
 msgstr "노랑"
 
-#: inc/customizer.php:124
+#: inc/customizer.php:161
 msgid "Dark"
 msgstr "어두움"
 
-#: inc/customizer.php:113
+#: inc/customizer.php:150
 msgid "Default"
 msgstr "기본"
 
-#: inc/customizer.php:62 inc/wpcom-colors.php:75
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "헤더 및 사이드바 배경 색상"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "작은 화면에서는 헤더에, 큰 화면에서는 사이드바에 적용됩니다."
 
-#: inc/customizer.php:46 inc/wpcom-colors.php:147
+#: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "헤더 및 사이드바 텍스트 색상"
 
-#: inc/customizer.php:31
+#: inc/customizer.php:44
 msgid "Base Color Scheme"
 msgstr "기본 색상 구조"
 
@@ -160,39 +160,39 @@ msgstr "메뉴와 위젯"
 msgid "Skip to content"
 msgstr "콘텐츠로 바로가기"
 
-#: functions.php:256
+#: functions.php:272
 msgid "collapse child menu"
 msgstr "하위 메뉴 축소"
 
-#: functions.php:255
+#: functions.php:271
 msgid "expand child menu"
 msgstr "하위 메뉴 확장"
 
-#: functions.php:185
+#: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "서브셋 없음"
 
-#: functions.php:177
+#: functions.php:193
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "켜기"
 
-#: functions.php:169
+#: functions.php:185
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "켜기"
 
-#: functions.php:161
+#: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "켜기"
 
-#: functions.php:135
+#: functions.php:151
 msgid "Add widgets here to appear in your sidebar."
 msgstr "사이드바에 나타나도록 하려면 여기에 위젯을 추가하세요."
 
-#: functions.php:133
+#: functions.php:149
 msgid "Widget Area"
 msgstr "위젯 영역"
 
@@ -208,7 +208,7 @@ msgstr "주 메뉴"
 msgid "Proudly powered by %s"
 msgstr "%s의 지원을 받습니다"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.9-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
@@ -244,15 +244,9 @@ msgstr "페이지:"
 msgid "Continue reading %s"
 msgstr "%s 더보기"
 
-#: comments.php:53
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "댓글이 마감 됐습니다."
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "&ldquo;%2$s&rdquo;의 %1$s개의 생각"
 
 #: author-bio.php:34
 msgid "View all posts by %s"

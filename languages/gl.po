@@ -91,43 +91,43 @@ msgstr "Comentarios máis antigos"
 msgid "Comment navigation"
 msgstr "Navegación de comentarios"
 
-#: inc/customizer.php:168
+#: inc/customizer.php:205
 msgid "Blue"
 msgstr "Azul"
 
-#: inc/customizer.php:157
+#: inc/customizer.php:194
 msgid "Purple"
 msgstr "Vermello"
 
-#: inc/customizer.php:146
+#: inc/customizer.php:183
 msgid "Pink"
 msgstr "Rosa"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:172
 msgid "Yellow"
 msgstr "Amarelo"
 
-#: inc/customizer.php:124
+#: inc/customizer.php:161
 msgid "Dark"
 msgstr "Escuro"
 
-#: inc/customizer.php:113
+#: inc/customizer.php:150
 msgid "Default"
 msgstr "Por Defecto"
 
-#: inc/customizer.php:62 inc/wpcom-colors.php:75
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Cor de Fondo da Cabeceira e Barra lateral "
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Aplicado á cabeceira en pantallas pequenas e a barra lateral en pantallas anchas."
 
-#: inc/customizer.php:46 inc/wpcom-colors.php:147
+#: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "Cor do Texto da Cabeceira e Barra lateral"
 
-#: inc/customizer.php:31
+#: inc/customizer.php:44
 msgid "Base Color Scheme"
 msgstr "Esquema de cores de base"
 
@@ -156,39 +156,39 @@ msgstr "Menú e Widgets"
 msgid "Skip to content"
 msgstr "Ir o contido"
 
-#: functions.php:256
+#: functions.php:272
 msgid "collapse child menu"
 msgstr "colapsar menú fillo"
 
-#: functions.php:255
+#: functions.php:271
 msgid "expand child menu"
 msgstr "expandir menú fillo"
 
-#: functions.php:185
+#: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:177
+#: functions.php:193
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "aceso"
 
-#: functions.php:169
+#: functions.php:185
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "aceso"
 
-#: functions.php:161
+#: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "aceso"
 
-#: functions.php:135
+#: functions.php:151
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Engadir widgets aquí para aparecer na súa barra lateral."
 
-#: functions.php:133
+#: functions.php:149
 msgid "Widget Area"
 msgstr "Área de Widgets"
 
@@ -204,7 +204,7 @@ msgstr "Menú principal"
 msgid "Proudly powered by %s"
 msgstr "Basado en %s traducido por egalego.com"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.9-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
@@ -240,16 +240,9 @@ msgstr "Paxinas:"
 msgid "Continue reading %s"
 msgstr "Continúe lendo %s"
 
-#: comments.php:53
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "Comentarios pechados."
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Unha idea sobre &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s pensamentos sobre &ldquo;%2$s&rdquo;"
 
 #: author-bio.php:34
 msgid "View all posts by %s"

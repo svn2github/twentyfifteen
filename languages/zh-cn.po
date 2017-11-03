@@ -95,43 +95,43 @@ msgstr "较早评论"
 msgid "Comment navigation"
 msgstr "评论导航"
 
-#: inc/customizer.php:168
+#: inc/customizer.php:205
 msgid "Blue"
 msgstr "蓝色"
 
-#: inc/customizer.php:157
+#: inc/customizer.php:194
 msgid "Purple"
 msgstr "紫色"
 
-#: inc/customizer.php:146
+#: inc/customizer.php:183
 msgid "Pink"
 msgstr "粉色"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:172
 msgid "Yellow"
 msgstr "黄色"
 
-#: inc/customizer.php:124
+#: inc/customizer.php:161
 msgid "Dark"
 msgstr "暗色"
 
-#: inc/customizer.php:113
+#: inc/customizer.php:150
 msgid "Default"
 msgstr "默认"
 
-#: inc/customizer.php:62 inc/wpcom-colors.php:75
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "顶部和侧边栏背景颜色"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "在较小的屏幕上将应用到顶部，在较宽的屏幕上将应用到侧边栏。"
 
-#: inc/customizer.php:46 inc/wpcom-colors.php:147
+#: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "顶部和侧边栏文字颜色"
 
-#: inc/customizer.php:31
+#: inc/customizer.php:44
 msgid "Base Color Scheme"
 msgstr "基础配色方案"
 
@@ -160,39 +160,39 @@ msgstr "菜单和挂件"
 msgid "Skip to content"
 msgstr "跳转到内容"
 
-#: functions.php:256
+#: functions.php:272
 msgid "collapse child menu"
 msgstr "折叠子菜单"
 
-#: functions.php:255
+#: functions.php:271
 msgid "expand child menu"
 msgstr "展开子菜单"
 
-#: functions.php:185
+#: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:177
+#: functions.php:193
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:169
+#: functions.php:185
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:161
+#: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:135
+#: functions.php:151
 msgid "Add widgets here to appear in your sidebar."
 msgstr "将挂件加入此处来在侧边栏中显示。"
 
-#: functions.php:133
+#: functions.php:149
 msgid "Widget Area"
 msgstr "挂件区域"
 
@@ -208,7 +208,7 @@ msgstr "主菜单"
 msgid "Proudly powered by %s"
 msgstr "由 %s 强力驱动"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.9-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
@@ -244,15 +244,9 @@ msgstr "页码："
 msgid "Continue reading %s"
 msgstr "继续阅读%s"
 
-#: comments.php:53
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "评论已关闭。"
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "《%2$s》有%1$s个想法"
 
 #: author-bio.php:34
 msgid "View all posts by %s"

@@ -95,43 +95,43 @@ msgstr "Komentar Sebelumnya"
 msgid "Comment navigation"
 msgstr "Navigasi komentar"
 
-#: inc/customizer.php:168
+#: inc/customizer.php:205
 msgid "Blue"
 msgstr "Biru"
 
-#: inc/customizer.php:157
+#: inc/customizer.php:194
 msgid "Purple"
 msgstr "Ungu"
 
-#: inc/customizer.php:146
+#: inc/customizer.php:183
 msgid "Pink"
 msgstr "Pink"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:172
 msgid "Yellow"
 msgstr "Kuning"
 
-#: inc/customizer.php:124
+#: inc/customizer.php:161
 msgid "Dark"
 msgstr "Gelap"
 
-#: inc/customizer.php:113
+#: inc/customizer.php:150
 msgid "Default"
 msgstr "Bawaan"
 
-#: inc/customizer.php:62 inc/wpcom-colors.php:75
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Warna Latar Header dan Bilah Sisi"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Diterapkan ke header pada layar kecil dan bilah sisi pada layar lebar."
 
-#: inc/customizer.php:46 inc/wpcom-colors.php:147
+#: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "Warna Teks Header dan Bilah Sisi"
 
-#: inc/customizer.php:31
+#: inc/customizer.php:44
 msgid "Base Color Scheme"
 msgstr "Skema Warna Dasar"
 
@@ -160,39 +160,39 @@ msgstr "Menu dan widget"
 msgid "Skip to content"
 msgstr "Lanjut ke konten"
 
-#: functions.php:256
+#: functions.php:272
 msgid "collapse child menu"
 msgstr "persempit menu anak"
 
-#: functions.php:255
+#: functions.php:271
 msgid "expand child menu"
 msgstr "perlebar menu anak"
 
-#: functions.php:185
+#: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:177
+#: functions.php:193
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "nyala"
 
-#: functions.php:169
+#: functions.php:185
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "nyala"
 
-#: functions.php:161
+#: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "nyala"
 
-#: functions.php:135
+#: functions.php:151
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Tambahkan widget ke sini agar ditampilkan pada bilah sisi."
 
-#: functions.php:133
+#: functions.php:149
 msgid "Widget Area"
 msgstr "Area Widget"
 
@@ -208,7 +208,7 @@ msgstr "Menu Utama"
 msgid "Proudly powered by %s"
 msgstr "Dengan bangga bertenaga %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.9-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
@@ -244,16 +244,9 @@ msgstr "Halaman:"
 msgid "Continue reading %s"
 msgstr "Lanjutkan membaca %s"
 
-#: comments.php:53
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "Komentar ditutup."
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Satu tanggapan untuk &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s tanggapan untuk &ldquo;%2$s&rdquo;"
 
 #: author-bio.php:34
 msgid "View all posts by %s"

@@ -100,43 +100,43 @@ msgstr "Komentet Më të Vjetra"
 msgid "Comment navigation"
 msgstr "Lëvizje te komentet"
 
-#: inc/customizer.php:168
+#: inc/customizer.php:205
 msgid "Blue"
 msgstr "Blu"
 
-#: inc/customizer.php:157
+#: inc/customizer.php:194
 msgid "Purple"
 msgstr "E purpurt"
 
-#: inc/customizer.php:146
+#: inc/customizer.php:183
 msgid "Pink"
 msgstr "Ngjyrë trëndafili"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:172
 msgid "Yellow"
 msgstr "E verdhë"
 
-#: inc/customizer.php:124
+#: inc/customizer.php:161
 msgid "Dark"
 msgstr "I errët"
 
-#: inc/customizer.php:113
+#: inc/customizer.php:150
 msgid "Default"
 msgstr "Parazgjedhje"
 
-#: inc/customizer.php:62 inc/wpcom-colors.php:75
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Ngjyrë Sfondi Kryesh dhe Anështyllash"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "E zbatuar te kryet në ekrane të vegjël dhe anështylla në ekrane të gjerë."
 
-#: inc/customizer.php:46 inc/wpcom-colors.php:147
+#: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "Ngjyrë Teksti Kryesh dhe Anështyllash"
 
-#: inc/customizer.php:31
+#: inc/customizer.php:44
 msgid "Base Color Scheme"
 msgstr "Skemë Ngjyrash Bazë"
 
@@ -165,39 +165,39 @@ msgstr "Menu dhe widget-e"
 msgid "Skip to content"
 msgstr "Kaloni te lënda"
 
-#: functions.php:256
+#: functions.php:272
 msgid "collapse child menu"
 msgstr "tkurreni menunë pjellë"
 
-#: functions.php:255
+#: functions.php:271
 msgid "expand child menu"
 msgstr "zgjeroni menunë pjellë"
 
-#: functions.php:185
+#: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "pa nëngrup"
 
-#: functions.php:177
+#: functions.php:193
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:169
+#: functions.php:185
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:161
+#: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:135
+#: functions.php:151
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Shtoni këtu widget-e që të shfaqen te anështylla juaj."
 
-#: functions.php:133
+#: functions.php:149
 msgid "Widget Area"
 msgstr "Fushë Widget-esh"
 
@@ -213,7 +213,7 @@ msgstr "Menuja Parësore"
 msgid "Proudly powered by %s"
 msgstr "Bazohet me krenari në %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.9-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
@@ -249,16 +249,9 @@ msgstr "Faqe:"
 msgid "Continue reading %s"
 msgstr "Vazhdoni leximin e %s"
 
-#: comments.php:53
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "Komentet janë të mbyllura."
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Një mendim mbi &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s mendime mbi &ldquo;%2$s&rdquo;"
 
 #: author-bio.php:34
 msgid "View all posts by %s"

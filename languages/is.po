@@ -96,43 +96,43 @@ msgstr "Eldri athugasemdir"
 msgid "Comment navigation"
 msgstr "Leiðarkerfi athugasemda"
 
-#: inc/customizer.php:168
+#: inc/customizer.php:205
 msgid "Blue"
 msgstr "Blár"
 
-#: inc/customizer.php:157
+#: inc/customizer.php:194
 msgid "Purple"
 msgstr "Fjólublár"
 
-#: inc/customizer.php:146
+#: inc/customizer.php:183
 msgid "Pink"
 msgstr "Bleikur"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:172
 msgid "Yellow"
 msgstr "Gulur"
 
-#: inc/customizer.php:124
+#: inc/customizer.php:161
 msgid "Dark"
 msgstr "Dökkur"
 
-#: inc/customizer.php:113
+#: inc/customizer.php:150
 msgid "Default"
 msgstr "Sjálfgildur"
 
-#: inc/customizer.php:62 inc/wpcom-colors.php:75
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Bakgrunnslitur hauss og hliðarslár"
 
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Virkjað fyrir haus á minni skjám og á hliðarslá á víðari skjám."
 
-#: inc/customizer.php:46 inc/wpcom-colors.php:147
+#: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "Leturlitur í haus og hliðarslá"
 
-#: inc/customizer.php:31
+#: inc/customizer.php:44
 msgid "Base Color Scheme"
 msgstr "Grunn litaþema"
 
@@ -161,39 +161,39 @@ msgstr "Valmynd og síðuhlutir"
 msgid "Skip to content"
 msgstr "Fara að efni"
 
-#: functions.php:256
+#: functions.php:272
 msgid "collapse child menu"
 msgstr "loka undirvalmynd"
 
-#: functions.php:255
+#: functions.php:271
 msgid "expand child menu"
 msgstr "opna undirvalmynd"
 
-#: functions.php:185
+#: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: functions.php:177
+#: functions.php:193
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "virkt"
 
-#: functions.php:169
+#: functions.php:185
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "virkt"
 
-#: functions.php:161
+#: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "virkt"
 
-#: functions.php:135
+#: functions.php:151
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Bættu við síðuhlutum hér til þess að birta þá í hliðarslánni þinni."
 
-#: functions.php:133
+#: functions.php:149
 msgid "Widget Area"
 msgstr "Svæði síðuhluta"
 
@@ -209,7 +209,7 @@ msgstr "Aðalvalmynd"
 msgid "Proudly powered by %s"
 msgstr "Keyrt með stolti á %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.9-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
@@ -245,16 +245,9 @@ msgstr "Síður:"
 msgid "Continue reading %s"
 msgstr "Halda áfram að lesa: %s"
 
-#: comments.php:53
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "Lokað er fyrir athugasemdir."
-
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "Ein athugasemd á &ldquo;%2$s&rdquo;"
-msgstr[1] "%1$s athugasemdir á &ldquo;%2$s&rdquo;"
 
 #: author-bio.php:34
 msgid "View all posts by %s"
