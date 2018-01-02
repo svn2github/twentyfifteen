@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-12-23 20:07:46+0000\n"
+"PO-Revision-Date: 2018-01-01 14:53:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: pl\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
+
+#: inc/wpcom-colors.php:110
+msgid "Header and Sidebar Link Color"
+msgstr "Kolor odnośnika nagłówka i panelu bocznego"
 
 #: inc/wpcom-colors.php:9
 msgid "Background"
