@@ -40,15 +40,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "முழு திரை"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "குறிச்சொற்கள்"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "பிரிவுகள்"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "குறிச்சொற்கள்"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -70,13 +70,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "வகை"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "பிரத்யேக"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "புதிய கருத்துகள்"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "பிரத்யேக"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -122,14 +122,14 @@ msgstr "தலைப்பு மற்றும் பக்கப்பட்�
 msgid "Base Color Scheme"
 msgstr "அடிப்படை நிறத் திட்டம்"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen இற்கு குறைந்தது வேர்ட்பிரஸ் 4.1 பதிப்பு தேவை. நீங்கள் பதிப்பு %s ஐ பயன்படுத்துகிறீர்கள். மேம்படுத்தி, மீண்டும் முயற்சிக்கவும்."
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"post-title\">%title ல் </span><span class=\"meta-nav\">பதிவிடப்பட்டது</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen இற்கு குறைந்தது வேர்ட்பிரஸ் 4.1 பதிப்பு தேவை. நீங்கள் பதிப்பு %s ஐ பயன்படுத்துகிறீர்கள். மேம்படுத்தி, மீண்டும் முயற்சிக்கவும்."
 
 #: image.php:24
 msgid "Next Image"
@@ -162,14 +162,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:151
+msgid "Add widgets here to appear in your sidebar."
+msgstr "உங்கள் பக்கப்பட்டியில் விட்ஜெட்கள் தோன்ற இங்கு சேர்க்கவும்"
+
 #: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
-
-#: functions.php:151
-msgid "Add widgets here to appear in your sidebar."
-msgstr "உங்கள் பக்கப்பட்டியில் விட்ஜெட்கள் தோன்ற இங்கு சேர்க்கவும்"
 
 #: functions.php:149
 msgid "Widget Area"

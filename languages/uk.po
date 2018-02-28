@@ -49,15 +49,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Повний розмір"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Позначки"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Категорії"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Позначки"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -79,13 +79,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Формат"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Вибране"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Новіші коментарі"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Вибране"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -95,54 +95,54 @@ msgstr "Старіші коментарі"
 msgid "Comment navigation"
 msgstr "Навігація по коментарях"
 
-#: inc/customizer.php:168
+#: inc/customizer.php:205
 msgid "Blue"
 msgstr "Синій"
 
-#: inc/customizer.php:157
+#: inc/customizer.php:194
 msgid "Purple"
 msgstr "Фіолетовий"
 
-#: inc/customizer.php:146
+#: inc/customizer.php:183
 msgid "Pink"
 msgstr "Рожевий"
 
-#: inc/customizer.php:135
+#: inc/customizer.php:172
 msgid "Yellow"
 msgstr "Жовтий"
 
-#: inc/customizer.php:124
+#: inc/customizer.php:161
 msgid "Dark"
 msgstr "Темний"
 
-#: inc/customizer.php:113
+#: inc/customizer.php:150
 msgid "Default"
 msgstr "За замовчуванням"
 
-#: inc/customizer.php:62 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "Колір фону заголовка та бічної колонки"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Застосовується до заголовка на маленьких екранах і до бічної колонки на широких."
 
-#: inc/customizer.php:46 inc/wpcom-colors.php:147
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Колір фону заголовка та бічної колонки"
+
+#: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
 msgstr "Колір тексту заголовка та бічної колонки"
 
-#: inc/customizer.php:31
+#: inc/customizer.php:44
 msgid "Base Color Scheme"
 msgstr "Основна кольорова схема"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Тема Twenty Fifteen вимагає WordPress 4.1 або вище. У вас версія %s. Будь ласка, оновіть WordPress і спробуйте ще раз."
 
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Оприлюднено в</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Тема Twenty Fifteen вимагає WordPress 4.1 або вище. У вас версія %s. Будь ласка, оновіть WordPress і спробуйте ще раз."
 
 #: image.php:24
 msgid "Next Image"
@@ -160,39 +160,39 @@ msgstr "Меню та віджети"
 msgid "Skip to content"
 msgstr "Переміститись до тексту"
 
-#: functions.php:256
+#: functions.php:272
 msgid "collapse child menu"
 msgstr "згорнути підменю"
 
-#: functions.php:255
-msgid "expand child menu"
-msgstr "розгорнути підменю"
-
-#: functions.php:185
+#: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "cyrillic"
 
-#: functions.php:177
+#: functions.php:271
+msgid "expand child menu"
+msgstr "розгорнути підменю"
+
+#: functions.php:193
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "off"
 
-#: functions.php:169
+#: functions.php:185
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:161
+#: functions.php:151
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Додайте сюди віджети для показу в бічній колонці."
+
+#: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:135
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Додайте сюди віджети для показу в бічній колонці."
-
-#: functions.php:133
+#: functions.php:149
 msgid "Widget Area"
 msgstr "Область віджетів"
 
@@ -208,7 +208,7 @@ msgstr "Основне меню"
 msgid "Proudly powered by %s"
 msgstr "Сайт працює на %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.4-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.9-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
@@ -244,7 +244,7 @@ msgstr "Сторінки:"
 msgid "Continue reading %s"
 msgstr "Продовжувати читання %s"
 
-#: comments.php:53
+#: comments.php:69
 msgid "Comments are closed."
 msgstr "Коментарі закриті."
 
