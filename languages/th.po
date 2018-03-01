@@ -45,15 +45,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "ขนาดใหญ่สุด"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "ป้ายกำกับ"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "หมวดหมู่"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "ป้ายกำกับ"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -75,13 +75,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "รูปแบบเรื่อง"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "ลักษณะพิเศษ"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "ความเห็นที่ใหม่กว่า"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "ลักษณะพิเศษ"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -115,13 +115,13 @@ msgstr "มืด"
 msgid "Default"
 msgstr "ค่าหลัก"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "สีพื้นหลังส่วนหัวและด้านข้าง"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "ปรับใช้กับส่วนหัวบนหน้าจอขนาดเล็ก และใช้กับด้านข้างบนหน้าจอขนาดกว้าง"
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "สีพื้นหลังส่วนหัวและด้านข้าง"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -131,14 +131,14 @@ msgstr "สีตัวอักษรส่วนหัวและด้าน
 msgid "Base Color Scheme"
 msgstr "สีหลัก"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen ต้องการ WordPress อย่างน้อยรุ่น 4.1 คุณกำลังใช้งานรุ่น %s กรุณาอัปเกรดและลองใหม่อีกครั้ง"
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">เผยแพร่แล้วใน</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen ต้องการ WordPress อย่างน้อยรุ่น 4.1 คุณกำลังใช้งานรุ่น %s กรุณาอัปเกรดและลองใหม่อีกครั้ง"
 
 #: image.php:24
 msgid "Next Image"
@@ -160,14 +160,14 @@ msgstr "ข้ามไปยังเนื้อหา"
 msgid "collapse child menu"
 msgstr "หดเมนูย่อย"
 
-#: functions.php:271
-msgid "expand child menu"
-msgstr "ขยายเมนูย่อย"
-
 #: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "ไม่มีซับเซต"
+
+#: functions.php:271
+msgid "expand child menu"
+msgstr "ขยายเมนูย่อย"
 
 #: functions.php:193
 msgctxt "Inconsolata font: on or off"
@@ -179,14 +179,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "เปิด"
 
+#: functions.php:151
+msgid "Add widgets here to appear in your sidebar."
+msgstr "เพื่อวิดเจ็ตที่นี่เพื่อให้แสดงในด้านข้างของคุณ"
+
 #: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "เปิด"
-
-#: functions.php:151
-msgid "Add widgets here to appear in your sidebar."
-msgstr "เพื่อวิดเจ็ตที่นี่เพื่อให้แสดงในด้านข้างของคุณ"
 
 #: functions.php:149
 msgid "Widget Area"

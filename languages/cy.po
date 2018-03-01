@@ -50,15 +50,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Maint llawn"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Tagiau"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Categorïau"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Tagiau"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -80,13 +80,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Fformat"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Nodwedd"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Sylwadau Diweddarach"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Nodwedd"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -120,13 +120,13 @@ msgstr "Tywyll"
 msgid "Default"
 msgstr "Rhagosodiad"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "Lliw Cefndir y Bar Ochr a'r Pennyn"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Ei osod i'r pennyn ar sgriniau bach ac i'r bar ochr ar sgriniau llydan."
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Lliw Cefndir y Bar Ochr a'r Pennyn"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -136,14 +136,14 @@ msgstr "Lliw Testun y Bar Ochr a'r Pennyn"
 msgid "Base Color Scheme"
 msgstr "Cynllun Lliw'r Sail"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Mae Twenty Fifteen angen WordPress 4.1 o leiaf. Rydych yn rhedeg fersiwn %s. Diweddarwch a cheisiwch eto."
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Cyhoeddwyd yn</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Mae Twenty Fifteen angen WordPress 4.1 o leiaf. Rydych yn rhedeg fersiwn %s. Diweddarwch a cheisiwch eto."
 
 #: image.php:24
 msgid "Next Image"
@@ -165,14 +165,14 @@ msgstr "Mynd i'r cynnwys"
 msgid "collapse child menu"
 msgstr "cau'r ddewislen plentyn"
 
-#: functions.php:271
-msgid "expand child menu"
-msgstr "ehangu'r ddewislen plentyn"
-
 #: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
+
+#: functions.php:271
+msgid "expand child menu"
+msgstr "ehangu'r ddewislen plentyn"
 
 #: functions.php:193
 msgctxt "Inconsolata font: on or off"
@@ -184,14 +184,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "ymlaen"
 
+#: functions.php:151
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Ychwanegwch declynnau yma i ymddangos yn eich bar ochr."
+
 #: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "ymlaen"
-
-#: functions.php:151
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Ychwanegwch declynnau yma i ymddangos yn eich bar ochr."
 
 #: functions.php:149
 msgid "Widget Area"

@@ -45,15 +45,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "အရွယ်အစား အပြည့်"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "စကားစုတွဲများ"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "ကဏ္ဍများ"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "စကားစုတွဲများ"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -75,13 +75,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "ပံုစံ"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "ခေါင်းကြီးသတင်း"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "မှတ်ချက်သစ်များ"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "ခေါင်းကြီးသတင်း"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -115,13 +115,13 @@ msgstr "အမဲ"
 msgid "Default"
 msgstr "မူလသတ်မှတ်ချက်"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "နှဖူးစီးနှင့် ဘေးဘား နောက်ခံ အရောင်"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "ဖန်သားပြင်အသေးများတွင် နှဖူးစီတွင် အသုံးပြုပြီး ဖန်သားပြင် အကျယ်များတွင် ဘေးဘား၌ အသုံးပြုသည်။"
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "နှဖူးစီးနှင့် ဘေးဘား နောက်ခံ အရောင်"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -131,14 +131,14 @@ msgstr "နှဖူးစီးနှင့် ဘေးဘား စာသာ�
 msgid "Base Color Scheme"
 msgstr "အခြေခံ အရောင်အတွဲအစပ်"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "WordPress မူကွဲအမှတ် ၄.၁ အား Twenty Fifteen မှ လိုအပ်ပါသည်။ မူကွဲအမှတ် %s အား သင်အသံုးပြုထားသည်။ ကျေးဇူးပြု၍ အဆင့်မြှင့်ပြီးမှ ပြန်စမ်းကြည့်ပါ။"
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"post-title\">%title</span><span class=\"meta-nav\">တွင် ရေးသားထုတ်ဝေခဲ့သည်</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "WordPress မူကွဲအမှတ် ၄.၁ အား Twenty Fifteen မှ လိုအပ်ပါသည်။ မူကွဲအမှတ် %s အား သင်အသံုးပြုထားသည်။ ကျေးဇူးပြု၍ အဆင့်မြှင့်ပြီးမှ ပြန်စမ်းကြည့်ပါ။"
 
 #: image.php:24
 msgid "Next Image"
@@ -160,14 +160,14 @@ msgstr "စာကိုယ်ပိုင်းသို့ သွားရန�
 msgid "collapse child menu"
 msgstr "မီနူးခွဲအား ချုံ့ပါ"
 
-#: functions.php:271
-msgid "expand child menu"
-msgstr "မီနူးခွဲအား ဖြန့်ထုတ်ပါ"
-
 #: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
+
+#: functions.php:271
+msgid "expand child menu"
+msgstr "မီနူးခွဲအား ဖြန့်ထုတ်ပါ"
 
 #: functions.php:193
 msgctxt "Inconsolata font: on or off"
@@ -179,14 +179,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "off"
 
+#: functions.php:151
+msgid "Add widgets here to appear in your sidebar."
+msgstr "သင့်ဘေးဘားတွင် ပေါ်စေလိုသော ဝစ်ဂျက်များအား ဒီမှာ ထားပါ။"
+
 #: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
-
-#: functions.php:151
-msgid "Add widgets here to appear in your sidebar."
-msgstr "သင့်ဘေးဘားတွင် ပေါ်စေလိုသော ဝစ်ဂျက်များအား ဒီမှာ ထားပါ။"
 
 #: functions.php:149
 msgid "Widget Area"
