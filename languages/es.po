@@ -54,15 +54,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Tamaño completo"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Etiquetas"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Categorías"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Etiquetas"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -84,13 +84,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Formato"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Destacado"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Comentarios más recientes"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Destacado"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -124,13 +124,13 @@ msgstr "Oscuro"
 msgid "Default"
 msgstr "Por Defecto"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "Color de fondo de la cabecera y barra lateral"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Aplicado a la cabecera en pantallas pequeñas y a la barra lateral en pantallas anchas."
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Color de fondo de la cabecera y barra lateral"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -140,14 +140,14 @@ msgstr "Color de texto de cabecera y barra lateral"
 msgid "Base Color Scheme"
 msgstr "Esquema de color básico"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Finten requiere al menos la versión 4.1 de WordPress. Estás ejecutando la versión %s. Por favor, actualiza e inténtalo de nuevo."
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Publicado en</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Finten requiere al menos la versión 4.1 de WordPress. Estás ejecutando la versión %s. Por favor, actualiza e inténtalo de nuevo."
 
 #: image.php:24
 msgid "Next Image"
@@ -169,14 +169,14 @@ msgstr "Ir al contenido"
 msgid "collapse child menu"
 msgstr "plegar menú inferior"
 
-#: functions.php:271
-msgid "expand child menu"
-msgstr "expande el menú inferior"
-
 #: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "sin derivada"
+
+#: functions.php:271
+msgid "expand child menu"
+msgstr "expande el menú inferior"
 
 #: functions.php:193
 msgctxt "Inconsolata font: on or off"
@@ -188,14 +188,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "activa"
 
+#: functions.php:151
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Añade aquí los widgets para que aparezca en la barra lateral."
+
 #: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "activa"
-
-#: functions.php:151
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Añade aquí los widgets para que aparezca en la barra lateral."
 
 #: functions.php:149
 msgid "Widget Area"

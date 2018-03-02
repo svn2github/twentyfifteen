@@ -49,15 +49,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "原始尺寸"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "標籤"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "分類"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "標籤"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -79,13 +79,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "格式"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "特色"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "較新的迴響"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "特色"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -119,13 +119,13 @@ msgstr "暗黑色"
 msgid "Default"
 msgstr "預設"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "頁首與側邊欄背景顏色"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "在較小的螢幕上將顯示在頂部，在較寬的螢幕上將顯示到側邊欄。"
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "頁首與側邊欄背景顏色"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -135,14 +135,14 @@ msgstr "頁首與側邊欄文字顏色"
 msgid "Base Color Scheme"
 msgstr "基本色調"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "「貳零壹伍」要求 WordPress 4.1 版或以上。你現在使用的是 %s 版。請升級並重試。"
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">發佈於</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "「貳零壹伍」要求 WordPress 4.1 版或以上。你現在使用的是 %s 版。請升級並重試。"
 
 #: image.php:24
 msgid "Next Image"
@@ -164,14 +164,14 @@ msgstr "跳至內容區"
 msgid "collapse child menu"
 msgstr " 收合子選單"
 
-#: functions.php:271
-msgid "expand child menu"
-msgstr "展開子選單"
-
 #: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
+
+#: functions.php:271
+msgid "expand child menu"
+msgstr "展開子選單"
 
 #: functions.php:193
 msgctxt "Inconsolata font: on or off"
@@ -183,14 +183,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:151
+msgid "Add widgets here to appear in your sidebar."
+msgstr "在這裡加入小工具來讓它顯示於側邊欄。"
+
 #: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
-
-#: functions.php:151
-msgid "Add widgets here to appear in your sidebar."
-msgstr "在這裡加入小工具來讓它顯示於側邊欄。"
 
 #: functions.php:149
 msgid "Widget Area"
