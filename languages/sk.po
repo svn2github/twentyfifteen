@@ -45,15 +45,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Plná veľkosť"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Značky"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Kategórie"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Značky"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -75,13 +75,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Formát"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Odporúčané"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Novšie komentáre"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Odporúčané"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -115,13 +115,13 @@ msgstr "Tmavá"
 msgid "Default"
 msgstr "Predvolený"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "Farba pozadia hlavičky a bočného panela"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Používa sa na hlavičku pri malých obrazovkách a na bočný panel pri veľkých."
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Farba pozadia hlavičky a bočného panela"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -131,14 +131,14 @@ msgstr "Farba textu hlavičky a bočného panela"
 msgid "Base Color Scheme"
 msgstr "Základná farebná schéma"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen vyžaduje verziu WordPress 4.1. Používate WordPress %s. Prosím aktualizujte ho a skúste znova."
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Publikované v</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen vyžaduje verziu WordPress 4.1. Používate WordPress %s. Prosím aktualizujte ho a skúste znova."
 
 #: image.php:24
 msgid "Next Image"
@@ -160,14 +160,14 @@ msgstr "Preskočiť na obsah"
 msgid "collapse child menu"
 msgstr "schovať nadradené menu"
 
-#: functions.php:271
-msgid "expand child menu"
-msgstr "rozbaliť odvodené menu"
-
 #: functions.php:201
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
+
+#: functions.php:271
+msgid "expand child menu"
+msgstr "rozbaliť odvodené menu"
 
 #: functions.php:193
 msgctxt "Inconsolata font: on or off"
@@ -179,14 +179,14 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:151
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Hem potiahnite widgety, ktoré chcete zobraziť v bočnom paneli."
+
 #: functions.php:177
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
-
-#: functions.php:151
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Hem potiahnite widgety, ktoré chcete zobraziť v bočnom paneli."
 
 #: functions.php:149
 msgid "Widget Area"

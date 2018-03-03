@@ -36,14 +36,14 @@ msgstr "اگلی پوسٹ:"
 msgid "Next"
 msgstr "آگے"
 
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "تلاش کے نتائج برائے: %s"
-
 #. translators: %s: post title
 #: inc/template-tags.php:123
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "<span class=\"screen-reader-text\"> %s</span> پر تبصرہ کریں"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "تلاش کے نتائج برائے: %s"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
@@ -80,13 +80,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "فارمیٹ"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "نمایاں"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "نئے تبصرے"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "نمایاں"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
