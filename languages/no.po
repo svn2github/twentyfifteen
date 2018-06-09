@@ -45,15 +45,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Full størrelse"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Kategorier"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Stikkord"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kategorier"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -75,13 +75,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Format"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Nyere kommentarer"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Fremhevet"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Nyere kommentarer"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
