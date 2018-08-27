@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-01-23 07:34:22+0000\n"
+"PO-Revision-Date: 2018-08-26 16:55:31+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,6 +43,11 @@ msgstr "Nästa"
 #: search.php:18
 msgid "Search Results for: %s"
 msgstr "Sökresultat för: %s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Lämna en kommentar<span class=\"screen-reader-text\"> på %s</span>"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
