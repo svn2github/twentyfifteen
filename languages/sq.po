@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-04 14:18:35+0000\n"
+"PO-Revision-Date: 2018-11-27 01:31:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,20 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: sq_AL\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
+
+#: functions.php:156
+msgid "White"
+msgstr "E bardhë"
+
+#: functions.php:146
+msgid "Dark Gray"
+msgstr "Gri e Errët"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Një mendim mbi &ldquo;%s&rdquo;"
 
 #: inc/wpcom-colors.php:110
 msgid "Header and Sidebar Link Color"
@@ -54,15 +68,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Madhësi e plotë"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Kategori"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Etiketa"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kategori"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -84,13 +98,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Format"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Komentet Më të Reja"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "E zgjedhur"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Komentet Më të Reja"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -104,7 +118,7 @@ msgstr "Lëvizje te komentet"
 msgid "Blue"
 msgstr "Blu"
 
-#: inc/customizer.php:194
+#: functions.php:186 inc/customizer.php:194
 msgid "Purple"
 msgstr "E purpurt"
 
@@ -112,7 +126,7 @@ msgstr "E purpurt"
 msgid "Pink"
 msgstr "Ngjyrë trëndafili"
 
-#: inc/customizer.php:172
+#: functions.php:161 inc/customizer.php:172
 msgid "Yellow"
 msgstr "E verdhë"
 
@@ -124,13 +138,13 @@ msgstr "I errët"
 msgid "Default"
 msgstr "Parazgjedhje"
 
-#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "E zbatuar te kryet në ekrane të vegjël dhe anështylla në ekrane të gjerë."
-
 #: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Ngjyrë Sfondi Kryesh dhe Anështyllash"
+
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "E zbatuar te kryet në ekrane të vegjël dhe anështylla në ekrane të gjerë."
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -140,14 +154,14 @@ msgstr "Ngjyrë Teksti Kryesh dhe Anështyllash"
 msgid "Base Color Scheme"
 msgstr "Skemë Ngjyrash Bazë"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen lyp të paktën versionin 4.1 të WordPress-it. Po xhironi versionin %s. Ju lutemi, përmirësojeni dhe riprovoni."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Botuar te</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen lyp të paktën versionin 4.1 të WordPress-it. Po xhironi versionin %s. Ju lutemi, përmirësojeni dhe riprovoni."
 
 #: image.php:24
 msgid "Next Image"
@@ -165,39 +179,51 @@ msgstr "Menu dhe widget-e"
 msgid "Skip to content"
 msgstr "Kaloni te lënda"
 
-#: functions.php:272
+#: functions.php:348
 msgid "collapse child menu"
 msgstr "tkurreni menunë pjellë"
 
-#: functions.php:201
+#: functions.php:347
+msgid "expand child menu"
+msgstr "zgjeroni menunë pjellë"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:274
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "pa nëngrup"
 
-#: functions.php:271
-msgid "expand child menu"
-msgstr "zgjeroni menunë pjellë"
-
-#: functions.php:193
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:266
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:185
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:258
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:151
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Shtoni këtu widget-e që të shfaqen te anështylla juaj."
-
-#: functions.php:177
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:250
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:149
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Shtoni këtu widget-e që të shfaqen te anështylla juaj."
+
+#: functions.php:222
 msgid "Widget Area"
 msgstr "Fushë Widget-esh"
 
@@ -209,13 +235,13 @@ msgstr "Menu Lidhjesh Shoqërore"
 msgid "Primary Menu"
 msgstr "Menuja Parësore"
 
-#: footer.php:25
+#: footer.php:31
 msgid "Proudly powered by %s"
 msgstr "Bazohet me krenari në %s"
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.9-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 2.0-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
+#: footer.php:30 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
