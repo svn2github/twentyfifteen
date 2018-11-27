@@ -1,14 +1,14 @@
-# Copyright (C) 2017 the WordPress team
+# Copyright (C) 2018 the WordPress team
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Twenty Fifteen 1.9-wpcom\n"
+"Project-Id-Version: Twenty Fifteen 2.0-wpcom\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/twentyfifteen\n"
-"POT-Creation-Date: 2017-11-03 04:21:47+00:00\n"
+"POT-Creation-Date: 2018-11-27 01:31:13+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -94,13 +94,13 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.9-wpcom)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 2.0-wpcom)  #-#-#-#-#
 #. Author URI of the plugin/theme
-#: footer.php:25 wp-content/themes/pub/twentyfifteen/style.css
+#: footer.php:30 wp-content/themes/pub/twentyfifteen/style.css
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: footer.php:25
+#: footer.php:31
 msgid "Proudly powered by %s"
 msgstr ""
 
@@ -112,39 +112,99 @@ msgstr ""
 msgid "Social Links Menu"
 msgstr ""
 
-#: functions.php:149
-msgid "Widget Area"
+#: functions.php:146
+msgid "Dark Gray"
 msgstr ""
 
 #: functions.php:151
+msgid "Light Gray"
+msgstr ""
+
+#: functions.php:156
+msgid "White"
+msgstr ""
+
+#: functions.php:161 inc/customizer.php:172
+msgid "Yellow"
+msgstr ""
+
+#: functions.php:166
+msgid "Dark Brown"
+msgstr ""
+
+#: functions.php:171
+msgid "Medium Pink"
+msgstr ""
+
+#: functions.php:176
+msgid "Light Pink"
+msgstr ""
+
+#: functions.php:181
+msgid "Dark Purple"
+msgstr ""
+
+#: functions.php:186 inc/customizer.php:194
+msgid "Purple"
+msgstr ""
+
+#: functions.php:191
+msgid "Blue Gray"
+msgstr ""
+
+#: functions.php:196
+msgid "Bright Blue"
+msgstr ""
+
+#: functions.php:201
+msgid "Light Blue"
+msgstr ""
+
+#: functions.php:222
+msgid "Widget Area"
+msgstr ""
+
+#: functions.php:224
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: functions.php:177
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:250
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:185
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:258
 msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:193
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:266
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:201
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:274
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr ""
 
-#: functions.php:271
+#: functions.php:347
 msgid "expand child menu"
 msgstr ""
 
-#: functions.php:272
+#: functions.php:348
 msgid "collapse child menu"
 msgstr ""
 
@@ -201,16 +261,8 @@ msgstr ""
 msgid "Dark"
 msgstr ""
 
-#: inc/customizer.php:172
-msgid "Yellow"
-msgstr ""
-
 #: inc/customizer.php:183
 msgid "Pink"
-msgstr ""
-
-#: inc/customizer.php:194
-msgid "Purple"
 msgstr ""
 
 #: inc/customizer.php:205
