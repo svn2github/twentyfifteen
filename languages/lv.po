@@ -11,15 +11,15 @@ msgstr ""
 "Language: lv\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
-#: functions.php:156
-msgid "White"
-msgstr "Balta"
-
 #. translators: %s: post title
 #: comments.php:31
 msgctxt "comments title"
 msgid "One thought on &ldquo;%s&rdquo;"
 msgstr "Komentārs par &ldquo;%s&rdquo;"
+
+#: functions.php:156
+msgid "White"
+msgstr "Balta"
 
 #: inc/wpcom-colors.php:110
 msgid "Header and Sidebar Link Color"
@@ -64,15 +64,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Pilnais izmērs"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Birkas"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Kategorijas"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Birkas"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -94,13 +94,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Formāts"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Izceltais"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Jaunāki komentāri"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Izceltais"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -134,13 +134,13 @@ msgstr "Tumšs"
 msgid "Default"
 msgstr "Noklusējuma"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "Galvenes un sānjoslu fona krāsa"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Piemēro galvenēm uz mazajiem ekrāniem un sānu joslām uz platiem ekrāniem."
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Galvenes un sānjoslu fona krāsa"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -150,14 +150,14 @@ msgstr "Virsraksta un sānjoslu teksta krāsu"
 msgid "Base Color Scheme"
 msgstr "Pamata krāsu shēma"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen nepieciešama vismaz WordPress versija 4.1. Jūs izmantojat versiju %s. Lūdzu, atjauniniet to un mēģiniet vēlreiz."
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Publicēts</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen nepieciešama vismaz WordPress versija 4.1. Jūs izmantojat versiju %s. Lūdzu, atjauniniet to un mēģiniet vēlreiz."
 
 #: image.php:24
 msgid "Next Image"
@@ -179,10 +179,6 @@ msgstr "Doties uz saturu"
 msgid "collapse child menu"
 msgstr "sakļaut apakšizvēlni"
 
-#: functions.php:347
-msgid "expand child menu"
-msgstr "izvērst apakšizvēlni"
-
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -190,6 +186,10 @@ msgstr "izvērst apakšizvēlni"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
+
+#: functions.php:347
+msgid "expand child menu"
+msgstr "izvērst apakšizvēlni"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -207,6 +207,10 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Pievienot logrīkus šeit, lai tie parādītos sānjoslās."
+
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -214,10 +218,6 @@ msgstr "on"
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
-
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Pievienot logrīkus šeit, lai tie parādītos sānjoslās."
 
 #: functions.php:222
 msgid "Widget Area"

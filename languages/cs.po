@@ -54,15 +54,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Původní velikost:"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Štítky:"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Rubriky:"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Štítky:"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -84,13 +84,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Formát:"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Doporučeno"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Novější komentáře"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Doporučeno"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -124,13 +124,13 @@ msgstr "Tmavé"
 msgid "Default"
 msgstr "Základní"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "Barva pozadí pro záhlaví a postranní panel"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Nastavení bude použito pro postranní panel pouze na dostatečně širokých zařízeních, jinak se projeví pouze v samotném záhlaví."
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Barva pozadí pro záhlaví a postranní panel"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -140,14 +140,14 @@ msgstr "Barva textu pro záhlaví a postranní panel"
 msgid "Base Color Scheme"
 msgstr "Barevné schéma šablony"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Šablona Twenty Fifteen vyžaduje alespoň WordPress 4.1, zatímco aktuálně používáte starší verzi %s. Nejdříve proveďte prosím aktualizaci a potom to můžete zkusit znovu."
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Přiřazeno:</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Šablona Twenty Fifteen vyžaduje alespoň WordPress 4.1, zatímco aktuálně používáte starší verzi %s. Nejdříve proveďte prosím aktualizaci a potom to můžete zkusit znovu."
 
 #: image.php:24
 msgid "Next Image"
@@ -169,10 +169,6 @@ msgstr "Přejít k obsahu webu"
 msgid "collapse child menu"
 msgstr "Skrýt podřazené položky"
 
-#: functions.php:347
-msgid "expand child menu"
-msgstr "Zobrazit podřazené položky"
-
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -180,6 +176,10 @@ msgstr "Zobrazit podřazené položky"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
+
+#: functions.php:347
+msgid "expand child menu"
+msgstr "Zobrazit podřazené položky"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -197,6 +197,10 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Rozmístěné widgety se budou zobrazovat v postranním panelu."
+
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -204,10 +208,6 @@ msgstr "on"
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
-
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Rozmístěné widgety se budou zobrazovat v postranním panelu."
 
 #: functions.php:222
 msgid "Widget Area"

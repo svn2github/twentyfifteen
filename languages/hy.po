@@ -84,13 +84,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Ձևաչափ"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Ավելի նոր մեկնաբանություններ"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Ընտրյալ"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Ավելի նոր մեկնաբանություններ"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -169,6 +169,10 @@ msgstr "Անցնել բովանդակությանը"
 msgid "collapse child menu"
 msgstr "կոծկել ենթացանկը"
 
+#: functions.php:347
+msgid "expand child menu"
+msgstr "ընդարձակել ենթացանկը"
+
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -176,10 +180,6 @@ msgstr "կոծկել ենթացանկը"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
-
-#: functions.php:347
-msgid "expand child menu"
-msgstr "ընդարձակել ենթացանկը"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own

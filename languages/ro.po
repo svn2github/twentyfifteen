@@ -11,35 +11,35 @@ msgstr ""
 "Language: ro\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: comments.php:31
-msgctxt "comments title"
-msgid "One thought on &ldquo;%s&rdquo;"
-msgstr "Un gând despre &bdquo;%s&rdquo;"
-
-#: functions.php:146
-msgid "Dark Gray"
-msgstr "Gri închis"
-
-#: functions.php:151
-msgid "Light Gray"
-msgstr "Gri deschis"
-
-#: functions.php:156
-msgid "White"
-msgstr "Alb"
-
-#: functions.php:181
-msgid "Dark Purple"
-msgstr "Violet închis"
+#: functions.php:201
+msgid "Light Blue"
+msgstr "Albastru deschis"
 
 #: functions.php:196
 msgid "Bright Blue"
 msgstr "Albastru strălucitor"
 
-#: functions.php:201
-msgid "Light Blue"
-msgstr "Albastru deschis"
+#: functions.php:181
+msgid "Dark Purple"
+msgstr "Violet închis"
+
+#: functions.php:156
+msgid "White"
+msgstr "Alb"
+
+#: functions.php:151
+msgid "Light Gray"
+msgstr "Gri deschis"
+
+#: functions.php:146
+msgid "Dark Gray"
+msgstr "Gri închis"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Un gând despre &bdquo;%s&rdquo;"
 
 #: inc/wpcom-colors.php:110
 msgid "Header and Sidebar Link Color"
@@ -84,15 +84,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Dimensiune completă"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Categorii"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Etichete"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Categorii"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -114,13 +114,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Format"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Comentarii mai noi"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Reprezentativ"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Comentarii mai noi"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -154,13 +154,13 @@ msgstr "Închis"
 msgid "Default"
 msgstr "Implicit"
 
-#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Pentru ecranele mici se aplică pe antet iar pentru ecranele mari se aplică pe bara laterală."
-
 #: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Culoare fundal pentru antet și bara laterală"
+
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Pentru ecranele mici se aplică pe antet iar pentru ecranele mari se aplică pe bara laterală."
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -170,14 +170,14 @@ msgstr "Culoare text pentru antet și bara laterală"
 msgid "Base Color Scheme"
 msgstr "Schemă de culoare de bază"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen necesită cel puțin WordPress versiunea 4.1. Folosești versiunea %s. Te rog actualizează și mai încearcă încă o dată."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Publicat în</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen necesită cel puțin WordPress versiunea 4.1. Folosești versiunea %s. Te rog actualizează și mai încearcă încă o dată."
 
 #: image.php:24
 msgid "Next Image"
@@ -199,6 +199,10 @@ msgstr "Sari la conținut"
 msgid "collapse child menu"
 msgstr "restrânge meniul copil"
 
+#: functions.php:347
+msgid "expand child menu"
+msgstr "extinde meniul copil"
+
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -206,10 +210,6 @@ msgstr "restrânge meniul copil"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "romanian"
-
-#: functions.php:347
-msgid "expand child menu"
-msgstr "extinde meniul copil"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own

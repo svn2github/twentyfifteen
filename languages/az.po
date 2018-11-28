@@ -11,13 +11,13 @@ msgstr ""
 "Language: az\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
-#: functions.php:146
-msgid "Dark Gray"
-msgstr "Tutqun Boz"
-
 #: functions.php:156
 msgid "White"
 msgstr "Ağ"
+
+#: functions.php:146
+msgid "Dark Gray"
+msgstr "Tutqun Boz"
 
 #: inc/wpcom-colors.php:110
 msgid "Header and Sidebar Link Color"
@@ -57,15 +57,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Tam ölçü"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Kateqoriyalar"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Etiketlər"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kateqoriyalar"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -87,13 +87,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Format"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Ən yeni Şərhlər"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Xüsusi"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Ən yeni Şərhlər"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -127,13 +127,13 @@ msgstr "Qoyu"
 msgid "Default"
 msgstr "Mövcud"
 
-#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Kiçik ekranlarda başlığa, geniş ekranlarda yan sütuna tətbiq edilir."
-
 #: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Başlıq və Yanmenyu Arxa Fonu"
+
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Kiçik ekranlarda başlığa, geniş ekranlarda yan sütuna tətbiq edilir."
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -143,14 +143,14 @@ msgstr "Başlıq və Yanmenyu Mətn Rəngi"
 msgid "Base Color Scheme"
 msgstr "Baza Rəng Sxemi"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Iyirmi onbeş ən az WordPress 4.1 ilə işləyir. Siz hazırda %s versiyasından istifadə edirsiniz. Lütfən yeniləyib təkrar yoxlayın."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Yayım yeri</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Iyirmi onbeş ən az WordPress 4.1 ilə işləyir. Siz hazırda %s versiyasından istifadə edirsiniz. Lütfən yeniləyib təkrar yoxlayın."
 
 #: image.php:24
 msgid "Next Image"
@@ -172,6 +172,10 @@ msgstr "Mühtəviyyata keç"
 msgid "collapse child menu"
 msgstr "uşaq mövzusunu bağla"
 
+#: functions.php:347
+msgid "expand child menu"
+msgstr "uşaq mövzusunu genişlət"
+
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -179,10 +183,6 @@ msgstr "uşaq mövzusunu bağla"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "alt-set yoxdur"
-
-#: functions.php:347
-msgid "expand child menu"
-msgstr "uşaq mövzusunu genişlət"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -200,10 +200,6 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "açıq"
 
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Yan sütunda görünəcək vidcetləri buradan əlavə edin."
-
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -211,6 +207,10 @@ msgstr "Yan sütunda görünəcək vidcetləri buradan əlavə edin."
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "açıq"
+
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Yan sütunda görünəcək vidcetləri buradan əlavə edin."
 
 #: functions.php:222
 msgid "Widget Area"

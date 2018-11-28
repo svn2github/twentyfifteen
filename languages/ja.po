@@ -11,27 +11,27 @@ msgstr ""
 "Language: ja_JP\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: comments.php:31
-msgctxt "comments title"
-msgid "One thought on &ldquo;%s&rdquo;"
-msgstr "&ldquo;%s&rdquo; への 1 件のフィードバック"
-
-#: functions.php:146
-msgid "Dark Gray"
-msgstr "ダークグレー"
-
-#: functions.php:151
-msgid "Light Gray"
-msgstr "ライトグレー"
+#: functions.php:201
+msgid "Light Blue"
+msgstr "ライトブルー"
 
 #: functions.php:156
 msgid "White"
 msgstr "白"
 
-#: functions.php:201
-msgid "Light Blue"
-msgstr "ライトブルー"
+#: functions.php:151
+msgid "Light Gray"
+msgstr "ライトグレー"
+
+#: functions.php:146
+msgid "Dark Gray"
+msgstr "ダークグレー"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; への 1 件のフィードバック"
 
 #: inc/wpcom-colors.php:110
 msgid "Header and Sidebar Link Color"
@@ -76,15 +76,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "フルサイズ"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "カテゴリー"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "タグ"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "カテゴリー"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -106,13 +106,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "フォーマット"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "新しいコメント"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "注目"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "新しいコメント"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -146,13 +146,13 @@ msgstr "ダーク"
 msgid "Default"
 msgstr "デフォルト"
 
-#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "﻿小さい画面上のヘッダーと、幅広い画面上のサイドバーに適用されます。"
-
 #: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "ヘッダー・サイドバー背景色"
+
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "﻿小さい画面上のヘッダーと、幅広い画面上のサイドバーに適用されます。"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -162,14 +162,14 @@ msgstr "ヘッダー・テキスト色"
 msgid "Base Color Scheme"
 msgstr "ベース配色"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen には WordPress バージョン 4.1 以上が必要です。現在のバージョンは %s です。アップグレードしてもう一度お試しください。"
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"post-title\">%title</span> <span class=\"meta-nav\">内で公開</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen には WordPress バージョン 4.1 以上が必要です。現在のバージョンは %s です。アップグレードしてもう一度お試しください。"
 
 #: image.php:24
 msgid "Next Image"
@@ -191,6 +191,10 @@ msgstr "コンテンツへ移動"
 msgid "collapse child menu"
 msgstr "サブメニューを閉じる"
 
+#: functions.php:347
+msgid "expand child menu"
+msgstr "サブメニューを展開"
+
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -198,10 +202,6 @@ msgstr "サブメニューを閉じる"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
-
-#: functions.php:347
-msgid "expand child menu"
-msgstr "サブメニューを展開"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -219,10 +219,6 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "サイドバーに表示させるにはここにウィジェットを追加してください。"
-
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -230,6 +226,10 @@ msgstr "サイドバーに表示させるにはここにウィジェットを追
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
+
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "サイドバーに表示させるにはここにウィジェットを追加してください。"
 
 #: functions.php:222
 msgid "Widget Area"

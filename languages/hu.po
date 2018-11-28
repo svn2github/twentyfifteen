@@ -11,19 +11,19 @@ msgstr ""
 "Language: hu\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: comments.php:31
-msgctxt "comments title"
-msgid "One thought on &ldquo;%s&rdquo;"
-msgstr "Egy hozzászólás a(z) &ldquo;%s&rdquo; bejegyzéshez"
+#: functions.php:201
+msgid "Light Blue"
+msgstr "Világoskék"
 
 #: functions.php:156
 msgid "White"
 msgstr "Fehér"
 
-#: functions.php:201
-msgid "Light Blue"
-msgstr "Világoskék"
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Egy hozzászólás a(z) &ldquo;%s&rdquo; bejegyzéshez"
 
 #: inc/wpcom-colors.php:110
 msgid "Header and Sidebar Link Color"
@@ -68,15 +68,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Teljes méret"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Kategória"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Címke"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kategória"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -98,13 +98,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Forma"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Újabb hozzászólás"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Kiemelt"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Újabb hozzászólás"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -138,13 +138,13 @@ msgstr "Sötét"
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Kis képernyő méretnél a fejlécre,és az oldalsávra széles képernyőn."
-
 #: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Fejrész és oldalsáv háttérszín"
+
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Kis képernyő méretnél a fejlécre,és az oldalsávra széles képernyőn."
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -154,14 +154,14 @@ msgstr "Fejrész és oldalsáv szövegszín"
 msgid "Base Color Scheme"
 msgstr "Alap színséma"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "A Twenty Fifteen használatához minimálisan a WordPress 4.1 verziója szükséges. Ezen a honlapon a %s verzió üzemel. A frissítést követően ismételjük meg a műveletet."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Kategória</span>: <span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "A Twenty Fifteen használatához minimálisan a WordPress 4.1 verziója szükséges. Ezen a honlapon a %s verzió üzemel. A frissítést követően ismételjük meg a műveletet."
 
 #: image.php:24
 msgid "Next Image"
@@ -183,6 +183,10 @@ msgstr "Tartalomhoz"
 msgid "collapse child menu"
 msgstr "almenü összezárása"
 
+#: functions.php:347
+msgid "expand child menu"
+msgstr "almenü szétnyitása"
+
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -190,10 +194,6 @@ msgstr "almenü összezárása"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
-
-#: functions.php:347
-msgid "expand child menu"
-msgstr "almenü szétnyitása"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -211,10 +211,6 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Az oldalsávon történő megjelenítéshez itt kell widgetet hozzáadni."
-
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -222,6 +218,10 @@ msgstr "Az oldalsávon történő megjelenítéshez itt kell widgetet hozzáadni
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
+
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Az oldalsávon történő megjelenítéshez itt kell widgetet hozzáadni."
 
 #: functions.php:222
 msgid "Widget Area"
