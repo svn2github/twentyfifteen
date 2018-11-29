@@ -11,15 +11,15 @@ msgstr ""
 "Language: pl\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
-#: functions.php:156
-msgid "White"
-msgstr "Biały"
-
 #. translators: %s: post title
 #: comments.php:31
 msgctxt "comments title"
 msgid "One thought on &ldquo;%s&rdquo;"
 msgstr "Jeden komentarz na temat &ldquo;%s&rdquo;"
+
+#: functions.php:156
+msgid "White"
+msgstr "Biały"
 
 #: inc/wpcom-colors.php:110
 msgid "Header and Sidebar Link Color"
@@ -64,15 +64,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Pełny rozmiar"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Tagi"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Kategorie"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Tagi"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -94,13 +94,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Format wpisu"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Wyróżnione"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Nowsze komentarze"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Wyróżnione"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -134,13 +134,13 @@ msgstr "Ciemny"
 msgid "Default"
 msgstr "Domyślny"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "Kolor tła nagłówka i panelu bocznego"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Stosuje się do nagłówka na małych ekranach i panelu bocznego na szerokich ekranach."
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Kolor tła nagłówka i panelu bocznego"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -150,14 +150,14 @@ msgstr "Kolor tekstu w nagłówku i panelu bocznym"
 msgid "Base Color Scheme"
 msgstr "Podstawowy zestaw kolorów"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Motyw Twenty Fifteen wymaga WordPressa w wersji 4.1 lub nowszej. Obecnie używasz WordPressa w wersji %s. Zaktualizuj system i spróbuj ponownie."
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Opublikowano w </span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Motyw Twenty Fifteen wymaga WordPressa w wersji 4.1 lub nowszej. Obecnie używasz WordPressa w wersji %s. Zaktualizuj system i spróbuj ponownie."
 
 #: image.php:24
 msgid "Next Image"
@@ -179,10 +179,6 @@ msgstr "Przeskocz do treści"
 msgid "collapse child menu"
 msgstr "zwiń menu potomne"
 
-#: functions.php:347
-msgid "expand child menu"
-msgstr "rozwiń menu potomne"
-
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -190,6 +186,10 @@ msgstr "rozwiń menu potomne"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
+
+#: functions.php:347
+msgid "expand child menu"
+msgstr "rozwiń menu potomne"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -207,6 +207,10 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Dodaj tu widgety, a pojawią się w panelu bocznym witryny."
+
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -214,10 +218,6 @@ msgstr "on"
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
-
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Dodaj tu widgety, a pojawią się w panelu bocznym witryny."
 
 #: functions.php:222
 msgid "Widget Area"
