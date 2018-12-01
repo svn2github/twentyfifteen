@@ -58,15 +58,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Пуна величина"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Категорије"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Ознаке"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Категорије"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -88,13 +88,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Облик"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Новији коментари"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Издвојено"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Новији коментари"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -128,13 +128,13 @@ msgstr "Тамна"
 msgid "Default"
 msgstr "Подразумевана"
 
-#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Примењује се на загллавље на малим екранима и на бочну траку на ширим екранима."
-
 #: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Боја позадине заглавља и бочне траке"
+
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Примењује се на загллавље на малим екранима и на бочну траку на ширим екранима."
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -144,14 +144,14 @@ msgstr "Боја текста заглавља и бочне траке"
 msgid "Base Color Scheme"
 msgstr "Основна шема боја"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen захтева издање Вордпреса најмање 4.1. Користите издање %s. Молимо вас да ажурирате и покушате поново."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Објављено под</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen захтева издање Вордпреса најмање 4.1. Користите издање %s. Молимо вас да ажурирате и покушате поново."
 
 #: image.php:24
 msgid "Next Image"
@@ -173,6 +173,10 @@ msgstr "Скочи на садржај"
 msgid "collapse child menu"
 msgstr "скупи изборник дете"
 
+#: functions.php:347
+msgid "expand child menu"
+msgstr "прошири изборник дете"
+
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -180,10 +184,6 @@ msgstr "скупи изборник дете"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "cyrillic"
-
-#: functions.php:347
-msgid "expand child menu"
-msgstr "прошири изборник дете"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -201,10 +201,6 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Овде додајте виџете како би се појавили у вашој бочној траци."
-
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -212,6 +208,10 @@ msgstr "Овде додајте виџете како би се појавили
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
+
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Овде додајте виџете како би се појавили у вашој бочној траци."
 
 #: functions.php:222
 msgid "Widget Area"
