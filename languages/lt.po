@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-27 01:31:16+0000\n"
+"PO-Revision-Date: 2018-12-02 13:34:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,33 @@ msgstr ""
 "Language: lt\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
+#: functions.php:201
+msgid "Light Blue"
+msgstr "Šviesiai mėlyna"
+
 #: functions.php:196
 msgid "Bright Blue"
 msgstr "Ryškiai mėlyna"
 
+#: functions.php:191
+msgid "Blue Gray"
+msgstr "Melsvai pilka"
+
 #: functions.php:181
 msgid "Dark Purple"
 msgstr "Tamsiai violetinė"
+
+#: functions.php:176
+msgid "Light Pink"
+msgstr "Šviesiai rožinė"
+
+#: functions.php:171
+msgid "Medium Pink"
+msgstr "Rožinė"
+
+#: functions.php:166
+msgid "Dark Brown"
+msgstr "Tamsiai ruda"
 
 #: functions.php:156
 msgid "White"
