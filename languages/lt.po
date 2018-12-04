@@ -11,21 +11,43 @@ msgstr ""
 "Language: lt\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
-#: functions.php:201
-msgid "Light Blue"
-msgstr "Šviesiai mėlyna"
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "%1$s mintis apie &ldquo;%s&rdquo;"
+
+#: functions.php:146
+msgid "Dark Gray"
+msgstr "Tamsiai pilka"
+
+#: functions.php:151
+msgid "Light Gray"
+msgstr "Šviesiai pilka"
+
+#: functions.php:156
+msgid "White"
+msgstr "Balta"
+
+#: functions.php:181
+msgid "Dark Purple"
+msgstr "Tamsiai violetinė"
 
 #: functions.php:196
 msgid "Bright Blue"
 msgstr "Ryškiai mėlyna"
 
+#: functions.php:166
+msgid "Dark Brown"
+msgstr "Tamsiai ruda"
+
+#: functions.php:201
+msgid "Light Blue"
+msgstr "Šviesiai mėlyna"
+
 #: functions.php:191
 msgid "Blue Gray"
 msgstr "Melsvai pilka"
-
-#: functions.php:181
-msgid "Dark Purple"
-msgstr "Tamsiai violetinė"
 
 #: functions.php:176
 msgid "Light Pink"
@@ -34,28 +56,6 @@ msgstr "Šviesiai rožinė"
 #: functions.php:171
 msgid "Medium Pink"
 msgstr "Rožinė"
-
-#: functions.php:166
-msgid "Dark Brown"
-msgstr "Tamsiai ruda"
-
-#: functions.php:156
-msgid "White"
-msgstr "Balta"
-
-#: functions.php:151
-msgid "Light Gray"
-msgstr "Šviesiai pilka"
-
-#: functions.php:146
-msgid "Dark Gray"
-msgstr "Tamsiai pilka"
-
-#. translators: %s: post title
-#: comments.php:31
-msgctxt "comments title"
-msgid "One thought on &ldquo;%s&rdquo;"
-msgstr "%1$s mintis apie &ldquo;%s&rdquo;"
 
 #: inc/wpcom-colors.php:110
 msgid "Header and Sidebar Link Color"
@@ -100,15 +100,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Visas dydis"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Žymos"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Kategorijos"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Žymos"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -130,13 +130,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Formatas"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Rekomenduojama"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Naujesni komentarai"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Rekomenduojama"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -170,13 +170,13 @@ msgstr "Tamsi"
 msgid "Default"
 msgstr "Numatytoji"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "Antraštės ir šoninės srities fono spalva"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Rodoma antraštėje (header) mažuose ekranuose ir šoninėje srityje (sidebar) dideliuose ekranuose."
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Antraštės ir šoninės srities fono spalva"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -186,14 +186,14 @@ msgstr "Antraštės ir šoninės srities teksto spalva"
 msgid "Base Color Scheme"
 msgstr "Pagrindinė spalvų schema"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen būtina bent 4.1 WordPress versija. Jūs naudojate %s - atsinaujinkite ir pabandykite dar kartą."
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Paskelbta įraše:</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen būtina bent 4.1 WordPress versija. Jūs naudojate %s - atsinaujinkite ir pabandykite dar kartą."
 
 #: image.php:24
 msgid "Next Image"
@@ -243,6 +243,10 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Sudėkite valdiklius čia, ir jie atsiras Jūsų tinklalapio šoninėje srityje."
+
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -250,10 +254,6 @@ msgstr "on"
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
-
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Sudėkite valdiklius čia, ir jie atsiras Jūsų tinklalapio šoninėje srityje."
 
 #: functions.php:222
 msgid "Widget Area"
