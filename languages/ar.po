@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-27 01:31:16+0000\n"
+"PO-Revision-Date: 2018-12-21 11:06:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,20 +48,25 @@ msgstr "التالي"
 msgid "Search Results for: %s"
 msgstr "نتائج البحث عن: %s"
 
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "اترك تعليقًا<span class=\"screen-reader-text\"> على %s</span>"
+
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "الحجم الكامل"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "التصنيفات"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "الوسوم"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "التصنيفات"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -83,13 +88,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "البنية"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "التعليقات الأحدث"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "مميز"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "التعليقات الأحدث"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -123,13 +128,13 @@ msgstr "داكن"
 msgid "Default"
 msgstr "إفتراضي"
 
-#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "يستخدم على الترويسة في الشاشات الصغيرة والشريط الجانبي في الشاشات الواسعة."
-
 #: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "لون خلفية الترويسة والشريط الجانبي"
+
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "يستخدم على الترويسة في الشاشات الصغيرة والشريط الجانبي في الشاشات الواسعة."
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -139,14 +144,14 @@ msgstr "لون نص الترويسة والشريط الجانبي"
 msgid "Base Color Scheme"
 msgstr "نظام الألوان الأساسي"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen يتطلب ووردبريس 4.1 على الأقل. أنت تستخدم النسخة %s. فيرجى الترقية والمحاولة مرة أخرى."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">نُشرت على</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen يتطلب ووردبريس 4.1 على الأقل. أنت تستخدم النسخة %s. فيرجى الترقية والمحاولة مرة أخرى."
 
 #: image.php:24
 msgid "Next Image"
@@ -168,6 +173,10 @@ msgstr "التجاوز إلى المحتوى"
 msgid "collapse child menu"
 msgstr "طي القائمة الفرعية"
 
+#: functions.php:347
+msgid "expand child menu"
+msgstr "توسيع القائمة الفرعية"
+
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -175,10 +184,6 @@ msgstr "طي القائمة الفرعية"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
-
-#: functions.php:347
-msgid "expand child menu"
-msgstr "توسيع القائمة الفرعية"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -196,10 +201,6 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "أضف الودجات هنا لتظهر في الشريط الجانبي."
-
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -207,6 +208,10 @@ msgstr "أضف الودجات هنا لتظهر في الشريط الجانبي
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
+
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "أضف الودجات هنا لتظهر في الشريط الجانبي."
 
 #: functions.php:222
 msgid "Widget Area"

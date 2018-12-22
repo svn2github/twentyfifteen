@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-27 01:31:16+0000\n"
+"PO-Revision-Date: 2018-12-21 11:08:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,6 +24,10 @@ msgstr "Dark Gray"
 #: functions.php:156
 msgid "White"
 msgstr "Bijela"
+
+#: functions.php:151
+msgid "Light Gray"
+msgstr "Svjetlo siva"
 
 #: inc/wpcom-colors.php:9
 msgid "Background"
@@ -53,6 +57,11 @@ msgstr "Sljedeće"
 #: search.php:18
 msgid "Search Results for: %s"
 msgstr "Rezultati Pretrage za: %s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Ostavite komentar<span class=\"screen-reader-text\"> na %s</span>"
 
 #: inc/template-tags.php:113
 msgctxt "Used before full size attachment link."
