@@ -11,16 +11,6 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: WordPress.com - Themes - Twenty Fifteen\n"
 
-#. translators: %s: post title
-#: comments.php:31
-msgctxt "comments title"
-msgid "One thought on &ldquo;%s&rdquo;"
-msgstr "Ein Gedanke zu &ldquo;%s&rdquo;"
-
-#: functions.php:146
-msgid "Dark Gray"
-msgstr "Dunkelgrau"
-
 #: functions.php:156
 msgid "White"
 msgstr "Weiss"
@@ -28,6 +18,16 @@ msgstr "Weiss"
 #: functions.php:151
 msgid "Light Gray"
 msgstr "Hellgrau"
+
+#: functions.php:146
+msgid "Dark Gray"
+msgstr "Dunkelgrau"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Ein Gedanke zu &ldquo;%s&rdquo;"
 
 #: inc/wpcom-colors.php:110
 msgid "Header and Sidebar Link Color"
@@ -72,15 +72,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Volle Größe"
 
-#: inc/template-tags.php:94
-msgctxt "Used before category names."
-msgid "Categories"
-msgstr "Katgeorien"
-
 #: inc/template-tags.php:102
 msgctxt "Used before tag names."
 msgid "Tags"
 msgstr "Tags"
+
+#: inc/template-tags.php:94
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Katgeorien"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -102,13 +102,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Format"
 
-#: inc/template-tags.php:30
-msgid "Newer Comments"
-msgstr "Neuere Kommentare"
-
 #: inc/template-tags.php:49
 msgid "Featured"
 msgstr "Bemerkenswert"
+
+#: inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -142,13 +142,13 @@ msgstr "Dunkel"
 msgid "Default"
 msgstr "Standard"
 
-#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Wird bei kleinen Bildschirmen auf den Header angewendet und bei großen Bildschirmen auf die Sidebar."
-
 #: inc/customizer.php:75 inc/wpcom-colors.php:75
 msgid "Header and Sidebar Background Color"
 msgstr "Header- und Seitenleisten-Hintergrundfarbe"
+
+#: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Wird bei kleinen Bildschirmen auf den Header angewendet und bei großen Bildschirmen auf die Sidebar."
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -158,14 +158,14 @@ msgstr "Header- und Seitenleisten-Textfarbe"
 msgid "Base Color Scheme"
 msgstr "Basis-Farbschema"
 
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fifteen erfordert mindestens WordPress in der Version 4.1. Du benutzt Version %s. Bitte aktualisiere dein WordPress und versuche es noch einmal."
+
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Veröffentlicht in</span><span class=\"post-title\">%title</span>"
-
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Fifteen erfordert mindestens WordPress in der Version 4.1. Du benutzt Version %s. Bitte aktualisiere dein WordPress und versuche es noch einmal."
 
 #: image.php:24
 msgid "Next Image"
@@ -187,6 +187,10 @@ msgstr "Zum Inhalt springen"
 msgid "collapse child menu"
 msgstr "Untermenü verbergen"
 
+#: functions.php:347
+msgid "expand child menu"
+msgstr "Untermenü anzeigen"
+
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -194,10 +198,6 @@ msgstr "Untermenü verbergen"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
-
-#: functions.php:347
-msgid "expand child menu"
-msgstr "Untermenü anzeigen"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -215,10 +215,6 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Widgets hier hinzufügen, um sie in der Seitenleiste einzubauen."
-
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -226,6 +222,10 @@ msgstr "Widgets hier hinzufügen, um sie in der Seitenleiste einzubauen."
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "on"
+
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Widgets hier hinzufügen, um sie in der Seitenleiste einzubauen."
 
 #: functions.php:222
 msgid "Widget Area"
