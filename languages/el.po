@@ -66,15 +66,15 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Πλήρη μέγεθος"
 
-#: inc/template-tags.php:102
-msgctxt "Used before tag names."
-msgid "Tags"
-msgstr "Ετικέτες"
-
 #: inc/template-tags.php:94
 msgctxt "Used before category names."
 msgid "Categories"
 msgstr "Κατηγορίες"
+
+#: inc/template-tags.php:102
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Ετικέτες"
 
 #: inc/template-tags.php:91 inc/template-tags.php:99
 msgctxt "Used between list items, there is a space after the comma."
@@ -96,13 +96,13 @@ msgctxt "Used before post format."
 msgid "Format"
 msgstr "Μορφή"
 
-#: inc/template-tags.php:49
-msgid "Featured"
-msgstr "Προβεβλημένα"
-
 #: inc/template-tags.php:30
 msgid "Newer Comments"
 msgstr "Νεώτερα σχόλια"
+
+#: inc/template-tags.php:49
+msgid "Featured"
+msgstr "Προβεβλημένα"
 
 #: inc/template-tags.php:26
 msgid "Older Comments"
@@ -136,13 +136,13 @@ msgstr "Σκούρο"
 msgid "Default"
 msgstr "Προεπιλεγμένο"
 
-#: inc/customizer.php:75 inc/wpcom-colors.php:75
-msgid "Header and Sidebar Background Color"
-msgstr "Χρώμα Παρασκηνίου Επικεφαλίδας και Πλευρικής Στήλης"
-
 #: inc/customizer.php:60 inc/customizer.php:76 inc/customizer.php:81
 msgid "Applied to the header on small screens and the sidebar on wide screens."
 msgstr "Εφαρμόζεται στην επικεφαλίδα στις μικρότερες οθόνες και στην πλάγια στήλη στις πιο πλατιές."
+
+#: inc/customizer.php:75 inc/wpcom-colors.php:75
+msgid "Header and Sidebar Background Color"
+msgstr "Χρώμα Παρασκηνίου Επικεφαλίδας και Πλευρικής Στήλης"
 
 #: inc/customizer.php:59 inc/wpcom-colors.php:147
 msgid "Header and Sidebar Text Color"
@@ -152,14 +152,14 @@ msgstr "Χρώμα Κειμένου Επικεφαλίδας και ΠΛάγια
 msgid "Base Color Scheme"
 msgstr "Βασικό Χρωματικό Θέμα"
 
-#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
-msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
-msgstr "Το Twenty Fifteen απαιτεί τουλάχιστον την έκδοση 4.1 του WordPress. Αυτή τη στιγμή χρησιμοποιείτε την έκδοση %s. Παρακαλούμε αναβαθμίστε και προσπαθήστε ξανά."
-
 #: image.php:84
 msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Δημοσιεύθηκε στο</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:37 inc/back-compat.php:47 inc/back-compat.php:60
+msgid "Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Το Twenty Fifteen απαιτεί τουλάχιστον την έκδοση 4.1 του WordPress. Αυτή τη στιγμή χρησιμοποιείτε την έκδοση %s. Παρακαλούμε αναβαθμίστε και προσπαθήστε ξανά."
 
 #: image.php:24
 msgid "Next Image"
@@ -181,10 +181,6 @@ msgstr "Μετάβαση σε περιεχόμενο"
 msgid "collapse child menu"
 msgstr "άνοιγμα υπό-μενού"
 
-#: functions.php:347
-msgid "expand child menu"
-msgstr "επέκταση του μενού απόγονος"
-
 #. Translators: To add an additional character subset specific to your
 #. language, translate this to 'greek', 'cyrillic', 'devanagari' or
 #. 'vietnamese'. Do not translate into your own language.
@@ -192,6 +188,10 @@ msgstr "επέκταση του μενού απόγονος"
 msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
 msgid "no-subset"
 msgstr "χωρίς-υποσύνολο"
+
+#: functions.php:347
+msgid "expand child menu"
+msgstr "επέκταση του μενού απόγονος"
 
 #. Translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
@@ -209,6 +209,10 @@ msgctxt "Noto Serif font: on or off"
 msgid "on"
 msgstr "ενεργό"
 
+#: functions.php:224
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Προσθέστε μονάδες εδώ ώστε να εμφανιστούν στην πλευρική στήλη."
+
 #. Translators: If there are characters in your language that are not supported
 #. by Noto Sans, translate this to 'off'. Do not translate into your own
 #. language.
@@ -216,10 +220,6 @@ msgstr "ενεργό"
 msgctxt "Noto Sans font: on or off"
 msgid "on"
 msgstr "ενεργό"
-
-#: functions.php:224
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Προσθέστε μονάδες εδώ ώστε να εμφανιστούν στην πλευρική στήλη."
 
 #: functions.php:222
 msgid "Widget Area"
